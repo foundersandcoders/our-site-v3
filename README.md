@@ -8,11 +8,11 @@ You'll need [git](https://git-scm.com/), [Node.js](https://nodejs.org) and npm (
 
 1. Clone this repo onto your machine
    ```sh
-   git clone git@github.com:oliverjam/fac-site-rebuild.git
+   git clone git@github.com:foundersandcoders/our-site-v3.git
    ```
 1. Move into the directory
    ```sh
-   cd fac-site-rebuild
+   cd our-site-v3
    ```
 1. Install the dependencies
    ```sh

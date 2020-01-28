@@ -1,5 +1,7 @@
 # Founders and Coders website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/86c17879-18d2-4dc4-afe3-b95a0db40011/deploy-status)](https://app.netlify.com/sites/fac-v3/deploys)
+
 This site is built using the [Eleventy](https://www.11ty.dev) static site generator.
 
 ## Running locally

@@ -74,25 +74,25 @@
       {
         "name": "Dan Sofer",
         "role": "Executive director",
-        "image": "/assets/media/dan.png",
+        "image": "/assets/media/dan.jpg",
         "href": "https://www.linkedin.com/in/dsofer/"
       },
       {
         "name": "Ines Teles",
         "role": "Director",
-        "image": "/assets/media/ines.png",
+        "image": "/assets/media/ines.jpg",
         "href": "https://www.linkedin.com/in/iteles/"
       },
       {
         "name": "Yvonne Liu",
         "role": "Operations and development",
-        "image": "/assets/media/yvonne.png",
+        "image": "/assets/media/yvonne.jpg",
         "href": "https://www.linkedin.com/in/liu-yvonne/"
       },
       {
         "name": "Joe Tanner",
         "role": "Commercial partnerships",
-        "image": "/assets/media/joe.png",
+        "image": "/assets/media/joe.jpg",
         "href": "https://www.linkedin.com/in/josephsullivantanner/"
       }
     ]

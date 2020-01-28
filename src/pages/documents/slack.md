@@ -13,7 +13,7 @@ Please read and agree to our Code of Conduct before joining the community.
 
 </section>
 
-<form class="slack-form" action="${data.slackLink}" method="GET">
+<form class="slack-form" action="{{slackLink}}" method="GET">
   <div>
     <input type="checkbox" id="accept" class="checkbox vh" required />
     <label for="accept">I agree to the Code of Conduct</label>

@@ -2,6 +2,7 @@ const html = require("./html");
 
 exports.data = {
   layout: "layouts/document",
+  permalink: "404.html",
 };
 
 exports.render = () => {

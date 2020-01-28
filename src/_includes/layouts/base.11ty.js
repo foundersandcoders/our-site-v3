@@ -69,6 +69,19 @@ module.exports = data => {
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
       </head>
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=UA-35597887-2"
+      />
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "UA-35597887-2");
+      </script>
       <body>
         ${Header({ pages, currentUrl: data.page.url })}${data.content}
         ${data.sticky && Sticky(data.sticky)}

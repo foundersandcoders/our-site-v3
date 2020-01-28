@@ -1,6 +1,6 @@
 ---
 title: "Join our Slack community"
-slackLink: "https://join.slack.com/t/founders-coders-apply/shared_invite/enQtODY1MzIyNTAyMDk5LTc4NzUxY2VjMzcwMjFlYzE4ZGI3NWE5Y2M5MDg1OGJiMDE5NTk3MTRhZjYyY2RhNzE1OGY2M2ZlYmQwMzBmZTM"
+slackLink: "https://join.slack.com/t/founders-coders-apply/shared_invite/enQtOTAxMjQ4MjA5ODkwLTdiMjc4OWQxMWZkZTFkZDM0MmNhMmExZDk1N2M1MjU3MDk0MThlNzMxMGEyOGZhNDYzMmU3N2I1MTAwYTFkN2Q"
 ---
 
 Please read and agree to our Code of Conduct before joining the community.

@@ -25,6 +25,13 @@ module.exports = data => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <link rel="stylesheet" href="/assets/css/styles.css" />
+        <link
+          rel="preload"
+          href="/assets/fonts/GT-Eesti-Text-Light-subset.woff2"
+          as="font"
+          type="font/woff2"
+          crossorigin
+        />
 
         <link
           rel="apple-touch-icon"

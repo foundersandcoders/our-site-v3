@@ -3,6 +3,41 @@
 @custom-media --viewport-m (min-width: 64em);
 @custom-media --viewport-l (min-width: 72em);
 
+/* Regular weight font */
+@font-face {
+  font-family: "Eesti";
+  src: url("/assets/fonts/GT-Eesti-Text-Light-subset.woff2") format("woff2"),
+    url("/assets/fonts/GT-Eesti-Text-Light-subset.zopfli.woff") format("woff"),
+    url("/assets/fonts/GT-Eesti-Text-Light-subset.ttf") format("truetype");
+
+  font-weight: 400;
+  font-display: swap;
+}
+
+/* Bold weight font */
+@font-face {
+  font-family: "Eesti";
+  src: url("/assets/fonts/GT-Eesti-Text-Medium-subset.woff2") format("woff2"),
+    url("/assets/fonts/GT-Eesti-Text-Medium-subset.zopfli.woff") format("woff"),
+    url("/assets/fonts/GT-Eesti-Text-Medium-subset.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+}
+
+/* Italic style regular weight font */
+@font-face {
+  font-family: "Eesti";
+  src: url("/assets/fonts/GT-Eesti-Text-Light-Italic-subset.woff2")
+      format("woff2"),
+    url("/assets/fonts/GT-Eesti-Text-Light-Italic-subset.zopfli.woff")
+      format("woff"),
+    url("/assets/fonts/GT-Eesti-Text-Light-Italic-subset.ttf")
+      format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
 :root {
   --space0: 0rem;
   --space1: 0.25rem;
@@ -907,33 +942,4 @@ address {
     opacity: 0.5;
     cursor: not-allowed;
   }
-}
-
-@font-face {
-  font-family: "Eesti";
-  src: url("/assets/fonts/GT-Eesti-Text-Regular.ttf") format("truetype"); /* Safari, Android, iOS */
-  font-weight: 500;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Eesti";
-  src: url("/assets/fonts/GT-Eesti-Text-Medium.ttf") format("truetype"); /* Safari, Android, iOS */
-  font-weight: 600;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Eesti";
-  src: url("/assets/fonts/GT-Eesti-Text-Light.ttf") format("truetype"); /* Safari, Android, iOS */
-  font-weight: 400;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Eesti";
-  src: url("/assets/fonts/GT-Eesti-Text-Regular-Italic.ttf") format("truetype"); /* Safari, Android, iOS */
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
 }

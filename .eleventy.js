@@ -11,6 +11,7 @@ module.exports = config => {
   config.addPassthroughCopy("src/assets/og");
   // deploy favicons at the root for best browser support
   config.addPassthroughCopy({ "src/assets/icons": "/" });
+  config.addPassthroughCopy("src/sw.js");
 
   // needed to merge tags from specific files with directory-level data
   config.setDataDeepMerge(true);

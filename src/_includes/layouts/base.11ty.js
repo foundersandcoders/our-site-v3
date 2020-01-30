@@ -101,6 +101,22 @@ module.exports = data => {
             }
           });
         }
+        // remove all service workers (from the old site)
+        if (navigator.serviceWorker) {
+          navigator.serviceWorker
+            .getRegistrations()
+            .then(function(registrations) {
+              for (let registration of registrations) {
+                registration.unregister();
+              }
+            });
+        }
+        // delete old cached files
+        if (caches) {
+          caches.keys().then(function(names) {
+            for (let name of names) caches.delete(name);
+          });
+        }
       </script>
     </html>
   `;

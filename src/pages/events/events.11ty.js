@@ -4,9 +4,9 @@ const md = new Markdown();
 const html = require("../../html");
 
 exports.data = {
-  permalink: false,
-  layout: "layouts/base",
-  // tags: ["nav"],
+  permalink: "/events/index.html",
+  layout: "layouts/marketing",
+  tags: ["nav"],
   navLabel: "Events",
   order: 5,
 };

@@ -15,14 +15,15 @@ exports.render = data => {
   const { title, intro } = data;
   const calendar = getWeek();
   return html`
-    <h1>${title}</h1>
-    <ul class="stack">
-      ${calendar.map(Day(data))}
-    </ul>
-    <div class="intro">
-      ${md.render(intro)}
+    <div class="stack5">
+      <h1>${title}</h1>
+      <ul class="stack">
+        ${calendar.map(Day(data))}
+      </ul>
+      <div class="intro">
+        ${md.render(intro)}
+      </div>
     </div>
-    <hr class="divider" />
   `;
 };
 
@@ -35,14 +36,14 @@ function Day({ schedule, collections: { events }, site }) {
       scheduledEvent && events.find(e => e.fileSlug === scheduledEvent.type);
     return html`
       <li
-        class="box"
+        class="dialog"
         style="--bg: var(--muted); border-left: 0.5rem solid ${border}"
       >
-        <div>${formatDate(date)}</div>
+        ${NiceDate(date)}
         ${event &&
           html`
             <div>
-              <h3><a href="/${event.fileSlug}">${event.data.title}</a></h3>
+              <h3><a href="${event.url}">${event.data.title}</a></h3>
               <span>${event.data.who.title}</span>
               <span>${last(site.address.split(", "))}</span>
             </div>
@@ -62,14 +63,24 @@ function equalDates(a, b) {
   );
 }
 
-function formatDate(date) {
+function NiceDate(date) {
+  if (!date) return "";
   const d = new Date(date);
-  return d.toLocaleDateString("en-GB", {
-    year: "numeric",
-    month: "long",
+  const parts = new Intl.DateTimeFormat("en-GB", {
+    month: "short",
     day: "numeric",
-    weekday: "long",
-  });
+    weekday: "short",
+  }).formatToParts(d);
+  const weekday = parts.find(p => p.type === "weekday");
+  const day = parts.find(p => p.type === "day");
+  const month = parts.find(p => p.type === "month");
+  return html`
+    <div>
+      <div>${weekday.value}</div>
+      <div style="font-size: var(--font6); font-weight: bold">${day.value}</div>
+      <div>${month.value}</div>
+    </div>
+  `;
 }
 
 function getWeek(start) {

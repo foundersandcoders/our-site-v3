@@ -948,11 +948,12 @@ address {
   display: grid;
   grid-template-columns: 2rem 1fr;
   grid-column-gap: var(--space3);
-  padding: var(--space4);
+  padding: var(--space3);
+  line-height: 1.2;
   --bg: var(--muted);
   background-color: var(--bg);
 
-  & * {
-    margin: 0;
+  @media (--viewport-xs) {
+    padding: var(--space4);
   }
 }

@@ -3,11 +3,19 @@
   "intro": "lorem ipsum",
   "schedule": [
     {
-      "date": "2019-12-09T14:18:30.000Z",
+      "date": "2020-02-03T18:30:00.000Z",
       "type": "coding-for-everyone"
     },
     {
       "date": "2020-02-04T18:30:00.000Z",
+      "type": "short-course"
+    },
+    {
+      "date": "2020-02-10T18:30:00.000Z",
+      "type": "coding-for-everyone"
+    },
+    {
+      "date": "2020-02-11T18:30:00.000Z",
       "type": "short-course"
     }
   ]

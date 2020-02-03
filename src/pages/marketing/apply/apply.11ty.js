@@ -50,7 +50,7 @@ exports.render = data => {
 
     <section class="stack5">
       ${Heading({ tag: "h2", children: prereqs.title })}
-      <div class="stack">
+      <div class="stack document">
         ${md.render(prereqs.body)}
       </div>
     </section>

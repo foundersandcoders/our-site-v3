@@ -1,5 +1,6 @@
 const isBefore = require("date-fns/isBefore");
 const isToday = require("date-fns/isToday");
+const startOfToday = require("date-fns/startOfToday");
 
 const html = require("../../html");
 
@@ -26,9 +27,8 @@ exports.render = data => {
 function Day({ collections: { events }, site }) {
   return function(scheduledEvent) {
     const date = new Date(scheduledEvent.date);
-    const today = new Date();
-    // don't show dates before today
-    if (isBefore(date, today)) return null;
+    // don't show dates before today at midnight
+    if (isBefore(date, startOfToday())) return null;
     const event = events.find(e => e.fileSlug === scheduledEvent.type);
     // if there's no event that matches show nothing
     // this is a content mistake: scheduled events need an existing type

@@ -69,13 +69,13 @@ function NiceDate({ date }) {
   const day = parts.find(p => p.type === "day");
   const month = parts.find(p => p.type === "month");
   return html`
-    <div style="display: grid; justify-items: center">
+    <time datetime="${date}" style="display: grid; justify-items: center">
       <span>${weekday.value}</span>
       <span style="font-size: var(--font7); font-weight: bold">
         ${day.value}
       </span>
       <span>${month.value}</span>
-    </div>
+    </time>
   `;
 }
 

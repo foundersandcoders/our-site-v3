@@ -955,15 +955,17 @@ address {
 }
 
 .dialog {
+  --gap: var(--space3);
+  --bg: var(--muted);
   display: grid;
   grid-template-columns: auto 1fr;
-  grid-column-gap: var(--space3);
-  padding: var(--space3);
+  grid-column-gap: var(--gap);
+  align-items: center;
+  padding: var(--gap);
   line-height: 1.2;
-  --bg: var(--muted);
   background-color: var(--bg);
 
   @media (--viewport-xs) {
-    padding: var(--space4);
+    --gap: var(--space4);
   }
 }

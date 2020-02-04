@@ -212,13 +212,10 @@ collections:
               - { label: Date, name: date, widget: date }
               - label: "Type"
                 name: "type"
-                widget: "select"
-                options:
-                  - {
-                      label: "Coding For Everyone",
-                      value: "coding-for-everyone",
-                    }
-                  - { label: "Short Course", value: "short-course" }
+                widget: "relation"
+                collection: "events"
+                searchField: ["title"]
+                valueField: "title"
   - label: "Events"
     name: "events"
     folder: "events"

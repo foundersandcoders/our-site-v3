@@ -1,8 +1,8 @@
 const Markdown = require("markdown-it");
 const md = new Markdown();
 
-const html = require("../../html");
-const Heading = require("../../_includes/components/heading");
+const html = require("../../../../html");
+const Heading = require("../../../../_includes/components/heading");
 
 exports.render = data => {
   const { site, title, who, info } = data;

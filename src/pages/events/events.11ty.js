@@ -7,7 +7,7 @@ const html = require("../../html");
 exports.data = {
   permalink: "/events/index.html",
   layout: "layouts/marketing",
-  tags: ["nav"],
+  // tags: ["nav"],
   navLabel: "Events",
   order: 5,
 };

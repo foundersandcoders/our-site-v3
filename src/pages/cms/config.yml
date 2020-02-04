@@ -222,4 +222,19 @@ collections:
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Who is this for"
+        name: "who"
+        widget: "object"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+      - label: "Info"
+        name: "info"
+        widget: "object"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - label: "Questions"
+            name: "questions"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Body", name: "body", widget: "markdown" }

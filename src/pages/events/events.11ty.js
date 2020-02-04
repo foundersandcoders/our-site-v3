@@ -29,7 +29,7 @@ function Day({ collections: { events }, site }) {
     const date = new Date(scheduledEvent.date);
     // don't show dates before today at midnight
     if (isBefore(date, startOfToday())) return null;
-    const event = events.find(e => e.fileSlug === scheduledEvent.type);
+    const event = events.find(e => e.data.title === scheduledEvent.type);
     // if there's no event that matches show nothing
     // this is a content mistake: scheduled events need an existing type
     if (!event) return null;

@@ -4,19 +4,19 @@
   "schedule": [
     {
       "date": "2020-02-03T18:30:00.000Z",
-      "type": "coding-for-everyone"
+      "type": "Coding For Everyone"
     },
     {
       "date": "2020-02-04T18:30:00.000Z",
-      "type": "short-course"
+      "type": "Short Course"
     },
     {
       "date": "2020-02-10T18:30:00.000Z",
-      "type": "coding-for-everyone"
+      "type": "Coding For Everyone"
     },
     {
       "date": "2020-02-11T18:30:00.000Z",
-      "type": "short-course"
+      "type": "Short Course"
     }
   ]
 }

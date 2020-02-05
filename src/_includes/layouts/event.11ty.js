@@ -1,10 +1,11 @@
 const Markdown = require("markdown-it");
 const md = new Markdown();
 
-const html = require("../../../../html");
-const Heading = require("../../../../_includes/components/heading");
+const html = require("../../html");
+const Heading = require("../components/heading");
 
 exports.render = data => {
+  console.log(data.title);
   const { site, title, who, info } = data;
   return html`
     <div class="stack5">

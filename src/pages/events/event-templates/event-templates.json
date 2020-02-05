@@ -1,4 +1,5 @@
 {
-  "layout": "/layouts/marketing",
+  "layout": "layouts/event",
+  "permalink": "/events/{{title | slug}}/",
   "tags": "events"
 }

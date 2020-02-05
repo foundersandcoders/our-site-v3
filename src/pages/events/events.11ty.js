@@ -36,10 +36,7 @@ function Day({ collections: { events }, site }) {
 
     const border = isToday(date) ? "var(--primary)" : "transparent";
     return html`
-      <li
-        class="dialog${event && " big"}"
-        style="border-left: 0.5rem solid ${border};"
-      >
+      <li class="dialog" style="border-left: 0.5rem solid ${border};">
         ${NiceDate({ date })}
 
         <div class="stack2">

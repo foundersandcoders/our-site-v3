@@ -4,10 +4,14 @@ const md = new Markdown();
 const html = require("../../html");
 const Heading = require("../components/heading");
 
+exports.data = {
+  layout: "layouts/base",
+};
+
 exports.render = data => {
   const { site, title, who, info } = data;
   return html`
-    <div class="stack5">
+    <main class="stack5">
       <section class="stack4">
         <header class="stack">
           <h1>${title}</h1>
@@ -45,7 +49,7 @@ exports.render = data => {
           ${info.questions.map(Question)}
         </ul>
       </section>
-    </div>
+    </main>
   `;
 };
 

@@ -227,6 +227,7 @@ collections:
         widget: "object"
         fields:
           - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "string" }
       - label: "Info"
         name: "info"
         widget: "object"

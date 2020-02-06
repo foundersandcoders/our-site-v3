@@ -163,13 +163,16 @@ h4,
 h5,
 h6 {
   margin: 0;
-  margin-top: 1.5em;
   line-height: 1;
   font-weight: 600;
 }
 
 a {
   color: var(--secondary);
+}
+
+a[class] {
+  color: inherit;
 }
 
 .site-header {
@@ -278,6 +281,17 @@ main {
     &.marketing {
       --spacing: var(--space7);
     }
+  }
+}
+
+.document {
+  & h1,
+  & h2,
+  & h3,
+  & h4,
+  & h5,
+  & h6 {
+    margin-top: 1.5em;
   }
 }
 
@@ -941,5 +955,21 @@ address {
   &:invalid button {
     opacity: 0.5;
     cursor: not-allowed;
+  }
+}
+
+.dialog {
+  --gap: var(--space3);
+  --bg: var(--muted);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-column-gap: var(--gap);
+  align-items: center;
+  padding: var(--gap);
+  line-height: 1.2;
+  background-color: var(--bg);
+
+  @media (--viewport-xs) {
+    --gap: var(--space4);
   }
 }

@@ -218,7 +218,7 @@ collections:
                 valueField: "title"
   - label: "Events"
     name: "events"
-    folder: "pages/events/event-templates"
+    folder: "src/pages/events/event-templates"
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }

@@ -4,7 +4,7 @@ backend:
 
 media_folder: "assets/media" # Media files will be stored in the repo under images/uploads
 
-site_url: "https://fac-rebuild.netlify.com"
+site_url: "https://www.foundersandcoders.com"
 
 # Each page is a separate file with it's own custom fields
 collections:

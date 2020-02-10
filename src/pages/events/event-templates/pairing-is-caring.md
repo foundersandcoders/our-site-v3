@@ -1,5 +1,6 @@
 ---
 title: Pairing Is Caring
+type: Meetup
 permalink: /events/pairing-is-caring/index.html
 who:
   title: Open to all

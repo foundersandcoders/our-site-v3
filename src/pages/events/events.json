@@ -17,6 +17,10 @@
     {
       "date": "2020-02-11T18:30:00.000Z",
       "type": "Short Course"
+    },
+    {
+      "date": "2020-02-17T18:30:00.000Z",
+      "type": "Info Session"
     }
   ]
 }

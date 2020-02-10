@@ -46,7 +46,7 @@ exports.render = data => {
       <section class="stack4">
         <h2>${info.title}</h2>
         <ul class="grid cycle-colors" style="--min-width: 22rem">
-          ${info.questions.map(Question)}
+          ${info.questions && info.questions.map(Question)}
         </ul>
       </section>
     </main>

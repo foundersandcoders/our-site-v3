@@ -8,9 +8,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Run a one-line script
-      run: echo Hello, world!
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
+    - name: Deploy site
+      run: curl -X POST -d {} https://api.netlify.com/build_hooks/5e4c30935045b417ee413d7a

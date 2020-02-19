@@ -189,6 +189,14 @@ function Footer({ nextPage, site }) {
             © ${new Date().getFullYear()} Founders and Coders. All rights
             reserved.
           </div>
+          <div>
+            <a href="https://www.netlify.com" aria-label="Deploys by Netlify">
+              <img
+                src="https://www.netlify.com/img/global/badges/netlify-light.svg"
+                alt=""
+              />
+            </a>
+          </div>
         </div>
       </div>
     </footer>

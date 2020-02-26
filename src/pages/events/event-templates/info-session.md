@@ -5,8 +5,12 @@ who:
   title: Open to everyone
 info:
   questions:
-    - body: What happens now?
-      title: 'Question? '
-  title: Info session
+    - body: >-
+        We'll spend the evening with a short presentation and leave the rest of
+        the evening for your questions. The evening is usually hosted by a panel
+        of current students and graduates working as software engineers in
+        London.
+      title: 'What happens at your info session? '
+  title: Information
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Info Session
 who:
-  body: ' '
+  body: ' Everyone is welcome, but please make sure you RSVP'
   title: Open to everyone
 info:
   questions:

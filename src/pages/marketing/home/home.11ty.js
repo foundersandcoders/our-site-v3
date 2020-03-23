@@ -9,6 +9,11 @@ exports.data = {
   tags: ["nav"],
   navLabel: "Home",
   order: 0,
+  sticky: {
+    text: "Our coronavirus response",
+    cta: "More info",
+    href: "/coronavirus",
+  },
 };
 
 exports.render = data => {

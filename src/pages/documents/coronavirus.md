@@ -28,7 +28,7 @@ No, for now we've decided that the application window will remain the same. It w
 
 ### Can I still hire developers from you?
 
-Yes! Our courses are still running (remotely). You can get in touch with the our partnerships lead through hire@foundersandcoders.com. We are still fully operational and we look forward to supporting your search for developers.
+Yes! Our courses are still running (remotely). You can get in touch with our partnerships lead through hire@foundersandcoders.com. We are still fully operational and we look forward to supporting your search for developers.
 
 ### Can I still meet your students during this time?
 

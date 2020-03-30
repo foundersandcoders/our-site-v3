@@ -7,3 +7,8 @@
   from = "/techforbetter"
   to = "/tech-for-better"
   status = 301
+
+[[redirects]]
+  from = "/apprentice-complaints-policy.pdf"
+  to = "/assets/media/EN-2A_ComplaintsPolicy_FoundersandCoders.pdf"
+  status = 302

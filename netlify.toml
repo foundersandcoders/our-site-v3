@@ -12,3 +12,8 @@
   from = "/apprenticeship-policies/complaints.pdf"
   to = "/assets/media/EN-2A_ComplaintsPolicy_FoundersandCoders.pdf"
   status = 302
+
+[[redirects]]
+  from = "/apprenticeship-complaints-policy/"
+  to = "/assets/media/EN-2A_ComplaintsPolicy_FoundersandCoders.pdf"
+  status = 302

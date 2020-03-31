@@ -184,6 +184,7 @@ function Footer({ nextPage, site }) {
           <div class="links">
             <a href="/code-of-conduct">Code of Conduct</a>
             <a href="/privacy-policy">Privacy Policy</a>
+            <a href="/apprenticeship-policies">Apprenticeship Policies</a>
           </div>
           <div class="copyright">
             © ${new Date().getFullYear()} Founders and Coders. All rights

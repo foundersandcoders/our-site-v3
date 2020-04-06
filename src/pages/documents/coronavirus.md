@@ -37,3 +37,5 @@ Yes, we encourage all prospective and existing hiring partners to visit our virt
 ## Tech for Better
 
 Our Tech for Better programme is continuing online and with an increased focus on helping organisations respond to COVID-19. You can sign up for the programme [here](/tech-for-better).
+
+We are working closely with [CAST](https://wearecast.org.uk/) to develop a six-week programme to learn a collaborative approach to developing digital services. You can read more and apply [here](https://wearecast.org.uk/for-nonprofits/collaborative-digital-training/).

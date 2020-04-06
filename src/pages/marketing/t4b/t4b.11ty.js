@@ -26,7 +26,7 @@ exports.render = data => {
         ${md.render(intro.body)}
       </div>
       <div>
-      ${intro.dct-copy}
+      ${intro.dct}
       </div>
     </section>
     <hr class="divider" />

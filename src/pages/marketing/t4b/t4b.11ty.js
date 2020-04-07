@@ -25,9 +25,6 @@ exports.render = data => {
       <div class="intro">
         ${md.render(intro.body)}
       </div>
-      <div class="intro">
-      ${md.render(intro.dct)}
-      </div>
     </section>
     <hr class="divider" />
     <div class="circle-reveal">

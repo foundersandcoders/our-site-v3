@@ -8,7 +8,7 @@ exports.data = {
   order: 5,
 };
 
-exports.render = data => {
+exports.render = (data) => {
   const byUs = [...data.collections["by-us"]].reverse();
   const aboutUs = [...data.collections["about-us"]].reverse();
   const press = [...data.collections.press].reverse();
@@ -32,7 +32,7 @@ exports.render = data => {
     </section>
 
     <section class="stack">
-      <h2>Stories by us</h2>
+      <h2>Stories about us</h2>
       <div class="full-width xs stripes">
         <div class="reel" tabindex="0">
           ${aboutUs.map(Story)}
@@ -41,7 +41,7 @@ exports.render = data => {
     </section>
 
     <section class="stack">
-      <h2>Stories by us</h2>
+      <h2>In the press</h2>
       <div class="full-width xs stripes">
         <div class="reel" tabindex="0">
           ${press.map(Story)}
@@ -65,23 +65,14 @@ function Story({ data: { title, image, url, page, author, date } }) {
       </div>
       <div class="stack2 body">
         <h3>
-          ${url
-            ? html`
-                <a href="${url}">${title}</a>
-              `
-            : title}
+          ${url ? html` <a href="${url}">${title}</a> ` : title}
         </h3>
-        ${page.excerpt &&
-          html`
-            <p>${page.excerpt}</p>
-          `}
+        ${page.excerpt && html` <p>${page.excerpt}</p> `}
         <footer>
           <span>${author}</span>
           ${author &&
-            date &&
-            html`
-              <span aria-hidden="true" class="dot">⦁</span>
-            `}
+          date &&
+          html` <span aria-hidden="true" class="dot">⦁</span> `}
           <time>${formatDate(date)}</time>
         </footer>
       </div>

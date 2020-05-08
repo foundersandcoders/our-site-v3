@@ -59,11 +59,6 @@
     "title": "Case studies",
     "apps": [
       {
-        "title": "Breathe With Me (Anna Freud Centre, 2016)",
-        "body": "A web app that helps young people manage their anxiety built with input from young people and the clinical team at the [Anna Freud Centre](https://www.annafreud.org/).",
-        "url": "https://breathewithme.co.uk/"
-      },
-      {
         "title": "Down to Earth (Quaker Social Action, CAST, 2016)",
         "body": "A service that provides practical support for people struggling with funeral costs. During the [CAST Digital Fellowship](https://wearecast.org.uk/for-nonprofits/fellowship/), our developers built a funeral costs calculator which was shortlisted for the [2018 Comic Relief Tech for Good awards](https://www.comicrelief.com/news/tech-for-good-2018).",
         "url": "https://quaker-social-action.github.io/dte-website/www/"

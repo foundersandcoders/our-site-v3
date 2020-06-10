@@ -2,7 +2,7 @@
 title: Founders and Coders coaching
 ---
 
-## Have you got what it takes to to become a software developer?
+## Have you got what it takes to to be a developer?
 - Are you curious about how things work?
 - Do you love learning new things  (but perhaps you didn't like school)?
 - Are you prepared for a challenge?
@@ -30,7 +30,7 @@ This individualised learning support programme is suitable for any level of lear
 ## What equipment will you need?
 - You will need access to a computer with an internet connection
 
-### Book an initial assessment with us through your Job Centre Plus work coach
+### Book an initial assessment through your Job Centre Plus work coach
 
 ## Participating job centres 
 - Finsbury Park

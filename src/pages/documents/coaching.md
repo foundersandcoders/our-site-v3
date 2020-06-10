@@ -2,7 +2,7 @@
 title: Founders and Coders coaching
 ---
 
-## Have you got what it takes to to be a developer?
+## Have you got what it takes to be a developer?
 - Are you curious about how things work?
 - Do you love learning new things  (but perhaps you didn't like school)?
 - Are you prepared for a challenge?

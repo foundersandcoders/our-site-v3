@@ -32,10 +32,9 @@ This individualised learning support programme is suitable for any level of lear
 
 ### Book an initial assessment with us through your Job Centre Plus work coach
 
-| Participating job centres | 
-| --- |
-| Finsbury Park |
-| Barnsbury |
+## Participating job centres 
+- Finsbury Park
+- Barnsbury
 
 If you are a Job Centre Plus work coach and would like to know more about how to refer learners to us, please contact us at coaching@foundersandcoders.com.
 

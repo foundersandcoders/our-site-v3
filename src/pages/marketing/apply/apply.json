@@ -5,42 +5,32 @@
     "title": "Course dates",
     "cohorts": [
       {
-        "name": "Summer 2020",
-        "dates": [
-          {
-            "title": "Application window",
-            "open": "2020-04-01T00:00:00.000Z",
-            "close": "2020-05-03T00:00:00.000Z"
-          },
-          {
-            "title": "Interview dates",
-            "open": "2020-05-04T00:00:00.000Z",
-            "close": "2020-05-15T00:00:00.000Z"
-          },
-          {
-            "title": "Course dates",
-            "open": "2020-07-13T00:00:00.000Z",
-            "close": "2020-11-13T00:00:00.000Z"
-          }
-        ]
-      },
-      {
         "name": "Winter 2020",
         "dates": [
           {
-            "title": "Application window",
-            "open": "2020-08-01T00:00:00.000Z",
+            "title": "Prerequisites and application cycle",
+            "open": "2020-05-01T00:00:00.000Z",
+            "close": "2020-08-31T00:00:00.000Z"
+          },
+          {
+            "title": "Submit your application between",
+            "open": "2020-08-24T00:00:00.000Z",
             "close": "2020-08-31T00:00:00.000Z"
           },
           {
             "title": "Interview dates",
             "open": "2020-09-07T00:00:00.000Z",
-            "close": "2020-09-11T00:00:00.000Z"
+            "close": "2020-09-18T00:00:00.000Z"
+          },
+          {
+            "title": "Precourse dates (remote, at your own pace)",
+            "open": "2020-09-21T00:00:00.000Z",
+            "close": "2020-10-30T00:00:00.000Z"
           },
           {
             "title": "Course dates",
-            "open": "2020-10-26T00:00:00.000Z",
-            "close": "2021-03-06T00:00:00.000Z"
+            "open": "2020-11-02T00:00:00.000Z",
+            "close": "2021-03-12T00:00:00.000Z"
           }
         ]
       },
@@ -48,19 +38,29 @@
         "name": "Spring 2021",
         "dates": [
           {
-            "title": "Application window",
-            "open": "2020-12-01T00:00:00.000Z",
-            "close": "2021-01-02T00:00:00.000Z"
+            "title": "Prerequisites and application cycle",
+            "open": "2020-09-01T00:00:00.000Z",
+            "close": "2021-01-03T00:00:00.000Z"
+          },
+          {
+            "title": "Submit your application between",
+            "open": "2020-12-27T00:00:00.000Z",
+            "close": "2021-01-03T00:00:00.000Z"
           },
           {
             "title": "Interview dates",
-            "open": "2021-01-04T00:00:00.000Z",
-            "close": "2021-01-15T00:00:00.000Z"
+            "open": "2021-01-11T00:00:00.000Z",
+            "close": "2021-01-22T00:00:00.000Z"
+          },
+          {
+            "title": "Precourse dates (remote, at your own pace)",
+            "open": "2021-01-25T00:00:00.000Z",
+            "close": "2021-03-05T00:00:00.000Z"
           },
           {
             "title": "Course dates",
-            "open": "2021-03-01T00:00:00.000Z",
-            "close": "2021-07-02T00:00:00.000Z"
+            "open": "2021-03-08T00:00:00.000Z",
+            "close": "2021-07-09T00:00:00.000Z"
           }
         ]
       }
@@ -75,7 +75,7 @@
       },
       {
         "title": "Start work on our course prerequisites",
-        "body": "Before we can consider your application, you will need to complete our [course prerequisites](#course-prerequisites). We encourage applicants to take as much time as they need to work through the material and to support each other during the preparation process, both online and through our meetups.\n\nPlease read our [course prerequisites](#course-prerequisites) carefully before planning when to apply."
+        "body": "While we don't like to suggest how long it will take you to complete the prerequisites, it's different for everyone, we expect you to take **at least three months** if you don't have any prior experience with web development.\n\nWe encourage applicants to work through the material with other applicants, both online and through our meetups."
       },
       {
         "title": "Submit an application",
@@ -83,13 +83,23 @@
       },
       {
         "title": "The conversational interview",
-        "body": "We invite a minimum of 24 people to interview (in person or remotely), and offer places to sixteen people per cohort. You’ll be interviewed by a panel of Founders and Coders staff and alumni."
+        "body": "We invite a minimum of 24 people to interview (in person or remotely), and usually offer places to sixteen people per cohort. \n\nYou’ll be interviewed by a panel three people, made up of Founders and Coders staff and alumni."
       }
     ]
   },
+  "eligibility": {
+    "title": "Eligibility",
+    "body": "In order to apply to our full-time programme, you must:\n* Be over 18 years old\n* Have the right to work in the UK \n    * If you're living in the UK on a visa: whatever your visa status is, you must have at least 20 months left from the last day of the cohort you're applying for \n* Speak conversational English (and no, [we're not sticklers on grammar](https://wearyourvoicemag.com/language-purists-white-supremacy-classism/))"
+  },
+
+  "candidate": {
+    "title": "What kind of people are we looking for?",
+    "body": "We get asked this a lot, so we're going to elaborate a little bit here. Firstly, we prioritise a cohesive cohort of people who we think will work well together over any strong individual candidates.\n\nLearning to code is just part of what makes you a good developer. We're looking for candidates who can help us fulfil our goal of making the tech industry a more diverse and inclusive place. This means people who are excited to be part of a collaborative, peer-led learning environment. You should be willing to sacrifice some personal gain for the group's learning. For example, we'd rather a group presents a technically incomplete project than one person stays up late writing code that no one else understands.\n\nThe tech industry is disproportionately white and male. If this describes you please reflect on how you can help change this. Do some research on [how to be a good ally](https://www.guidetoallyship.com) to those who are under-represented in tech so you can be a positive influence on your cohort. \n\nFinding your own solutions to problems is an indispensable skill for a developer. We'd like you to apply these same google-skills to educating yourself on the important social issues including (but not limited to) those touched on above.\n\nFounders and Coders will always prioritise marginalised people's safety over the comfort of the privileged. **If you don't like the sound of _any_ of this then we'd ask you to reconsider your application.**"
+  },
+
   "prereqs": {
     "title": "Course prerequisites",
-    "body": "### Create a GitHub account\n\nYou will use this account to host your application website.\n\n### freeCodeCamp\n\nComplete the following sections:\n\n#### Responsive Web Design Certification\n\n- [Basic HTML and HTML5](https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5)\n- [Basic CSS](https://learn.freecodecamp.org/responsive-web-design/basic-css/)\n- [Responsive Web Design Principles](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-principles/)\n- [CSS Flexbox](https://learn.freecodecamp.org/responsive-web-design/css-flexbox/)\n\n#### JavaScript Algorithms and Data Structures Certification\n\n- [Basic JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/)\n- [ES6](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/es6/)\n- [Basic Data Structures](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-data-structures/)\n- [Basic Algorithm Scripting](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-algorithm-scripting/)\n\n### Create a personal website\n\nCreate a one-page website in HTML and CSS (using some vanilla JavaScript if you’d like) and host it on GitHub Pages. [Your commit history should tell a story](https://www.mokacoding.com/blog/your-git-log-should-tell-a-story/), and your website must be written by you, and:\n\n- Show us with your code who you are\n- Demonstrate your learning from the prerequisites\n- Tell us about why you are applying for the programme\n- Contain a link back to the GitHub repo that contains the code for your site\n- Contain links to your freeCodeCamp (please make sure that your profile is public) and Codewars pages\n- Include an [image carousel](https://github.com/foundersandcoders/master-reference/blob/master/coursebook/prerequisites/image-carousel.md) (the image carousel must be built into your website, a link to a separate page or CodePen will not be accepted)\n- Be hosted on GitHub\n- Not use a GitHub theme\n- Not use any JavaScript or CSS libraries like Bootstrap or jQuery or use an image carousel package like Flickity ⁠— we want to see your own code.\n\n### Codewars\n\nReach 5 kyu and 300 honor points in JavaScript on Codewars."
+    "body": "### Before we will consider your application, you must complete the following prerequisites:\n\n### Create a GitHub account\nYou will use this account to host the repository of your application website.\n\n### freeCodeCamp\nRegister for an account and complete the following **eight sections**:\n\n**Responsive Web Design Certification**\n* [Basic HTML and HTML5](https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/)\n* [Basic CSS](https://learn.freecodecamp.org/responsive-web-design/basic-css/)\n* [Responsive Web Design Principles](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-principles/)\n* [CSS Flexbox](https://learn.freecodecamp.org/responsive-web-design/css-flexbox/)\n\n**JavaScript Algorithms and Data Structures Certification**\n* [Basic JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/)\n* [ES6](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/es6/)\n* [Basic Data Structures](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-data-structures/)\n* [Basic Algorithm Scripting](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-algorithm-scripting/)\n\n### Codewars\n**Reach 5 kyu in JavaScript on Codewars.**\n\nYou should attempt katas that's reflective of your rank, meaning: \n* When you're at 8 kyu, attempt 7-8 kyu katas\n* When you're at 7 kyu, attempt 6-7 kyu katas\n* When you're at 6 kyu, attempt 5-6 kyu katas \n* When you reach 5 kyu, continue with 5-6 kyu katas\n\nWe suggest you focus on practical katas that help solidify your JavaScript knowledge. If you find yourself stuck on an intricate maths problem for over two hours, it might be better to move on to a new kata.\n\n### Create a personal website\n\nYour application website needs to be *written by you* and it must fulfill **all** of the following requirements (use this as a checklist, if you will):\n\n* Be built in HTML, CSS and vanilla JavaScript \n* Tell us about why you are applying for the programme \n* Be hosted on GitHub\n    * Take this opportunity to research a bit on how Git, GitHub and command line works\n    * Attempt to [make your commit history tell a story](https://www.mokacoding.com/blog/your-git-log-should-tell-a-story/)\n* Contain a link back to the GitHub repository that contains the code for your site\n* Contain a link to your _public_ freeCodeCamp profile \n* Contain a link to your Codewars profile \n* Include [an image carousel](https://github.com/foundersandcoders/master-reference/blob/master/coursebook/prerequisites/image-carousel.md) _written in vanilla JavaScript_, it must: \n    * Be built into your application website (a link to a separate page will not be accepted)\n    * Be responsive (works on mobile and desktop)\n    * Display one image at a time\n    * Move between images when clicking navigation buttons\n    * Toggle automatically looping through all images with a play/pause button\n    * Allow keyboard navigation between images with the left/right arrow keys\n\nYour website _should_:\n* Be creative, show us with your _code_ who you are\n* Demonstrate your learnings from the prerequisites\n\nYour website _cannot_:\n* Use a GitHub theme \n* Use any JavaScript or CSS libraries like Bootstrap or jQuery\n* Use an image carousel package like Flickity ⁠— we want to see your own code"
   },
   "cohortImageSection": {
     "title": "Our developer community",
@@ -101,10 +111,6 @@
       {
         "name": "London Winter 2018",
         "image": "/assets/media/FAC15.jpg"
-      },
-      {
-        "name": "London Summer 2018",
-        "image": "/assets/media/FAC14.jpg"
       },
       {
         "name": "London Spring 2018",

@@ -28,6 +28,8 @@ exports.render = data => {
     intro,
     cohortSection,
     apply,
+    eligibility,
+    candidate,
     prereqs,
     cohortImageSection,
   } = data;
@@ -51,6 +53,20 @@ exports.render = data => {
         <ol class="reel reel-xs steps cycle-colors" tabindex="0">
           ${apply.steps.map(Step)}
         </ol>
+      </div>
+    </section>
+
+    <section class="stack5">
+      ${Heading({ tag: "h2", children: eligibility.title })}
+      <div class="stack document">
+        ${md.render(eligibility.body)}
+      </div>
+    </section>
+
+    <section class="stack5">
+      ${Heading({ tag: "h2", children: candidate.title })}
+      <div class="stack document">
+        ${md.render(candidate.body)}
       </div>
     </section>
 

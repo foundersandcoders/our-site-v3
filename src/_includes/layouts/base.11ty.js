@@ -1,13 +1,13 @@
 const html = require("../../html");
 
-module.exports = data => {
+module.exports = (data) => {
   // get all the pages that should appear in the nav
   const pages = [...data.collections.nav]
     // unpublished pages (i.e. with permalink: false) have no URL
-    .filter(page => page.url)
+    .filter((page) => page.url)
     // nav order is manual (from page data)
     .sort((a, b) => a.data.order - b.data.order)
-    .map(n => ({ label: n.data.navLabel, url: n.url, title: n.data.title }));
+    .map((n) => ({ label: n.data.navLabel, url: n.url, title: n.data.title }));
 
   const nextPage = pages[(data.order + 1) % pages.length];
 
@@ -93,7 +93,7 @@ module.exports = data => {
       ></script>
       <script>
         if (window.netlifyIdentity) {
-          window.netlifyIdentity.on("init", user => {
+          window.netlifyIdentity.on("init", (user) => {
             if (!user) {
               window.netlifyIdentity.on("login", () => {
                 document.location.href = "/admin/";
@@ -105,7 +105,7 @@ module.exports = data => {
         if (navigator.serviceWorker) {
           navigator.serviceWorker
             .getRegistrations()
-            .then(function(registrations) {
+            .then(function (registrations) {
               for (let registration of registrations) {
                 registration.unregister();
               }
@@ -113,7 +113,7 @@ module.exports = data => {
         }
         // delete old cached files
         if (caches) {
-          caches.keys().then(function(names) {
+          caches.keys().then(function (names) {
             for (let name of names) caches.delete(name);
           });
         }
@@ -124,7 +124,7 @@ module.exports = data => {
 
 function Header({ pages, currentUrl }) {
   // home page shouldn't appear in nav
-  const navPages = pages.filter(p => p.url !== "/");
+  const navPages = pages.filter((p) => p.url !== "/");
   return html`
     <header class="site-header">
       <a href="/" aria-label="Home page">
@@ -172,19 +172,19 @@ function Footer({ nextPage, site }) {
     >
       <div>
         ${nextPage &&
-          html`
-            <div class="next-page">
-              <h2>Next</h2>
-              <a href="${nextPage.url}" rel="next">${nextPageLabel}</a>
-            </div>
-          `}
+        html`
+          <div class="next-page">
+            <h2>Next</h2>
+            <a href="${nextPage.url}" rel="next">${nextPageLabel}</a>
+          </div>
+        `}
         <div class="site-info stack2">
           <div id="contact">${site.email}</div>
           <address>${site.address}</address>
           <div class="links">
-            <a href="/code-of-conduct">Code of Conduct</a>
-            <a href="/privacy-policy">Privacy Policy</a>
-            <a href="/apprenticeship-policies">Apprenticeship Policies</a>
+            <a href="/code-of-conduct/">Code of Conduct</a>
+            <a href="/privacy-policy/">Privacy Policy</a>
+            <a href="/apprenticeship-policies/">Apprenticeship Policies</a>
           </div>
           <div class="copyright">
             © ${new Date().getFullYear()} Founders and Coders. All rights

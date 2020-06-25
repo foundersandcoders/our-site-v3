@@ -23,7 +23,7 @@ Delivered entirely online (with the option to learn on-site at our Finsbury Park
 
 This individualised learning support programme is suitable for any level of learner.
 
-## What you will get out of it?
+## What will you get out of it?
 - Learn the basics of web programming in HTML, CSS and JavaScript
 - Gain confidence through group learning
 - Progress as far as you want and as quickly as you are able

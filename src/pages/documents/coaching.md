@@ -2,7 +2,10 @@
 title: Founders and Coders coaching
 ---
 
+***Funded by Islington Council and the Greater London Authority***
+
 ## Have you got what it takes to be a developer?
+- Do you live in Islington?
 - Are you curious about how things work?
 - Do you love learning new things  (but perhaps you didn't like school)?
 - Are you prepared for a challenge?
@@ -20,21 +23,23 @@ Delivered entirely online (with the option to learn on-site at our Finsbury Park
 
 This individualised learning support programme is suitable for any level of learner.
 
-## What you will get out of it?
-- Learn the basics of web programming
+## What will you get out of it?
+- Learn the basics of web programming in HTML, CSS and JavaScript
 - Gain confidence through group learning
 - Progress as far as you want and as quickly as you are able
 - Work towards [application to our full-time programme](https://www.foundersandcoders.com/apply/)
 - Potentially leading to a [Level 4 software developer apprenticeship](https://www.instituteforapprenticeships.org/apprenticeship-standards/software-developer/)
 
+## What's the commitment?
+
+- 4-week introductory programme
+- One 90-minute tutorial each week
+- 10+ hours per week of self-paced study
+
+Followed by the option to continue with up to 6 months of coaching.
+
 ## What equipment will you need?
-- You will need access to a computer with an internet connection
+- You will need access to a computer with an internet connection.
 
-**Book an initial assessment through your Job Centre Plus work coach**
-
-## Participating job centres 
-- Finsbury Park
-- Barnsbury
-
-If you are a Job Centre Plus work coach and would like to know more about how to refer learners to us, please contact us at coaching@foundersandcoders.com.
+[**Apply here**](http://adultlearning.islington.gov.uk/course/web-development-in-html-css-and-javascript-online-programme/)
 

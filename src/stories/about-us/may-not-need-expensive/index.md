@@ -7,4 +7,4 @@ author: "Per Harald Borgen"
 
 Coding bootcamps have exploded in popularity the past few years. I’m not against them. If they help you get started on a well-paid career in tech, \$15,000 USD might be worth it.
 
----
+<!-- excerpt -->

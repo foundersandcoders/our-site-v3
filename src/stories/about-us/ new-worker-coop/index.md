@@ -7,4 +7,4 @@ author: "Anca Voinea"
 
 InFact Digital will work with charities, non-profits and businesses to solve their organisational problems
 
----
+<!-- excerpt -->

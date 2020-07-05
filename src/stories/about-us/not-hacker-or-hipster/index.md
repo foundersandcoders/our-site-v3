@@ -7,4 +7,4 @@ author: "Katerina Pascoulis"
 
 I was first introduced to start-ups as a career choice during my post-uni “I’m not getting a city job” phase. Although that’s still going strong I know a whole lot more about start-ups than I did back then.
 
----
+<!-- excerpt -->

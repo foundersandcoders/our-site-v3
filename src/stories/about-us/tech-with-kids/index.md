@@ -7,4 +7,4 @@ author: "Johanna Herman"
 
 What I learnt whilst embarking on a career switchup in the midst of family life.
 
----
+<!-- excerpt -->

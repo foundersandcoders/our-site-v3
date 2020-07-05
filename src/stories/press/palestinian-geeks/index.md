@@ -8,4 +8,4 @@ image: "/assets/media/aljazeera-gaza.jpg"
 
 Coding is empowering a new generation of Palestinians in the besieged Gaza Strip and helping many find work.
 
----
+<!-- excerpt -->

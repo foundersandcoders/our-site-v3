@@ -8,4 +8,4 @@ author: "Founders and Coders"
 
 Fatimat Gbajabiamila talks about challenging stereotypes, her love for pair programming, and why she’s committed to giving back
 
----
+<!-- excerpt -->

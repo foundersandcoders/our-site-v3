@@ -7,4 +7,4 @@ author: "CAST"
 
 Throw together four of the UK’s most innovative charities (aka our debut Fusiliers), 16 mega-brains in the form of Founders & Coders’ latest cohort
 
----
+<!-- excerpt -->

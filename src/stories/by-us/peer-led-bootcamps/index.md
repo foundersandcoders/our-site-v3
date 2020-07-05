@@ -7,4 +7,4 @@ author: "Founders and Coders"
 
 Dan Sofer talks about running free, peer-led coding bootcamps in London and Gaza and why he loves working with nonprofits
 
----
+<!-- excerpt -->

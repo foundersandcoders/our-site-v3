@@ -8,4 +8,4 @@ author: "Founders and Coders"
 
 Former Gaza Code Academy facilitator Yasmin Hillis, a self-declared hippie at heart, talks about how Virginia Woolf inspired her to begin writing code.
 
----
+<!-- excerpt -->

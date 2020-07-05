@@ -7,4 +7,4 @@ author: "Jem Abulhawa"
 
 I’d imagined my reaction to a “yes” in many ways but couldn’t quite brace myself for the moment.
 
----
+<!-- excerpt -->

@@ -8,4 +8,4 @@ author: "Founders and Coders"
 
 Katerina Pascoulis and Ruth Uwemedimo talk about what they learned from freelancing and why they love working together at Personably
 
----
+<!-- excerpt -->

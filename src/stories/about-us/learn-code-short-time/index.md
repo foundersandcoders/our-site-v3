@@ -7,4 +7,4 @@ author: "Katerina Pascoulis"
 
 Six months ago I left my “wow, what you do sounds really interesting” job so I could teach myself to code. Before that happened there were multiple abandoned attempts to start learning. I wanted to write about that part for anyone who is as stuck as I was.
 
----
+<!-- excerpt -->

@@ -41,6 +41,14 @@ module.exports = (config) => {
 
   config.setLibrary("md", md);
 
+  config.addFilter("formatDate", (d) => {
+    const date = new Date(d);
+    return date.toLocaleDateString("en-GB", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    });
+  });
   return {
     dir: {
       // configure Eleventy to look in src/ for everything

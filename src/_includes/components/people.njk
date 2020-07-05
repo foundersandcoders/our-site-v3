@@ -1,0 +1,19 @@
+<section class="full-width stripes">
+<div
+  class="reel"
+  style="--gap: var(--space5); --col-xs: 100%; --col: 30rem"
+  tabindex="0"
+>
+{% for person in people %}
+  <figure class="people {{'staff' if person.role}}">
+    <figcaption>
+      <h3>{{person.name}}</h3>
+      <div>{{person.role or person.body}}</h3>
+    </figcaption>
+    <a class="image" href="{{person.href}}" aria-label="{{person.name}}'s LinkedIn profile">
+      <img src="{{person.image}}" width="499" height="735" alt="">
+    </a>
+  </figure>
+{% endfor %}
+</div>
+</section>

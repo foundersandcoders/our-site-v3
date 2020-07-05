@@ -14,7 +14,6 @@ exports.render = (data) => {
   const press = [...data.collections.press].reverse();
 
   return html`
-    <h1>${data.title}</h1>
     <p class="intro">
       Curious to learn more about us? Here you’ll find stories by and about our
       diverse community of founders and coders making a social impact with

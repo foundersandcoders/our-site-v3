@@ -384,7 +384,15 @@ hr {
 }
 
 .heading-anchor {
+  opacity: 0;
   color: inherit;
+  transition: opacity 0.2s;
+}
+
+/* Show heading links when focused or when containing heading is hovered */
+.heading-anchor:focus,
+*:hover > .heading-anchor {
+  opacity: 1;
 }
 
 .intro {

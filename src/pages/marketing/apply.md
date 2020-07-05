@@ -39,29 +39,9 @@ Our programme is designed for people who are serious about a career in web devel
 
 ## Course dates
 
-- ### Spring 2021
+{% include "components/cohortDates.njk" %}
 
-  #### Prerequisites and application cycle
-
-  May 1, 2020 - August 31, 2020
-
-  #### Submit your application between
-
-  May 1, 2020 - August 31, 2020
-
-  #### Interview dates
-
-  May 1, 2020 - August 31, 2020
-
-  #### Precourse dates (remote, at your own pace)
-
-  May 1, 2020 - August 31, 2020
-
-  #### Course dates
-
-  May 1, 2020 - August 31, 2020
-
-<!-- {ul:.grid.cycle-colors} -->
+<!-- {ul:.grid} -->
 
 ## How do I apply?
 
@@ -89,7 +69,7 @@ Our programme is designed for people who are serious about a career in web devel
 
    We invite a minimum of 24 people to interview (in person or remotely), and usually offer places to sixteen people per cohort.
    You’ll be interviewed by a panel three people, made up of Founders and Coders staff and alumni.
-   <!-- {ol:.grid.cycle-colors} -->
+   <!-- {ol:.grid} -->
 
 ## Eligibility
 

@@ -150,6 +150,11 @@ ol[class] {
   list-style: none;
 }
 
+/* list items space out their block-level children */
+li > * + * {
+  margin-top: var(--space, var(--space3));
+}
+
 img,
 video {
   max-width: 100%;
@@ -163,6 +168,7 @@ h4,
 h5,
 h6 {
   margin: 0;
+  margin-top: 1.5em;
   line-height: 1;
   font-weight: 600;
 }
@@ -267,31 +273,29 @@ main {
 
   @media (--viewport-xs) {
     padding: var(--space4);
-
-    /* Marketing pages get more space on larger screens */
-    &.marketing {
-      --spacing: var(--space5);
-    }
   }
 
   @media (--viewport-m) {
     padding: var(--space5) var(--space4);
-
-    /* Marketing pages get more space on larger screens */
-    &.marketing {
-      --spacing: var(--space7);
-    }
   }
 }
 
-.document {
-  & h1,
+.marketing {
+  & > p:first-of-type {
+    --spacing: var(--space5);
+    font-size: var(--font4);
+
+    @media (--viewport-xs) {
+      font-size: var(--font5);
+    }
+  }
   & h2,
-  & h3,
-  & h4,
-  & h5,
-  & h6 {
-    margin-top: 1.5em;
+  & hr {
+    margin-top: var(--space5);
+
+    @media (--viewport-m) {
+      margin-top: var(--space7);
+    }
   }
 }
 
@@ -359,7 +363,7 @@ h6 {
   }
 }
 
-.divider {
+hr {
   width: 0;
   height: 100px;
   border: 0;
@@ -443,14 +447,6 @@ h6 {
 
 .cluster > * > * {
   margin: calc(var(--gap) / 2);
-}
-
-.grid {
-  --min-width: 16rem;
-  --gap: var(--space5);
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(var(--min-width), 1fr));
-  grid-gap: var(--gap);
 }
 
 .box {
@@ -546,7 +542,36 @@ main > .stripes:last-child {
     }
   }
 }
-.top-stripe::before {
+
+/* lays child elements out in columns */
+.grid {
+  /* 16rem means ~3 columns on desktop */
+  --min-width: 16rem;
+  --gap: var(--space5);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(var(--min-width), 1fr));
+  grid-gap: var(--gap);
+}
+
+/* most grid lists rotate through the 4 primary colours */
+.grid > li:nth-child(4n + 1) {
+  --cycle-colour: var(--primary);
+}
+
+.grid > li:nth-child(4n + 2) {
+  --cycle-colour: var(--secondary);
+}
+
+.grid > li:nth-child(4n + 3) {
+  --cycle-colour: var(--tertiary);
+}
+
+.grid > li:nth-child(4n + 4) {
+  --cycle-colour: var(--quarternary);
+}
+
+/* ul grids get a coloured stripe above each item */
+ul.grid > li::before {
   content: "";
   display: block;
   width: 7rem;
@@ -555,12 +580,18 @@ main > .stripes:last-child {
   background-color: var(--cycle-colour);
 }
 
-.steps li {
+/* ol grids default to 2 columns */
+ol.grid {
+  --min-width: 22rem;
+}
+
+/* ol grids get a coloured number above each item */
+ol.grid > li {
   position: relative;
   counter-increment: steps;
 }
 
-.steps li::before {
+ol.grid > li::before {
   content: counter(steps, decimal-leading-zero);
   font-weight: 600;
   font-size: var(--font7);
@@ -576,22 +607,6 @@ main > .stripes:last-child {
   }
 }
 
-.cycle-colors > *:nth-child(4n + 1) {
-  --cycle-colour: var(--primary);
-}
-
-.cycle-colors > *:nth-child(4n + 2) {
-  --cycle-colour: var(--secondary);
-}
-
-.cycle-colors > *:nth-child(4n + 3) {
-  --cycle-colour: var(--tertiary);
-}
-
-.cycle-colors > *:nth-child(4n + 4) {
-  --cycle-colour: var(--quarternary);
-}
-
 .circle-reveal {
   clip-path: circle(0% at 50% 0);
   animation: circle 0.7s 1.75s ease-in forwards;
@@ -603,7 +618,7 @@ main > .stripes:last-child {
   }
 }
 
-.testimonial {
+.people {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 2rem repeat(7, 1fr);
@@ -614,7 +629,7 @@ main > .stripes:last-child {
   }
 }
 
-.testimonial figcaption {
+.people figcaption {
   max-width: max-content;
   display: grid;
   justify-items: right;
@@ -623,16 +638,16 @@ main > .stripes:last-child {
   z-index: 10;
 }
 
-.testimonial figcaption > * {
+.people figcaption > * {
   padding: var(--space2);
   background-color: var(--background);
 }
 
-.testimonial figcaption > *:last-child {
+.people figcaption > *:last-child {
   padding-top: 0;
 }
 
-.testimonial figcaption > h3 {
+.people figcaption > h3 {
   margin: 0;
   font-size: var(--font5);
   text-transform: uppercase;
@@ -642,7 +657,7 @@ main > .stripes:last-child {
   }
 }
 
-.testimonial .image {
+.people .image {
   position: relative;
   grid-row: 2 / 7;
   grid-column: 2 / 12;
@@ -665,14 +680,14 @@ main > .stripes:last-child {
   }
 }
 
-.testimonial img {
+.people img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.testimonial blockquote {
+.people blockquote {
   grid-row: 6 / -1;
   grid-column: 3 / -1;
   padding: var(--space3);
@@ -688,15 +703,15 @@ main > .stripes:last-child {
   }
 }
 
-.testimonial blockquote::before {
+.people blockquote::before {
   content: open-quote;
 }
 
-.testimonial blockquote::after {
+.people blockquote::after {
   content: close-quote;
 }
 
-.testimonial.partner {
+.people.partner {
   grid-template-columns: var(--space4) 1fr;
   grid-template-rows: auto 1fr;
   grid-row-gap: var(--space3);

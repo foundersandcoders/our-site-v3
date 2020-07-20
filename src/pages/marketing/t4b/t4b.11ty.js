@@ -12,12 +12,12 @@ exports.data = {
   sticky: {
     text: "Interested in the Tech for Better programme?",
     href: "https://airtable.com/shrMtNWdsGQQs65mO",
-    cta: "Get in touch",
+    cta: "Express interest",
   },
 };
 
 exports.render = data => {
-  const { title, intro, image, apply, faqSection, caseStudies, about } = data;
+  const { title, intro, image, faqSection, caseStudies, about } = data;
   return html`
     <h1>${title}</h1>
     <section class="stack4">
@@ -30,15 +30,6 @@ exports.render = data => {
     <div class="circle-reveal">
       <img src="${image}" width="960" height="540" alt="" />
     </div>
-
-    <section class="stack4">
-      ${Heading({ tag: "h2", children: apply.title })}
-      <div class="full-width xs stripes">
-        <ol class="reel reel-xs steps cycle-colors" style="--min-width: 20rem">
-          ${apply.steps.map(Step)}
-        </ol>
-      </div>
-    </section>
 
     <section class="stack4">
       ${Heading({ tag: "h2", children: faqSection.title })}

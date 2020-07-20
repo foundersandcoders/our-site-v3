@@ -2,56 +2,47 @@
   "title": "Tech for Better",
   "intro": {
     "title": "Your ideas can make the world a better place.",
-    "body": "A programme for social entrepreneurs and charity workers to learn Product Management by working with a Product Team to design, build and test a new digital service. Working with developers in London and Palestine, and supported by [Intersticia](https://intersticia.org/) and [Paul Hamlyn Foundation](https://www.phf.org.uk/)."
+    "body": "A programme for founders, social entrepreneurs and charity workers to learn Product Management by working with a Product Team to design, build and test a new digital service. Working with developers in London and Palestine, and supported by [Intersticia](https://intersticia.org/) and [Paul Hamlyn Foundation](https://www.phf.org.uk/)."
   },
   "image": "/assets/media/t4b_splash.png",
-  "apply": {
-    "title": "How do I apply?",
-    "steps": [
-      {
-        "title": "Discovery workshop (2 hours)",
-        "body": "Start by defining your challenge, describing your users, and identifying their needs. Finish up by preparing a user survey, which you will conduct over the following week."
-      },
-      {
-        "title": "Definition workshop (2 hours)",
-        "body": "Recap the results of the user survey and redefine the problem, identify a specific user journey that addresses that problem, and begin the design process with some paper prototyping."
-      },
-      {
-        "title": "Product owner workshop (2 hours)",
-        "body": "Explore your role as a product owner and familiarise yourself with project management tools and the application development process. End by creating a series of user stories which can form the basis of your app."
-      },
-      {
-        "title": "Development (3-4 weeks)",
-        "body": "At this point, we are ready to schedule product development! A team of 2-4 developers will work with you to build a mobile web app that can be tested with users and form the basis of applications for further funding."
-      }
-    ]
-  },
   "faqSection": {
     "title": "More information",
     "faqs": [
       {
-        "title": "How will this programme benefit me?",
-        "body": "You will gain experience working with a software development team and see your ideas take shape in digital form. By the end of the process you will have a working mobile web app that you can test with users."
+        "title": "What will I learn on this programme?",
+        "body": "Over four weeks, you will learn the fundamentals of product management and product ownership while working on developing a digital product with the support of your own dedicated product team, in an immersive learning-by-doing experience."
       },
       {
-        "title": "What is the total time commitment required of me?",
-        "body": "After the initial workshops, around 20 hours over the one-month product development period, testing the app, giving feedback and meeting with the developers."
+        "title": "What kind of product will we develop?",
+        "body": "We will design and build a Progressive Web Application (PWA), which looks and feels like a native mobile app, but doesn't need to be downloaded from an app store, and can be accessed using a web browser on a computer, tablet, or smartphone."
       },
       {
-        "title": "What if I want to continue development after the programme ends?",
-        "body": "The Tech for Better programme is primarily designed to develop your expertise in managing digital projects, to test out new ideas, and to build a case for approaching funders like [Comic Relief](https://www.comicrelief.com/), [Social Tech Trust](https://socialtechtrust.org/) and [Big Lottery Fund](https://www.biglotteryfund.org.uk/), but the apps we build are fully documented and open source. If you already have funding, we have a large community of freelance developers in both London and Palestine who can help."
+        "title": "What is the total time commitment?",
+        "body": "You will need to set aside approximately 10 hours of scheduled time with your product team and 10-20 hours of self-paced activities, including user research, user testing, content curation, and data collection."
       },
       {
-        "title": "Why are you running this programme?",
-        "body": "This programme provides an opportunity for our developers in both London and Palestine to gain experience, improve their employability, and work on projects that make a real difference to people’s lives."
+        "title": "What if I want to continue product development after the programme ends?",
+        "body": "If you already have funding, we have a community of freelance developers who can help, potentially including the product team you work with on the programme."
       },
       {
-        "title": "What is a web app?",
-        "body": "A web app is a website that looks and feels like a mobile app. This means that users won’t have to download anything from an app store. Web apps can be accessed by anyone using a web browser on a computer, tablet, or smartphone."
+        "title": "What if I don't have funding for further development?",
+        "body": "The Tech for Better programme is an ideal platform for approaching funders like [Tech for Good](https://techforgoodhub.co.uk/), [Social Tech Trust](https://socialtechtrust.org/) and the [Big Lottery](https://www.biglotteryfund.org.uk/) or applying for accelerators like [BGV](https://bethnalgreenventures.com/)."
+      },
+      {
+        "title": "How are places on the programme selected?",
+        "body": "We give priority to those who are able to fund their own place on the programme or who meet the criteria of our funding partners and we are limited by the availability of a product team willing and able to work with you."
+      },
+      {
+        "title": "What support is available to cover programme costs?",
+        "body": "We have a limited number of fully-funded and part-funded places for nonprofits and social impact startups."
       },
       {
         "title": "What sorts of apps do you build?",
-        "body": "Three examples of previous projects are linked to below."
+        "body": "Examples of previous projects are provided below."
+      },
+      {
+        "title": "How do I apply?",
+        "body": "Just [complete this short expression of interest](https://airtable.com/shrMtNWdsGQQs65mO)."
       }
     ]
   },

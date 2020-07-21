@@ -17,7 +17,7 @@ exports.data = {
 };
 
 exports.render = data => {
-  const { title, intro, image, faqSection, caseStudies, about } = data;
+  const { title, intro, image, quotes, faqSection, caseStudies } = data;
   return html`
     <h1>${title}</h1>
     <section class="stack4">
@@ -31,6 +31,17 @@ exports.render = data => {
       <img src="${image}" width="960" height="540" alt="" />
     </div>
 
+   <section class="full-width stripes" aria-label="Testimonials">
+      <div class="stack5">
+        <div
+          class="reel"
+          style="--gap: var(--space4); --col: 28rem"
+          tabindex="0" >
+          ${quotes.map(Quote)}
+        </div>
+      </div>
+    </section>
+  
     <section class="stack4">
       ${Heading({ tag: "h2", children: faqSection.title })}
       <ul class="grid cycle-colors">
@@ -45,19 +56,19 @@ exports.render = data => {
       </ul>
     </section>
 
-    <section class="stack4">
-      ${Heading({ tag: "h2", children: about.title })} ${md.render(about.body)}
-    </section>
   `;
 };
 
-function Step({ title, body }) {
+function Quote({ name, company, body }) {
   return html`
-    <li class="stack">
-      <h3>${title}</h3>
-      ${md.render(body)}
-    </li>
-  `;
+  <figure class="testimonial partner">
+    <blockquote>${body}</blockquote>
+    <figcaption>
+      <h3>${name}</h3>
+      <div>${company}</h3>
+    </figcaption>
+  </figure>
+`;
 }
 
 function Info({ title, body }) {

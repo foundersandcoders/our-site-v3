@@ -9,10 +9,10 @@ exports.data = {
   navLabel: "Apply",
   order: 2,
   sticky: {
-    text: "Applications are currently closed",
-    cta: "Express interest",
+    text: "We're postponing our winter 2020 cohort",
+    cta: "Read why",
     href:
-      "https://docs.google.com/forms/d/e/1FAIpQLSepdNxKsrMjhfnbdkzKUgNpeWFmp8WLyiqTe_UY10TsPpFOEQ/viewform",
+      "/postponing-winter",
    },
   /*sticky: {
     text: "Applications are now open",

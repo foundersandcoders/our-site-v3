@@ -22,7 +22,7 @@ We'd thought we'd include a non-exhaustive list of things we're looking forward 
 
 - Making our application process and curriculum more accessible;
 - Providing better mental health support for our students;
-- Continuing to educate ourselves and actively fight against systemic racism by providing antiracism materials for our staff and students;
+- Continuing to educate ourselves and actively fight against systemic racism by embedding antiracism into our curriculum and community;
 - Continuing to make our spaces safer for non cishet people;
 - Continuing to grow our community to include more women, trans people, genderqueer people, younger people, older people, parents, and people from a much wider range of racial, ethnic and socioeconomic backgrounds;
 - Continuing to make sure people who are underrepresented in tech do not feel marginalised in our spaces.

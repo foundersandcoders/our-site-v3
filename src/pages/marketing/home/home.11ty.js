@@ -10,9 +10,9 @@ exports.data = {
   navLabel: "Home",
   order: 0,
   sticky: {
-    text: "Our coronavirus response",
-    cta: "More info",
-    href: "/coronavirus",
+    text: "We're postponing our winter 2020 cohort",
+    cta: "Read why",
+    href: "/postponing-winter",
   },
 };
 

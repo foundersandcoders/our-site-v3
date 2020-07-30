@@ -5,36 +5,6 @@
     "title": "Course dates",
     "cohorts": [
       {
-        "name": "Winter 2020",
-        "dates": [
-          {
-            "title": "Prerequisites and application cycle",
-            "open": "2020-05-01T00:00:00.000Z",
-            "close": "2020-08-31T00:00:00.000Z"
-          },
-          {
-            "title": "Submit your application between",
-            "open": "2020-08-24T00:00:00.000Z",
-            "close": "2020-08-31T00:00:00.000Z"
-          },
-          {
-            "title": "Interview dates",
-            "open": "2020-09-07T00:00:00.000Z",
-            "close": "2020-09-18T00:00:00.000Z"
-          },
-          {
-            "title": "Precourse dates (remote, at your own pace)",
-            "open": "2020-09-21T00:00:00.000Z",
-            "close": "2020-10-30T00:00:00.000Z"
-          },
-          {
-            "title": "Course dates",
-            "open": "2020-11-02T00:00:00.000Z",
-            "close": "2021-03-12T00:00:00.000Z"
-          }
-        ]
-      },
-      {
         "name": "Spring 2021",
         "dates": [
           {
@@ -49,7 +19,7 @@
           },
           {
             "title": "Interview dates",
-            "open": "2021-01-11T00:00:00.000Z",
+            "open": "2021-01-04T00:00:00.000Z",
             "close": "2021-01-22T00:00:00.000Z"
           },
           {

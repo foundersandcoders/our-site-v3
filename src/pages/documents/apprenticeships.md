@@ -6,7 +6,7 @@ We ran our first coding course in Camden Town in 2014. Over the course of that f
 
 ## Why does our programme produce such good developers?
 
-We are oversubscribed many times over, so we have a big pool of candidates to choose from and we demand a lot of them. Most of them work for months on our prerequisites before they are ready to apply for our programme. We are continually tweaking and updating our curriculum to make it better. 
+We are oversubscribed many times over, so we have a big pool of candidates to choose from and we demand a lot of them. Most of them work for months on our prerequisites before they are ready to apply for our programme.
 
 Another strength of the programme is our curriculum. Our open source coursebook sees a weekly stream of change requests, suggestions and code commits, reflecting the constant flow of feedback from students and updates from staff and volunteers.
 

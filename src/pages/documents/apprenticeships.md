@@ -7,6 +7,7 @@ We ran our first coding course in Camden Town in 2014. Over the course of that f
 ## Why does our programme produce such good developers?
 
 We are oversubscribed many times over, so we have a big pool of candidates to choose from and we demand a lot of them. Most of them work for months on our prerequisites before they are ready to apply for our programme. We are continually tweaking and updating our curriculum to make it better. 
+
 Another strength of the programme is our curriculum. Our open source coursebook sees a weekly stream of change requests, suggestions and code commits, reflecting the constant flow of feedback from students and updates from staff and volunteers.
 
 We also benefit from an extraordinary alumni community, dozens of whom volunteer every cohort by giving talks or offering mentorship and coaching to our students. 
@@ -17,7 +18,9 @@ Our aim has always been and will always be to promote inclusion, equity and dive
 
 ## What difference will apprenticeships make?
 In one sense apprenticeships will make no difference to the way we operate. We will still have the same fantastic pool of candidates. They will still go through the same excellent programme. They will still be ready for work after four months of full-time study with us.
+
 In another sense, the difference will be profound. By making it possible for students to earn an apprentice wage while they are learning, we will open up this career path to a much wider group of people for whom even a “free” course (with all the costs of living in London) has been previously unaffordable.
+
 We are already ramping up the support we are offering to those candidates who have not previously seen us as a viable option. In a few months, we will have a bigger, broader, and better-prepared candidate pool than ever before.
 
 ## How will it work?

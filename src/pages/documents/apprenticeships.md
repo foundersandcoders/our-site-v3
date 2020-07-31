@@ -37,7 +37,7 @@ Apprenticeships let us go further than our tuition-free programme for the benefi
 By making it possible for students to earn an apprentice wage while they are learning, we will open up this career path to a much wider group of people for whom even a “free” course (with all the costs of living in London) has been previously unaffordable.
 
 ### For employers: efficient access to dedicated and diverse developers
-By utilising the employers’ Apprenticeship Levy to cover our training costs, we provide them with a more resource-efficient way of accessing our dedicated and diverse developers, even before they graduate. 
+By utilising the employers’ Apprenticeship Levy to cover our training costs, we provide you with a more resource-efficient way of accessing our dedicated and diverse developers, even before they graduate. 
 
 ## How will the Founders and Coders Apprenticeship work?
 We have already started preparing candidates for our first apprenticeship intake in 2021. Interviews will be starting from the end of 2020. And if you have your own candidates, we will, of course, be delighted to work with them. In particular, if you want to support your staff to switch career or to hire people from within the communities you serve, then we can support you with a pre-apprenticeship programme that will ensure your people are ready before they make the full-time switch to software development. 
@@ -48,7 +48,7 @@ All we need is an agreement in principle from you to screen and interview candid
 ## What will it cost?
 If you contribute to the apprenticeship levy, then the cost of this training is already covered.
 
-For non-levy payer, the maximum cost of training will be under £1,000. Over the course of their first year, the total cost to you should be less than if you were just to hire a junior developer at the going rate and, in all probability, the outcomes will be better for everyone. 
+For the non-levy payer, the maximum cost of training will be under £1,000. Over the course of their first year, the total cost to you should be less than if you were just to hire a junior developer at the going rate and, in all probability, the outcomes will be better for everyone. 
 
 ## About us
 Founders and Coders CIC is a nonprofit founded in 2014 with a mission to develop more effective and inclusive models of tech training. We are a registered apprenticeship training provider. In 2021 we are launching a new Level 4 software developer apprenticeship programme. 

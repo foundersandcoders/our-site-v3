@@ -28,7 +28,7 @@ We have already started preparing candidates for our first apprenticeship intake
 
 All we need is an agreement in principle from you to screen and interview candidates. If you don’t find the candidates you want, then we don’t expect you to hire anyone. If your business needs change, we will be starting new cohorts at regular intervals, so that you can hire an apprentice whenever you are ready.
 
-# What will it cost?
+## What will it cost?
 
 If you contribute to the apprenticeship levy, then the cost of this training is already covered. For non-levy payers, the maximum cost of training will be under £1,000. Over the course of their first year, the total cost to you should be less than if you were just to hire a junior developer at the going rate and, in all probability, the outcomes will be better for everyone.
 

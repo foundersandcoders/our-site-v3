@@ -8,7 +8,7 @@
 Founders and Coders is a UK-based nonprofit that has been running tuition-free, peer-led training programmes in web development in London since 2014. We have also worked with Mercy Corps and with the UK government to deliver programmes in the Middle East.
 
 ## What makes us unique?
-We have been able to reliably produce strong alumni for four reasons:
+We have been able to reliably produce strong alumni for five reasons:
 1. Competitive selection
 2. Open-source curriculum
 3. Peer-driven learning

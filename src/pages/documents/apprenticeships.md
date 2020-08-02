@@ -11,7 +11,7 @@ Founders and Coders is a UK-based nonprofit that has been running tuition-free, 
 We have been able to reliably produce strong alumni for five reasons:
 1. Competitive selection
 2. Open-source curriculum
-3. Peer-driven learning
+3. Peer-led learning
 4. Community support
 5. A focus on diversity
 
@@ -22,7 +22,7 @@ As we have never charged our students, we are oversubscribed many times over. Ou
 ### Open-source curriculum: modern, relevant and iterative
 The [Founders and Coders curriculum](https://founders-and-coders.gitbook.io/coursebook/) is used by several other training organisations around the world. Our coursebook sees a weekly stream of change requests, suggestions and code commits, reflecting the constant flow of feedback from students and updates from staff and volunteers.
 
-### Peer-driven learning
+### Peer-led learning
 We focus relentlessly on peer learning, pair programming and on creating an inclusive classroom environment that cultivates developers capable of working both respectfully and productively as part of a team.
 
 ### Community support

@@ -1,8 +1,6 @@
 # Software Developer Apprenticeships with Founders and Coders
 
-### Diverse software developers from a proven training provider at no extra cost
-
-#### Founders and Coders is launching a Software Developer Apprenticeship so that employers can reliably hire diverse and dedicated developers without any additional hiring expense.
+#### Founders and Coders is launching a Software Developer Apprenticeship so that employers can reliably hire diverse, talented and well-trained developers without hiring fees.
 
 ## Who are Founders and Coders?
 Founders and Coders is a UK-based nonprofit that has been running tuition-free, peer-led training programmes in web development in London since 2014. We have also worked with Mercy Corps and with the UK government to deliver programmes in the Middle East.

@@ -38,7 +38,7 @@ By making it possible for students to earn an apprentice wage while they are lea
 ### For employers: efficient access to dedicated and diverse developers
 By utilising the employers’ Apprenticeship Levy to cover our training costs, we provide you with a more resource-efficient way of accessing our developers, even before they graduate. 
 
-## How will the Founders and Coders Apprenticeship work?
+## How will the apprenticeships work?
 We have already started preparing candidates for our first apprenticeship intake in 2021. Interviews will be starting from the end of 2020. And if you have your own candidates, we will, of course, be delighted to work with them. In particular, if you want to support your staff to switch career or to hire people from within the communities you serve, then we can support you with a pre-apprenticeship programme that will ensure your people are ready before they make the full-time switch to software development. 
 
 ## What do you need to do now?

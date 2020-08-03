@@ -1,6 +1,6 @@
 # Software Developer Apprenticeships with Founders and Coders
 
-#### Founders and Coders is launching a Software Developer Apprenticeship so that employers can reliably hire diverse, talented and well-trained developers without hiring fees.
+#### Founders and Coders is launching a Software Developer Apprenticeship so that employers can reliably hire dedicated and diverse developers without hiring fees.
 
 ## Who are Founders and Coders?
 Founders and Coders is a UK-based nonprofit that has been running tuition-free, peer-led training programmes in web development in London since 2014. We have also worked with Mercy Corps and with the UK government to deliver programmes in the Middle East.
@@ -36,7 +36,7 @@ Apprenticeships let us go further than our tuition-free programme for the benefi
 By making it possible for students to earn an apprentice wage while they are learning, we will open up this career path to a much wider group of people for whom even a “free” course (with all the costs of living in London) has been previously unaffordable.
 
 ### For employers: efficient access to dedicated and diverse developers
-By utilising the employers’ Apprenticeship Levy to cover our training costs, we provide you with a more resource-efficient way of accessing our dedicated and diverse developers, even before they graduate. 
+By utilising the employers’ Apprenticeship Levy to cover our training costs, we provide you with a more resource-efficient way of accessing our developers, even before they graduate. 
 
 ## How will the Founders and Coders Apprenticeship work?
 We have already started preparing candidates for our first apprenticeship intake in 2021. Interviews will be starting from the end of 2020. And if you have your own candidates, we will, of course, be delighted to work with them. In particular, if you want to support your staff to switch career or to hire people from within the communities you serve, then we can support you with a pre-apprenticeship programme that will ensure your people are ready before they make the full-time switch to software development. 

@@ -96,7 +96,6 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: var(--space5);
-  font-size-adjust: 0.46;
 }
 
 body {
@@ -259,11 +258,11 @@ main {
   max-width: 66rem;
   justify-self: center;
   padding: var(--space3);
-  --spacing: var(--space4);
+  --flow-space: var(--space4);
 
   & > * + * {
     /* All children with a preceding sibling get margin-top */
-    margin-top: var(--spacing);
+    margin-top: var(--flow-space);
   }
 
   &.document {
@@ -282,7 +281,7 @@ main {
 
 .marketing {
   & > p:first-of-type {
-    --spacing: var(--space5);
+    --flow-space: var(--space5);
     font-size: var(--font4);
 
     @media (--viewport-xs) {
@@ -290,12 +289,15 @@ main {
     }
   }
   & h2,
-  & hr {
-    margin-top: var(--space5);
-
+  & hr,
+  & .flow-space-lg {
+    --flow-space: var(--space5);
     @media (--viewport-m) {
-      margin-top: var(--space7);
+      --flow-space: var(--space7);
     }
+  }
+  & hr {
+    margin-bottom: var(--flow-space);
   }
 }
 

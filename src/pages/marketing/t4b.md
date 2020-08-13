@@ -51,8 +51,6 @@ A programme for founders, social entrepreneurs and charity workers to learn Prod
 
   If you already have funding, we have a community of freelance developers who can help, potentially including the product team you work with on the programme.
 
-<!-- {ol:.grid} -->
-
 - ### What if I don't have funding for further development?
 
   The Tech for Better programme is an ideal platform for approaching funders like [Tech for Good](https://techforgoodhub.co.uk/), [Social Tech Trust](https://socialtechtrust.org/) and the [Big Lottery](https://www.biglotteryfund.org.uk/) or applying for accelerators like [BGV](https://bethnalgreenventures.com/).

@@ -7,4 +7,4 @@ author: "Per Harald Borgen"
 
 One year ago I was a non-technical founder of a startup at the edge of bankruptcy. Today I work as a front end developer.
 
----
+<!-- excerpt -->

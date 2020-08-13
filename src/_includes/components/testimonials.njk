@@ -1,0 +1,20 @@
+<section class="full-width stripes flow-space-lg">
+<div
+  class="reel"
+  style="--gap: var(--space5); --col-xs: 100%; --col: 30rem"
+  tabindex="0"
+>
+{% for person in people %}
+<figure class="people">
+  <figcaption>
+    <h3>{{person.name}}</h3>
+    <div>{{person.cohort}}</h3>
+  </figcaption>
+  <div class="image">
+    <img src="{{person.image}}" width="499" height="735" alt="">
+  </div>
+  <blockquote>{{person.quote}}</blockquote>
+</figure>
+{% endfor %}
+</div>
+</section>

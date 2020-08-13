@@ -1,0 +1,13 @@
+<ul class="grid">
+{% for cohort in cohortDates %}
+<li>
+  <h3>Cohort of {{cohort.name}}</h3>
+  {% for date in cohort.dates %}
+  <h4>{{date.title}}</h4>
+  <time datetime="{{date.open}}">{{date.open | formatDate}}</time>
+  —
+  <time datetime="{{date.close}}">{{date.close | formatDate}}</time>
+  {% endfor %}
+</li>
+{% endfor %}
+</ul>

@@ -8,4 +8,4 @@ image: "/assets/media/little_window.jpg"
 
 Little Window — one of the first chatbot and AI innovations at the intersection of gender-based violence and tech for good.
 
----
+<!-- excerpt -->

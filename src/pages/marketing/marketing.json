@@ -1,0 +1,4 @@
+{
+  "layout": "layouts/marketing",
+  "permalink": "{{page.permalink or page.fileSlug}}/"
+}

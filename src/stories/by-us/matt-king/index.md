@@ -8,4 +8,4 @@ author: "Founders and Coders"
 
 Matt King talks about his experiences mentoring and facilitating at Founders and Coders in London…
 
----
+<!-- excerpt -->

@@ -7,4 +7,4 @@ author: "Healthy London Partnership"
 
 We’ve known for a while that the learning collaborative needs ways of accelerating the use of digital technology in children and young people’s mental health services.
 
----
+<!-- excerpt -->

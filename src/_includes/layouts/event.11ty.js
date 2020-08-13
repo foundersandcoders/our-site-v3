@@ -8,7 +8,7 @@ exports.data = {
   layout: "layouts/base",
 };
 
-exports.render = data => {
+exports.render = (data) => {
   const { site, title, who, info } = data;
   return html`
     <main class="stack5">
@@ -55,7 +55,7 @@ exports.render = data => {
 
 function Question({ title, body }) {
   return html`
-    <li class="stack top-stripe">
+    <li>
       ${Heading({ tag: "h3", children: title })} ${md.render(body)}
     </li>
   `;

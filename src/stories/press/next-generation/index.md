@@ -7,4 +7,4 @@ author: "Adrian Bridgwater, Forbes"
 
 The world needs more trained software engineers; it’s a basic fact. The world also urgently needs more of those trained software engineers to be female from an equality and diversity perspective; this is also a basic fact that is (thankfully) increasingly widely acknowledged.
 
----
+<!-- excerpt -->

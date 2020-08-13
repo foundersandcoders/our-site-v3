@@ -7,4 +7,4 @@ author: "Katerina Pascoulis"
 
 When I decided to learn to code, I didn’t expect there to be anything other than work ethic that would be transferable from my law degree.
 
----
+<!-- excerpt -->

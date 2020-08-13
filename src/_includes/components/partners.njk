@@ -1,0 +1,21 @@
+<section class="full-width stripes stack5 flow-space-lg">
+
+<div
+  class="reel"
+  style="--gap: var(--space4); --col: 28rem"
+  tabindex="0"
+>
+{% for partner in partners %}
+<figure class="people partner">
+  <figcaption>
+    <h3>{{partner.name}}</h3>
+    <div>{{partner.company}}</h3>
+  </figcaption>
+  <blockquote>{{partner.body}}</blockquote>
+</figure>
+{% endfor %}
+</div>
+
+{% include "components/logos.njk" %}
+
+</section>

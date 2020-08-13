@@ -8,4 +8,4 @@ author: "Founders and Coders"
 
 How Becky Botha and Johanna Herman learnt to code and launched Workerbird, a Tech for Good startup, in less than a year.
 
----
+<!-- excerpt -->

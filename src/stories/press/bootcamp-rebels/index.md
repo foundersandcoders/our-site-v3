@@ -8,4 +8,4 @@ image: "/assets/media/boot_camp_rebels.jpg"
 
 Disappointed with “big tech”, coders are starting social impact start-ups. To some, technology companies represent the future — a world in which society’s rules have been rewritten. To others, they just offer more of the same.
 
----
+<!-- excerpt -->

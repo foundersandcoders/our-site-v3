@@ -8,4 +8,4 @@ image: "/assets/media/get_with_the_program.jpg"
 
 It’s the must-have skill-set of the 21st century, yet unless you’re rich enough to afford the training, or fortunate enough to be attending the right school, the barriers to learning can be high. Now a movement of pioneering coders is challenging the stereotype by offering free training for all
 
----
+<!-- excerpt -->

@@ -8,4 +8,4 @@ image: "/assets/media/coding_stress.jpg"
 
 Last year I went through the Founders and Coders (FAC) software training program in London in order to turn my hobby into a living.
 
----
+<!-- excerpt -->

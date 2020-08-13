@@ -14,40 +14,41 @@ exports.render = (data) => {
   const press = [...data.collections.press].reverse();
 
   return html`
-    <h1>${data.title}</h1>
-    <p class="intro">
-      Curious to learn more about us? Here you’ll find stories by and about our
-      diverse community of founders and coders making a social impact with
-      technology all over the world.
-    </p>
-    <hr class="divider" />
+    <div class="stack6">
+      <p class="intro">
+        Curious to learn more about us? Here you’ll find stories by and about
+        our diverse community of founders and coders making a social impact with
+        technology all over the world.
+      </p>
+      <hr class="divider" />
 
-    <section class="stack">
-      <h2>Stories by us</h2>
-      <div class="full-width xs stripes">
-        <div class="reel" tabindex="0">
-          ${byUs.map(Story)}
+      <section class="stack4">
+        <h2>Stories by us</h2>
+        <div class="full-width xs stripes">
+          <div class="reel" tabindex="0">
+            ${byUs.map(Story)}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="stack">
-      <h2>Stories about us</h2>
-      <div class="full-width xs stripes">
-        <div class="reel" tabindex="0">
-          ${aboutUs.map(Story)}
+      <section class="stack4">
+        <h2>Stories about us</h2>
+        <div class="full-width xs stripes">
+          <div class="reel" tabindex="0">
+            ${aboutUs.map(Story)}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="stack">
-      <h2>In the press</h2>
-      <div class="full-width xs stripes">
-        <div class="reel" tabindex="0">
-          ${press.map(Story)}
+      <section class="stack4">
+        <h2>In the press</h2>
+        <div class="full-width xs stripes">
+          <div class="reel" tabindex="0">
+            ${press.map(Story)}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   `;
 };
 

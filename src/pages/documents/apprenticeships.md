@@ -33,7 +33,7 @@ It has always been our aim to promote inclusion, equity and diversity in tech an
 Providing apprenticeships is an exciting new development, allowing us to go further than our tuition-free programme for the benefit of students and employers alike.
 
 ### For students: making software development even more accessible
-Apprenticerships allow students to earn an apprentice wage while they are learning, opening up this career path to a much wider group of people for whom even a “free” course (with all the costs of living in London) has been previously unaffordable.
+Apprenticeships allow students to earn an apprentice wage while they are learning, opening up this career path to a much wider group of people for whom even a “free” course (with all the costs of living in London) has been previously unaffordable.
 
 ### For employers: efficient access to dedicated and diverse developers
 By utilising the employers’ Apprenticeship Levy to cover our training costs, we provide you with a new route to accessing our developers without fees, even before they graduate. 

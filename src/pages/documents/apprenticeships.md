@@ -24,7 +24,7 @@ The [Founders and Coders curriculum](https://founders-and-coders.gitbook.io/cour
 We focus relentlessly on peer learning, pair programming and on creating an inclusive classroom environment that cultivates developers capable of working both respectfully and productively as part of a team.
 
 ### Community support
-We run cohorts of no more than 16 developers to ensure that the highest bar for learning is maintainted. Our learners benefit from an extraordinary alumni community, dozens of whom volunteer every cohort by giving talks or offering mentorship and coaching. 
+We run cohorts of no more than 16 developers to ensure that the highest bar for learning is maintained. Our learners benefit from an extraordinary alumni community, dozens of whom volunteer every cohort by giving talks or offering mentorship and coaching. 
 
 ### A focus on diversity
 It has always been our aim to promote inclusion, equity and diversity in tech and our graduates reflect that aim more with each passing year.

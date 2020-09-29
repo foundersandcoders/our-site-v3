@@ -45,4 +45,8 @@ We have already started preparing candidates for our first apprenticeship intake
 All we need from you is an agreement in principle to screen and interview candidates. If you don’t find the candidates you want, then we don’t expect you to hire anyone. If things change, we will be starting new cohorts at regular intervals, so that you can hire an apprentice whenever you are ready. 
 
 ## What will it cost?
-If you contribute to the apprenticeship levy, then the cost of this training is already covered. For non-levy payers, the maximum cost of training will be be less than £1,000. Over the course of their first year, the total cost to you will be less than if you were just to hire a junior developer at the going rate and, in all probability, the outcomes will be better for everyone. 
+If you contribute to the apprenticeship levy, then the cost of this training is already covered. For non-levy payers, at least 95% of the training costs are covered. Over the course of their first year, the total cost to you will be less than if you were just to hire a junior developer at the going rate and, in all probability, the outcomes will be better for everyone. 
+
+## When does the first apprentice cohort start
+We have already started preparing apprentice applicants. The first round of employer interviews will take place in February for apprentice training starting in March in preparation for joining your team full-time in June 2021.
+

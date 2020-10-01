@@ -53,9 +53,9 @@ Our programme is designed for people who are serious about a career in web devel
 
    Introduce yourself in our Slack workspace where you can find the most up-to-date information on our programme, meetups, and ask us any questions you may have.
 
-1. ### Start work on our course prerequisites
+1. ### Start work on the application requirements
 
-   While we don't like to suggest how long it will take you to complete the prerequisites, it's different for everyone, we expect you to take **at least three months** if you don't have any prior experience with web development.
+   While we don't like to suggest how long it will take you to complete the requirements, it's different for everyone, we expect you to take **at least three months** if you don't have any prior experience with web development.
 
    We encourage applicants to work through the material with other applicants, both online and through our meetups.
 
@@ -63,7 +63,7 @@ Our programme is designed for people who are serious about a career in web devel
 
    Plan to spend about an hour completing the application form.
 
-   If you submit your application before the deadline, keep working on the prerequisites and tidying up your website. We will evaluate your progress as of the date the window closes.
+   If you submit your application before the deadline, keep working on the requirements and tidying up your website. We will evaluate your progress as of the date the window closes.
 
 1. ### The conversational interview
 
@@ -92,9 +92,9 @@ Finding your own solutions to problems is an indispensable skill for a developer
 
 Founders and Coders will always prioritise marginalised people's safety over the comfort of the privileged. **If you don't like the sound of any of this then we'd ask you to reconsider your application.**
 
-## Course prerequisites
+## Application requirements
 
-**Before we will consider your application, you must complete the following prerequisites:**
+**Before we will consider your application, you must complete the following tasks:**
 
 ### Create a GitHub account
 
@@ -154,7 +154,7 @@ Your application website needs to be _written by you_ and it must fulfill **all*
 Your website _should_:
 
 - Be creative, show us with your _code_ who you are
-- Demonstrate your learnings from the prerequisites
+- Demonstrate your learnings from the requirements
 
 Your website _cannot_:
 

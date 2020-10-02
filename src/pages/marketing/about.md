@@ -79,9 +79,9 @@ Founders and Coders is not your ordinary coding bootcamp. We’re on a mission t
 
   Yes, for insurance reasons you need to be 18.
 
-- ### How long will it take me to complete the prerequisites?
+- ### How long will it take me to complete the requirements?
 
-  How quickly you complete the prerequisites will depend on a variety of factors, such as technical background and time available. Our courses start three times a year so the next intake is never more than four months away.
+  How quickly you complete the application requirements will depend on a variety of factors, such as technical background and time available. Our courses start three times a year so the next intake is never more than four months away.
 
 - ### What happens in your interviews?
 

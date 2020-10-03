@@ -278,17 +278,11 @@ button {
   content: counter(nav, decimal-leading-zero);
 }
 
-main {
+.main {
   width: 100%;
   max-width: 66rem;
   justify-self: center;
   padding: var(--space3);
-  --flow-space: var(--space4);
-
-  & > * + * {
-    /* All children with a preceding sibling get margin-top */
-    margin-top: var(--flow-space);
-  }
 
   &.document {
     /* Document pages (e.g privacy policy) are narrower */
@@ -301,6 +295,15 @@ main {
 
   @media (--viewport-m) {
     padding: var(--space5) var(--space4);
+  }
+}
+
+.flow {
+  --flow-space: var(--space4);
+
+  & > * + * {
+    /* All children with a preceding sibling get margin-top */
+    margin-top: var(--flow-space);
   }
 }
 
@@ -530,7 +533,7 @@ hr {
 }
 
 /* If stripey bg is last thing in main this removes gap above footer (matches padding-bottom of <main>) */
-main > .stripes:last-child {
+.main > .stripes:last-child {
   margin-bottom: calc(var(--space3) * -1);
 
   @media (--viewport-xs) {

@@ -53,6 +53,8 @@ module.exports = (config) => {
       day: "numeric",
     });
   });
+
+  config.addFilter("markdown", (s) => md.render(s));
   return {
     dir: {
       // configure Eleventy to look in src/ for everything

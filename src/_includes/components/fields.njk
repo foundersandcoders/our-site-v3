@@ -1,0 +1,30 @@
+{% macro input(id, type="text", label, info, confirmLabel="I agree", placeholder, options, required=true) %}
+
+<div class="field">
+  <label for="{{ id }}">
+    {{ label }}
+    {% if required %}<span aria-hidden="true">*</span>{% endif %}
+  </label>
+  {% if info %}
+    <div id="{{ id + "Info" }}" class="info">{{ info | markdown | safe }}</div>
+  {% endif %}
+  {% if type === "confirm" %}
+    <div class="hstack">
+      <input type="checkbox" id="{{ id }}" name="{{ id }}" aria-labelledby="{{ id + "Info" }}" {{ "required" if required }}>
+      <label for="{{ id }}">{{ confirmLabel }}</label>
+    </div>
+  {% elif type === "select" %}
+    <div class="select">
+      <select id="{{ id }}" name="{{ id }}" aria-labelledby="{{ id + "Info" }}" {{ "required" if required }}>
+        <option value="">Select an option</option>
+        {% for option in options %}
+          <option>{{ option }}</option>
+        {% endfor %}
+      </select>
+    </div>
+  {% else %}
+    <input type="{{ type }}" id="{{ id }}" name="{{ id }}" aria-labelledby="{{ id + "Info" }}" placeholder="{{ placeholder }}" {{ "required" if required }}>
+  {% endif %}
+</div>
+
+{% endmacro %}

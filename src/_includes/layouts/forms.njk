@@ -1,0 +1,18 @@
+---
+layout: layouts/base
+---
+
+{% import "components/fields.njk" as forms %}
+
+<main class="main document flow">
+  <h1 style="font-size: var(--font6);">{{ title }}</h1>
+  <div class="flow">
+    {{ content | safe}}
+  </div>
+  <form class="flow" style="--flow-space: var(--space5)">
+    {% for field in fields %}
+      {{ forms.input(type=field.type, id=field.id, label=field.label, info=field.info, options=field.options, required=field.required if field.required !== undefined else true) }}
+    {% endfor %}
+    <button type="submit">Submit</button>
+  </form>
+</main>

@@ -1,0 +1,4 @@
+{
+  "layout": "layouts/forms",
+  "permalink": "/forms/{{page.fileSlug}}/"
+}

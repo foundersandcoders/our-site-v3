@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "eleventy --serve --incremental",
+    "dev": "eleventy --serve --incremental --quiet",
     "build": "ELEVENTY_ENV=production eleventy"
   },
   "keywords": [],

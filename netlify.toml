@@ -23,3 +23,6 @@
   to = "https://fac-annual-report-2020.netlify.app/"
   status = 301
   
+[build]
+  functions = "backend"
+  command = "npm run dev"

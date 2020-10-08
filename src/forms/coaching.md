@@ -1,12 +1,14 @@
 ---
 title: Coaching sessions sign up
+base: appw9XN4e13Q4BHNx
+table: September 30
 fields:
-  - id: name
+  - id: Name
     label: Full name
-  - id: email
+  - id: Emails
     type: email
     label: Email
-  - id: eligibility
+  - id: Eligible?
     type: confirm
     label: I have read and agree to the eligibility criteria for attending this meetup
     info: |
@@ -14,7 +16,7 @@ fields:
       - Individuals referred to Founders and Coders through Islington Council
       - Individuals currently participating in our coaching programme
       - Individuals who identify as women, LGBTQ, or belonging to underrepresented ethnic groups in tech.
-  - id: topic
+  - id: What I want to work on during the meetup
     type: select
     label: What I want to work on during the meetup
     info: "Please make sure you bring something from our course prerequisites: https://www.foundersandcoders.com/apply"
@@ -26,6 +28,7 @@ fields:
       - I need help getting started on Codewars
       - I am working on Codewars katas
       - I am working on my application website
+      - HTML5
 ---
 
 This is for Wednesday, October 7th from 16:30 to 18:00.

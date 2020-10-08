@@ -10,7 +10,7 @@
   {% endif %}
   {% if type === "confirm" %}
     <div class="hstack">
-      <input type="checkbox" id="{{ id }}" name="{{ id }}" aria-labelledby="{{ id + "Info" }}" {{ "required" if required }}>
+      <input type="checkbox" id="{{ id }}" name="{{ id }}" value="Yes" aria-labelledby="{{ id + "Info" }}" {{ "required" if required }}>
       <label for="{{ id }}">{{ confirmLabel }}</label>
     </div>
   {% elif type === "select" %}

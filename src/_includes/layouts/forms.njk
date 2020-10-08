@@ -9,10 +9,12 @@ layout: layouts/base
   <div class="flow">
     {{ content | safe}}
   </div>
-  <form class="flow" style="--flow-space: var(--space5)">
+  <form class="flow" style="--flow-space: var(--space5)" action="/.netlify/functions/forms">
     {% for field in fields %}
       {{ forms.input(type=field.type, id=field.id, label=field.label, info=field.info, options=field.options, required=field.required if field.required !== undefined else true) }}
     {% endfor %}
+    <input type="hidden" name="base" value="{{ base }}">
+    <input type="hidden" name="table" value="{{ table }}">
     <button type="submit">Submit</button>
   </form>
 </main>

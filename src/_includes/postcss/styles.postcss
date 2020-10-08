@@ -85,6 +85,8 @@
   --muted: var(--lightGray);
   --border: var(--gray);
 
+  --input-width: 36ch;
+
   --sans: "Eesti", system-ui, -apple-system, BlinkMacSystemFont, Helvetica,
     Arial, sans-serif;
 }
@@ -1065,7 +1067,7 @@ label {
 input:not([type="checkbox"]):not([type="radio"]) {
   display: block;
   width: 100%;
-  max-width: 34ch;
+  max-width: var(--input-width);
   border: 2px solid var(--border);
   padding: 0.5rem;
   font: inherit;
@@ -1108,12 +1110,13 @@ input[type="checkbox"] + label {
 
 /* the wrapper element has the visual select styles */
 .select {
+  --icon-width: 2.5rem;
   padding: 0;
   display: grid;
-  grid-template-columns: 1fr 2.5rem;
+  grid-template-columns: 1fr var(--icon-width);
   grid-template-rows: auto;
   align-items: center;
-  max-width: 34ch;
+  max-width: var(--input-width);
   border: 2px solid var(--border);
   font-size: 1rem;
 }
@@ -1126,7 +1129,7 @@ input[type="checkbox"] + label {
   grid-row: 1 / 1;
   border: 0;
   padding: 0.5rem;
-  padding-right: 0;
+  padding-right: var(--icon-width);
   background: none;
   font: inherit;
   color: inherit;

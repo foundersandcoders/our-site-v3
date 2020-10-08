@@ -9,10 +9,10 @@ people:
     image: /assets/media/dan.jpg
     href: https://www.linkedin.com/in/dsofer/
 
-  - name: Ines Teles
+  - name: Anni
     role: Director
-    image: /assets/media/ines.jpg
-    href: https://www.linkedin.com/in/iteles/
+    image: /assets/media/anni.jpg
+    href: https://www.linkedin.com/in/annirowlandcampbell/
 
   - name: Yvonne Liu
     role: Operations and development

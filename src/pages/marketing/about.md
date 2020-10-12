@@ -9,20 +9,15 @@ people:
     image: /assets/media/dan.jpg
     href: https://www.linkedin.com/in/dsofer/
 
-  - name: Ines Teles
+  - name: Anni
     role: Director
-    image: /assets/media/ines.jpg
-    href: https://www.linkedin.com/in/iteles/
+    image: /assets/media/anni.jpg
+    href: https://www.linkedin.com/in/annirowlandcampbell/
 
   - name: Yvonne Liu
     role: Operations and development
     image: /assets/media/yvonne.jpg
     href: https://www.linkedin.com/in/liu-yvonne/
-
-  - name: Joe Tanner
-    role: Commercial partnerships
-    image: /assets/media/joe.jpg
-    href: https://www.linkedin.com/in/josephsullivantanner/
 ---
 
 Founders and Coders is not your ordinary coding bootcamp. We’re on a mission to prove that for many people peer-led learning is the most effective and least expensive route into the tech industry. Curious to learn more about our London Programme? Read on for all your questions answered.

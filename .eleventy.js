@@ -10,6 +10,7 @@ module.exports = (config) => {
   config.addPassthroughCopy("src/assets/fonts");
   config.addPassthroughCopy("src/assets/media");
   config.addPassthroughCopy("src/assets/og");
+  config.addPassthroughCopy("src/assets/js");
   // deploy favicons at the root for best browser support
   config.addPassthroughCopy({ "src/assets/icons": "/" });
   config.addPassthroughCopy("src/sw.js");
@@ -28,7 +29,7 @@ module.exports = (config) => {
     html: true, // passthrough raw html in md files
     linkify: true, // auto-link URLs
     typographer: true, // smartquotes, other nicer symbols
-  });
+  }).disable("code");
 
   md.use(markdownItAnchor, {
     slugify, // nicer url slugs

@@ -1,0 +1,13 @@
+<ul style="list-style: none; padding-left: 0">
+  {% for challenge in kata %}
+    <li>
+      <input type="checkbox" id="{{ challenge.id }}" class="checkbox vh task-list-item-checkbox">
+      <label for="{{ challenge.id }}">
+        <span>
+          <a href="{{ challenge.url }}">{{ challenge.name }}</a>
+          ({{ challenge.rank.name }})
+        </span>
+      </label>
+    </li>
+  {% endfor %}
+</ul>

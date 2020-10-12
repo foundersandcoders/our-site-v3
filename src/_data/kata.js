@@ -12,6 +12,9 @@ module.exports = async () => {
       type: "json",
     }).then(({ id, name, rank, url }) => ({ id, name, rank, url }));
   });
-  // return a single promise that will resolve to an array of responses
-  return Promise.all(responses);
+  // wait until we have every response
+  const kata = await Promise.all(responses);
+  // sort kata by rank (they are negative numbers so need Math.abs to compare)
+  kata.sort((a, b) => Math.abs(b.rank.id) - Math.abs(a.rank.id));
+  return kata;
 };

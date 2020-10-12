@@ -12,7 +12,7 @@ people:
   - name: Anni
     role: Director
     image: /assets/media/anni.jpg
-    href: https://www.linkedin.com/in/annirowlandcampbell/
+    href: https://intersticia.org/_members/anni-rowland-campbell/
 
   - name: Yvonne Liu
     role: Operations and development

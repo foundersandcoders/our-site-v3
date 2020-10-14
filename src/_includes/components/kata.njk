@@ -1,11 +1,11 @@
 <ul style="list-style: none; padding-left: 0">
-  {% for challenge in kata %}
+  {% for challenge in challenges %}
     <li>
-      <input type="checkbox" id="{{ challenge.id }}" class="checkbox vh task-list-item-checkbox">
-      <label for="{{ challenge.id }}">
+      <input type="checkbox" id="kata-{{ challenge.id }}" class="checkbox vh task-list-item-checkbox">
+      <label for="kata-{{ challenge.id }}">
         <span>
           <a href="{{ challenge.url }}">{{ challenge.name }}</a>
-          ({{ challenge.rank.name }})
+          (Rank {{ challenge.rank }})
         </span>
       </label>
     </li>

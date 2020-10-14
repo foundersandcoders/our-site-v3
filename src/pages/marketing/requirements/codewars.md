@@ -39,7 +39,7 @@ challenges:
 
 [Codewars](https://www.codewars.com/) is a website where you can complete coding challenges. They are useful for practicing the JavaScript you learn, and checking your progress. Sign up for an account, then get started on the challenges below.
 
-You must complete all of these challenges before applying. Codewars challenges are called "kata", and they have a "rank" to represent how difficult they are. 8 is the simplest and 1 is the most complex, so we recommend starting with the first in the list.
+**You must complete all of these challenges before applying to Founders and Coders**. Codewars challenges are called "kata", and they have a "rank" to represent how difficult they are. 8 is the simplest and 1 is the most complex, so we recommend starting with the first in the list.
 
 {% include "components/kata.njk" %}
 

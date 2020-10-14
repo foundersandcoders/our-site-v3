@@ -120,7 +120,7 @@ Founders and Coders will always prioritise marginalised people's safety over the
 
 1. ### Codewars
 
-   Complete at least 10 of [these Codewars challenges](/requirements/codewars).
+   Complete all of [these Codewars challenges](/requirements/codewars).
 
 1. ### Create a personal website
 

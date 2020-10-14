@@ -180,6 +180,31 @@ a[class] {
   color: inherit;
 }
 
+label {
+  display: block;
+}
+
+input:not([type="checkbox"]):not([type="radio"]) {
+  font: inherit;
+  color: inherit;
+  line-height: 1;
+  border: 1px solid;
+  padding: 0.5rem;
+}
+
+button {
+  font: inherit;
+  border: 0;
+  padding: 0.5rem 1rem;
+  background-color: var(--backgroundDark);
+  color: #e3e5e8;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 1px;
+  line-height: 1;
+  cursor: pointer;
+}
+
 .site-header {
   width: 100%;
   display: flex;
@@ -443,6 +468,12 @@ hr {
 
 .stack7 > * + * {
   margin-top: var(--space7);
+}
+
+.hstack {
+  display: flex;
+  gap: 0.5rem;
+  align-items: stretch;
 }
 
 .cluster {

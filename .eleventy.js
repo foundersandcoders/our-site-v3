@@ -1,6 +1,7 @@
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const markdownItDecorate = require("markdown-it-decorate");
+const markdownItCheckbox = require("markdown-it-task-lists");
 const slugify = require("@sindresorhus/slugify");
 
 module.exports = (config) => {
@@ -39,6 +40,8 @@ module.exports = (config) => {
   });
   // allows us to add classes etc to markdown elements
   md.use(markdownItDecorate);
+  // enable GitHub style checkbox lists
+  md.use(markdownItCheckbox, { label: true, enabled: true });
 
   config.setLibrary("md", md);
 

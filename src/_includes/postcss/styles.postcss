@@ -944,31 +944,30 @@ address {
   font-style: normal;
 }
 
-.checkbox ~ label {
-  width: max-content;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.task-list-item + .task-list-item {
+  margin-top: var(--space2);
 }
 
-.checkbox ~ label::before {
-  content: "";
-  display: block;
+.task-list-item-checkbox {
+  appearance: none;
+  -webkit-appearance: none;
   width: 1.5rem;
   height: 1.5rem;
-  margin-right: 0.75rem;
+  margin: 0;
+  margin-right: var(--space2);
+  vertical-align: middle;
   border: 1px solid var(--backgroundDark);
   border-radius: 2px;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-.checkbox:checked ~ label::before {
+.task-list-item-checkbox:checked {
   background-color: var(--backgroundDark);
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="hsl(220, 10%, 90%)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>');
 }
 
-.checkbox:focus ~ label::before {
+.task-list-item-checkbox:focus {
   box-shadow: 0 0 0 3px var(--border);
 }
 

@@ -54,12 +54,14 @@ main.append(content);
 
 function toggleCompleted(completed) {
   for (let kata of completed) {
-    const checkbox = main.querySelector("#kata-" + kata.id);
-    if (checkbox) {
-      checkbox.checked = true;
-      // pretend the user checked it
-      // so our "save checkbox state" handler runs
-      checkbox.dispatchEvent(new Event("input"));
-    }
+    // a link with href containing the ID means it's in the list
+    const link = main.querySelector(`a[href*="${kata.id}"]`);
+    if (!link) continue;
+    const checkbox = link.previousElementSibling;
+    if (!checkbox) continue;
+    checkbox.checked = true;
+    // pretend the user checked it
+    // so our "save checkbox state" handler runs
+    checkbox.dispatchEvent(new Event("input"));
   }
 }

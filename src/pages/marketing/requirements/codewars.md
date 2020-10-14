@@ -19,6 +19,22 @@ challenges:
     url: https://www.codewars.com/kata/5672a98bdbdd995fad00000f
     id: 5672a98bdbdd995fad00000f
     rank: 8
+  - name: Shortest Word
+    url: https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9
+    id: 57cebe1dc6fdc20c57000ac9
+    rank: 7
+  - name: Regex validate PIN code
+    url: https://www.codewars.com/kata/55f8a9c06c018a0d6e000132
+    id: 55f8a9c06c018a0d6e000132
+    rank: 7
+  - name: Factorial
+    url: https://www.codewars.com/kata/54ff0d1f355cfd20e60001fc
+    id: 54ff0d1f355cfd20e60001fc
+    rank: 7
+  - name: Anagram Detection
+    url: https://www.codewars.com/kata/529eef7a9194e0cbc1000255
+    id: 529eef7a9194e0cbc1000255
+    rank: 7
 ---
 
 [Codewars](https://www.codewars.com/) is a website where you can complete coding challenges. They are useful for practicing the JavaScript you learn, and checking your progress. Sign up for an account, then get started on the challenges below.

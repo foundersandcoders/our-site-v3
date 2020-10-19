@@ -24,9 +24,9 @@ people:
     image: /assets/media/joe.jpg
     href: https://www.linkedin.com/in/josephsullivantanner/
 sticky:
-  text: We're postponing our winter 2020 cohort
-  cta: Read why
-  href: /postponing-winter
+  text: We're changing our course requirements
+  cta: Read how
+  href: /announcements/application-requirements-changes/
 # sticky:
 #   text: "Applications are now open"
 #   cta: "Apply now"

@@ -39,9 +39,9 @@ people:
     quote: The best part of my experience with Founders and Coders are the people. It is a great community, with members of past cohorts teaching the current cohort. Everyone supports each other in their learning and wants to give back.
     image: /assets/media/ruth.jpg
 sticky:
-  text: We're postponing our winter 2020 cohort
-  cta: Read why
-  href: /postponing-winter
+  text: We're changing our course requirements
+  cta: Read how
+  href: /announcements/application-requirements-changes/
 ---
 
 {% include "components/video.njk" %}

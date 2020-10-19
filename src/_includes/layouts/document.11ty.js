@@ -4,10 +4,14 @@ exports.data = {
   layout: "layouts/base",
 };
 
-exports.render = data => {
+exports.render = (data) => {
   return html`
     <main class="document">
-      <h1>${data.title}</h1>
+      <header class="stack">
+        <h1>${data.title}</h1>
+        ${data.date &&
+        html`<p><strong>${this.formatDate(data.date)}</strong></p>`}
+      </header>
       ${data.content}
     </main>
   `;

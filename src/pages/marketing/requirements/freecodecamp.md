@@ -4,7 +4,7 @@ permalink: /requirements/freecodecamp/
 saveCheckboxes: true
 ---
 
-[freeCodeCamp](https://www.freecodecamp.org/) is a free online curriculum for learning to code from scratch. It has lots of different sections teaching many different things. Their HTML/CSS/JS resources are a great place to start on your journey to becoming a web developer.
+[freeCodeCamp](https://www.freecodecamp.org/) is a free online curriculum for learning to code from scratch. It has lots of different sections teaching many different things. Their HTML/CSS/JavaScript resources are a great place to start on your journey to becoming a web developer.
 
 We'd like you to sign up for an account and work through all of the problems in the following sections:
 

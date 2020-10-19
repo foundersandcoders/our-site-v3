@@ -39,6 +39,9 @@ content.querySelector("form").onsubmit = (event) => {
       return response.json();
     })
     .then(({ data }) => {
+      main
+        .querySelectorAll("input[type='checkbox']")
+        .forEach((box) => (box.checked = false));
       toggleCompleted(data);
     })
     .catch((error) => {

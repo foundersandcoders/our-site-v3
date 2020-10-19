@@ -86,7 +86,7 @@ We get asked this a lot, so we're going to elaborate a little bit here. Firstly,
 
 Learning to code is just part of what makes you a good developer. We're looking for candidates who can help us fulfil our goal of making the tech industry a more diverse and inclusive place. This means people who are excited to be part of a collaborative, peer-led learning environment. You should be willing to sacrifice some personal gain for the group's learning. For example, we'd rather a group presents a technically incomplete project than one person stays up late writing code that no one else understands.
 
-The tech industry is disproportionately white and male. If this describes you please reflect on how you can help change this. Do some research on [how to be a good ally](https://www.guidetoallyship.com) to those who are under-represented in tech so you can be a positive influence on your cohort.
+The tech industry is disproportionately white, male and university-educated. If this describes you please reflect on how you can help change this. Do some research on [how to be a good ally](https://www.guidetoallyship.com) to those who are under-represented in tech so you can be a positive influence on your cohort.
 
 Finding your own solutions to problems is an indispensable skill for a developer. We'd like you to apply these same google-skills to educating yourself on the important social issues including (but not limited to) those touched on above.
 

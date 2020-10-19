@@ -1,6 +1,7 @@
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const markdownItDecorate = require("markdown-it-decorate");
+const markdownItCheckbox = require("markdown-it-task-lists");
 const slugify = require("@sindresorhus/slugify");
 
 module.exports = (config) => {
@@ -10,6 +11,7 @@ module.exports = (config) => {
   config.addPassthroughCopy("src/assets/fonts");
   config.addPassthroughCopy("src/assets/media");
   config.addPassthroughCopy("src/assets/og");
+  config.addPassthroughCopy("src/assets/js");
   // deploy favicons at the root for best browser support
   config.addPassthroughCopy({ "src/assets/icons": "/" });
   config.addPassthroughCopy("src/sw.js");
@@ -28,7 +30,7 @@ module.exports = (config) => {
     html: true, // passthrough raw html in md files
     linkify: true, // auto-link URLs
     typographer: true, // smartquotes, other nicer symbols
-  });
+  }).disable("code");
 
   md.use(markdownItAnchor, {
     slugify, // nicer url slugs
@@ -38,6 +40,8 @@ module.exports = (config) => {
   });
   // allows us to add classes etc to markdown elements
   md.use(markdownItDecorate);
+  // enable GitHub style checkbox lists
+  md.use(markdownItCheckbox, { label: true, enabled: true });
 
   config.setLibrary("md", md);
 

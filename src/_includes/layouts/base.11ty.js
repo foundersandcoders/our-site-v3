@@ -118,6 +118,9 @@ module.exports = (data) => {
           });
         }
       </script>
+      ${data.saveCheckboxes
+        ? html`<script src="/assets/js/checkboxes.js" type="module"></script>`
+        : ""}
     </html>
   `;
 };
@@ -127,9 +130,7 @@ function Header({ pages, currentUrl }) {
   const navPages = pages.filter((p) => p.url !== "/");
   return html`
     <header class="site-header">
-      <a href="/" aria-label="Home page">
-        ${Logo()}
-      </a>
+      <a href="/" aria-label="Home page"> ${Logo()} </a>
       <nav>
         <ul style="--cols: ${navPages.length}">
           ${navPages.map(NavItem(currentUrl))}

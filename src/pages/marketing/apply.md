@@ -102,21 +102,7 @@ Founders and Coders will always prioritise marginalised people's safety over the
 
 1. ### freeCodeCamp
 
-   Register for an account and complete the following **eight sections**:
-
-   #### Responsive Web Design Certification
-
-   - [Basic HTML and HTML5](https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/)
-   - [Basic CSS](https://learn.freecodecamp.org/responsive-web-design/basic-css/)
-   - [Responsive Web Design Principles](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-principles/)
-   - [CSS Flexbox](https://learn.freecodecamp.org/responsive-web-design/css-flexbox/)
-
-   #### JavaScript Algorithms and Data Structures Certification
-
-   - [Basic JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/)
-   - [ES6](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/es6/)
-   - [Basic Data Structures](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-data-structures/)
-   - [Basic Algorithm Scripting](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-algorithm-scripting/)
+   Complete [these sections of freeCodeCamp's curriculum](/requirements/freecodecamp)
 
 1. ### Codewars
 

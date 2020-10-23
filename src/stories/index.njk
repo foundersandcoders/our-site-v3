@@ -1,0 +1,49 @@
+---
+layout: layouts/marketing
+tags: nav
+title: Stories by and about us
+navLabel: Stories
+order: 5
+---
+
+<div class="stack6">
+  <p class="intro">
+    Curious to learn more about us? Here you’ll find stories by and about
+    our diverse community of founders and coders making a social impact with
+    technology all over the world.
+  </p>
+  <hr class="divider" />
+
+  <section class="stack4">
+    <h2>Stories by us</h2>
+    <div class="full-width xs stripes">
+      <div class="reel" tabindex="0">
+        {% for story in collections["by-us"] | reverse %}
+          {% include "components/story.njk" %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="stack4">
+    <h2>Stories about us</h2>
+    <div class="full-width xs stripes">
+      <div class="reel" tabindex="0">
+        {% for story in collections["about-us"] | reverse %}
+          {% include "components/story.njk" %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="stack4">
+    <h2>In the press</h2>
+    <div class="full-width xs stripes">
+      <div class="reel" tabindex="0">
+        {% for story in collections.press | reverse %}
+          {% include "components/story.njk" %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</div>

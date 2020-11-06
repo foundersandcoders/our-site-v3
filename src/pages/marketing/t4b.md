@@ -63,10 +63,6 @@ A programme for founders, social entrepreneurs and charity workers to learn Prod
 
   We have a limited number of fully-funded and part-funded places for nonprofits and social impact startups.
 
-- ### What support is available to cover programme costs?
-
-  We have a limited number of fully-funded and part-funded places for nonprofits and social impact startups.
-
 - ### What sorts of apps do you build?
 
   Examples of previous projects are provided below.

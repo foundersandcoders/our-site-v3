@@ -9,7 +9,7 @@ Please read and agree to our Code of Conduct before joining the community.
 
 ## {{collections.coc[0].data.title}}
 
-{{collections.coc[0].templateContent}}
+{{collections.coc[0].templateContent | safe}}
 
 </section>
 

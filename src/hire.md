@@ -1,5 +1,6 @@
 ---
 title: Hire our graduates
+layout: layouts/marketing
 tags: ["nav"]
 navLabel: Hire
 order: 3

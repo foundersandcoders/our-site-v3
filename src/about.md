@@ -1,5 +1,6 @@
 ---
 title: What is Founders and Coders?
+layout: layouts/marketing
 tags: ["nav"]
 navLabel: About
 order: 1

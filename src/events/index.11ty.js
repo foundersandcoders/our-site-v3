@@ -2,17 +2,16 @@ const isBefore = require("date-fns/isBefore");
 const isToday = require("date-fns/isToday");
 const startOfToday = require("date-fns/startOfToday");
 
-const html = require("../../html");
+const html = require("../html");
 
 exports.data = {
-  permalink: "/events/index.html",
   layout: "layouts/marketing",
   // tags: ["nav"],
   navLabel: "Events",
   order: 5,
 };
 
-exports.render = data => {
+exports.render = (data) => {
   const { title, schedule } = data;
   return html`
     <div class="stack5">
@@ -25,11 +24,11 @@ exports.render = data => {
 };
 
 function Day({ collections: { events }, site }) {
-  return function(scheduledEvent) {
+  return function (scheduledEvent) {
     const date = new Date(scheduledEvent.date);
     // don't show dates before today at midnight
     if (isBefore(date, startOfToday())) return null;
-    const event = events.find(e => e.data.title === scheduledEvent.type);
+    const event = events.find((e) => e.data.title === scheduledEvent.type);
     // if there's no event that matches show nothing
     // this is a content mistake: scheduled events need an existing type
     if (!event) return null;
@@ -62,9 +61,9 @@ function NiceDate({ date }) {
     day: "2-digit",
     weekday: "long",
   }).formatToParts(d);
-  const weekday = parts.find(p => p.type === "weekday");
-  const day = parts.find(p => p.type === "day");
-  const month = parts.find(p => p.type === "month");
+  const weekday = parts.find((p) => p.type === "weekday");
+  const day = parts.find((p) => p.type === "day");
+  const month = parts.find((p) => p.type === "month");
   return html`
     <time datetime="${date}" style="display: grid; justify-items: center">
       <span>${weekday.value}</span>

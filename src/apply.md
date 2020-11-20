@@ -1,5 +1,6 @@
 ---
 title: Apply to our course
+layout: layouts/marketing
 tags: ["nav"]
 navLabel: Apply
 order: 2

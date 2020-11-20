@@ -1,5 +1,6 @@
 ---
 title: Tech for Better
+layout: layouts/marketing
 tags: ["nav"]
 navLabel: Tech For Better
 order: 4

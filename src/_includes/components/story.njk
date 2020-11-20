@@ -1,0 +1,37 @@
+<div class="card">
+  <div class="image">
+    <img
+      src="{{
+        story.data.image or
+        "/assets/media/placeholder-" + story.data.title | length % 3 + ".svg"
+      }}"
+      alt=""
+      width="400"
+      height="225"
+      {% if story.data.image %}
+        style="object-fit: cover"
+      {% else %}
+        style="object-fit: contain"
+      {% endif %}
+    />
+  </div>
+  <div class="stack2 body">
+    <h3>
+      {% if story.data.url %}
+        <a href="{{ story.data.url }}">{{ story.data.title }}</a>
+      {% else %}
+        {{ story.data.title }}
+      {% endif %}
+    </h3>
+    {% if story.data.page.excerpt %}
+      <p>{{ story.data.page.excerpt }}</p>
+    {% endif %}
+    <footer>
+      <span>{{ story.data.author }}</span>
+      {% if story.data.author and story.data.date %}
+        <span aria-hidden="true" class="dot">⦁</span>
+      {% endif %}
+      <time>{{ story.data.date | formatDate }}</time>
+    </footer>
+  </div>
+</div>

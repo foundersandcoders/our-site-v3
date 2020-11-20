@@ -1,9 +1,9 @@
 ---
 title: We are Founders and Coders
+layout: layouts/marketing
 tags: ["nav"]
 navLabel: Home
 order: 0
-permalink: /
 video: /assets/media/home_page_video.mp4
 logos:
   - /assets/media/cotech.png

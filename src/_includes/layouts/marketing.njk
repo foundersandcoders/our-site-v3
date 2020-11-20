@@ -1,0 +1,10 @@
+---
+layout: layouts/base
+---
+
+<main class="marketing">
+  <h1 class="{{ "giant-title" if permalink === "/"  }}">
+    {{ title }}
+  </h1>
+  {{ content | safe }}
+</main>

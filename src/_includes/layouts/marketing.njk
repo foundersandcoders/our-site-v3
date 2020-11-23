@@ -3,7 +3,7 @@ layout: layouts/base
 ---
 
 <main class="marketing">
-  <h1 class="{{ "giant-title" if permalink === "/"  }}">
+  <h1 class="{{ "giant-title" if page.url === "/"  }}">
     {{ title }}
   </h1>
   {{ content | safe }}

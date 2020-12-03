@@ -41,5 +41,5 @@ Followed by the option to continue with up to 6 months of coaching.
 ## What equipment will you need?
 - You will need access to a computer with an internet connection.
 
-[**Apply here**](https://adultlearning.islington.gov.uk/Default.asp?page=detail&courseCode=946)
+[**Apply here**](https://adultlearning.islington.gov.uk/?page=detail&courseCode=FAC946)
 

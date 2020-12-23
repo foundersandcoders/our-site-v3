@@ -17,3 +17,9 @@
   from = "/apprenticeship-complaints-policy/"
   to = "/apprenticeship-policies/"
   status = 302
+
+[[redirects]]
+  from = "/annual-report-2020/"
+  to = "https://fac-annual-report-2020.netlify.app/"
+  status = 301
+  

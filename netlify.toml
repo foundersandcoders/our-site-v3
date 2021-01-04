@@ -25,4 +25,4 @@
   
 [build]
   functions = "backend"
-  command = "npm run dev"
+  command = "npm run build"

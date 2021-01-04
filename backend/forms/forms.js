@@ -1,9 +1,11 @@
 const Airtable = require("airtable");
 
+const apiKey = process.env.AIRTABLE_KEY;
+
 exports.handler = async function (event) {
   const { base, table, ...data } = event.queryStringParameters;
 
-  const db = new Airtable({ apiKey: "keyb2WoeXNgVK7n5B" }).base(base);
+  const db = new Airtable({ apiKey }).base(base);
 
   // const { API_SECRET = 'shiba' } = process.env
   // console.log({ name, email, eligibility, topic, base });

@@ -1,5 +1,7 @@
 ---
 title: Founders and Coders application
+base: app59gkHsHkJbipcC
+table: Spring 2021
 fields:
   - id: email
     label: Your email address
@@ -92,6 +94,7 @@ fields:
       - Westminster
   - id: address
     label: If you don't live in London what city and country do you live in?
+    required: false
     example: "E.g. Paris, France"
   - id: nationality
     label: What is your nationality?
@@ -148,6 +151,7 @@ fields:
       - No
   - id: commitments-description
     label: If you answered "no" to the previous question, please briefly describe your other commitments
+    required: false
   - id: post-course
     label: Do you plan to seek employment through Founders and Coders after the course ends?
     type: select

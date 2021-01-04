@@ -2,6 +2,7 @@ class TextDate extends HTMLElement {
   connectedCallback() {
     this.input = this.querySelector("input");
     this.input.addEventListener("blur", this.confirmDate.bind(this));
+    this.input.addEventListener("input", () => this.setCustomValidity(""));
     this.output = document.createElement("output");
     this.output.setAttribute("aria-live", "assertive");
     this.output.classList.add("info");

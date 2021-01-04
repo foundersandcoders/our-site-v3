@@ -70,6 +70,7 @@ function handleInput(event) {
   const field = event.target;
   // mark the field as valid since the user is editing
   setValidity(field, true);
+
   const errorEl = getError(field);
   // clear any previous error
   if (errorEl) errorEl.textContent = "";

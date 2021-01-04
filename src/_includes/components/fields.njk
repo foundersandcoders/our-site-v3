@@ -22,7 +22,7 @@
         <div class="stack">
           {% for option in options %}
             <div class="hstack">
-              <input type="radio" name="{{ id }}" id="{{ id + loop.index}}" {{ "required" if required }}>
+              <input type="radio" value="{{ option }}" name="{{ id }}" id="{{ id + loop.index}}" {{ "required" if required }}>
               <label for="{{ id + loop.index }}">{{ option }}</label>
             </div>
           {% endfor %}

@@ -1,19 +1,27 @@
-{% macro input(id, type="text", label, info, confirmLabel="I agree", placeholder, options, required=true) %}
+{% macro input(id, type="text", label, info, confirmLabel="I agree", options, required=true, example) %}
 
-<div class="field">
-  <label for="{{ id }}">
-    {{ label }}
-    {% if required %}<span aria-hidden="true">*</span>{% endif %}
-  </label>
-  {% if info %}
-    <div id="{{ id + "Info" }}" class="info">{{ info | markdown | safe }}</div>
-  {% endif %}
-  {% if type === "confirm" %}
-    <div class="hstack">
-      <input type="checkbox" id="{{ id }}" name="{{ id }}" value="Yes" aria-labelledby="{{ id + "Info" }}" {{ "required" if required }}>
-      <label for="{{ id }}">{{ confirmLabel }}</label>
-    </div>
-  {% elif type === "select" %}
+{% if type === "heading" %}
+  <h2>{{ label }}</h2>
+{% elif type === "select" %}
+  <fieldset>
+    <div class="field">
+      <legend class="label">
+        {{ label }}
+        {% if required %}<span aria-hidden="true">*</span>{% endif %}
+        {% if info %}
+          <div id="{{ id + "Info" }}" class="info">{{ info | markdown | safe }}</div>
+        {% endif %}
+      </legend>
+  {% if options | length < 8 %}
+      <div class="stack2">
+        {% for option in options %}
+          <div class="hstack">
+            <input type="radio" name="{{ id }}" id="{{ id + loop.index}}" {{ "required" if required }}>
+            <label for="{{ id + loop.index }}">{{ option }}</label>
+          </div>
+        {% endfor %}
+      </div>
+  {% else %}
     <div class="select">
       <select id="{{ id }}" name="{{ id }}" aria-labelledby="{{ id + "Info" }}" {{ "required" if required }}>
         <option value="">Select an option</option>
@@ -22,9 +30,56 @@
         {% endfor %}
       </select>
     </div>
-  {% else %}
-    <input type="{{ type }}" id="{{ id }}" name="{{ id }}" aria-labelledby="{{ id + "Info" }}" placeholder="{{ placeholder }}" {{ "required" if required }}>
   {% endif %}
-</div>
+      </div>
+  </fieldset>
+{% elif type === "multiple" %}
+  <fieldset>
+    <div class="field">
+      <legend class="label">
+        {{ label }}
+        {% if required %}<span aria-hidden="true">*</span>{% endif %}
+        {% if info %}
+          <div id="{{ id + "Info" }}" class="info">{{ info | markdown | safe }}</div>
+        {% endif %}
+      </legend>
+      <div class="stack2">
+        {% for option in options %}
+          <div class="hstack">
+            <input type="checkbox" name="{{ id }}" id="{{ id + loop.index}}" {{ "required" if required }}>
+            <label for="{{ id + loop.index }}">{{ option }}</label>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </fieldset>
+{% elif type === "confirm" %}
+  <fieldset>
+    <div class="field">
+      <legend class="label">
+        {{ label }}
+        {% if required %}<span aria-hidden="true">*</span>{% endif %}
+        {% if info %}
+          <div id="{{ id + "Info" }}" class="info">{{ info | markdown | safe }}</div>
+        {% endif %}
+      </legend>
+      <div class="hstack">
+        <input type="checkbox" id="{{ id }}" name="{{ id }}" value="Yes" aria-labelledby="{{ id + "Info" }}" {{ "required" if required }}>
+        <label for="{{ id }}">{{ confirmLabel }}</label>
+      </div>
+    </div>
+  </fieldset>
+{% else %}
+  <div class="field">
+    <label for="{{ id }}" class="label">
+      {{ label }}
+      {% if required %}<span aria-hidden="true">*</span>{% endif %}
+    </label>
+    {% if info %}
+      <div id="{{ id + "Info" }}" class="info">{{ info | markdown | safe }}</div>
+    {% endif %}
+    <input type="{{ type }}" id="{{ id }}" name="{{ id }}" aria-labelledby="{{ id + "Info" }}" {{ "required" if required }} placeholder="{{ example }}" >
+  </div>
+{% endif %}
 
 {% endmacro %}

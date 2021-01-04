@@ -12,7 +12,7 @@ layout: layouts/base
   <restrain-form validateonblur style="--flow-space: var(--space5)">
     <form class="flow" style="--flow-space: var(--space5)" action="/.netlify/functions/forms">
       {% for field in fields %}
-        {{ forms.input(
+        {{ forms.field(
           type=field.type if field.type !== undefined else "text",
           id=field.id,
           label=field.label,
@@ -20,7 +20,8 @@ layout: layouts/base
           options=field.options,
           example=field.example,
           required=field.required if field.required !== undefined else true,
-          confirmLabel=field.confirmLabel if field.confirmLabel !== undefined else 'I agree'
+          confirmLabel=field.confirmLabel if field.confirmLabel !== undefined else 'I agree',
+          validationMessages=field.validationMessages
         ) }}
       {% endfor %}
       <input type="hidden" name="base" value="{{ base }}">

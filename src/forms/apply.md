@@ -189,6 +189,8 @@ fields:
     label: What is your GitHub username?
   - id: website
     type: url
+    validationMessages:
+      type-mismatch: Please enter a valid URL (starting with "https://")
     label: What is the URL of your application website?
     info: Please make sure you're submitting the hosted, live link of your website, and not a link to your GitHub repository.
     example: "E.g. https://my-name.github.io/my-site"

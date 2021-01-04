@@ -1,4 +1,5 @@
 const Airtable = require("airtable");
+const email = require("./email");
 
 const apiKey = process.env.AIRTABLE_KEY;
 
@@ -6,12 +7,13 @@ exports.handler = async function (event) {
   const { base, table, ...data } = event.queryStringParameters;
 
   const db = new Airtable({ apiKey }).base(base);
-
-  // const { API_SECRET = 'shiba' } = process.env
-  // console.log({ name, email, eligibility, topic, base });
   try {
-    const result = await db(table).create(data);
-    console.log(result);
+    await db(table).create(data);
+    await email({
+      to: data.email,
+      subject: "Founders and Coders Application",
+      text: "Thanks for your submission",
+    });
     return {
       statusCode: 200,
       body: "Done",

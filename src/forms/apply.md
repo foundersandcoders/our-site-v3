@@ -153,7 +153,7 @@ fields:
     label: If you answered "no" to the previous question, please briefly describe your other commitments
     required: false
   - id: post-course
-    label: Do you plan to seek employment through Founders and Coders after the course ends?
+    label: Do you plan to seek employment through Founders and Coders during or after the course?
     type: select
     options:
       - Yes
@@ -167,6 +167,15 @@ fields:
     label: What is the URL of your application website?
     info: Please make sure you're submitting the hosted, live link of your website, and not a link to your GitHub repository.
     example: "E.g. https://my-name.github.io/my-site"
+  - id: checklist
+    label: Application checklist
+    info: |
+      You have until 23:59 GMT on January 10 to submit this application as well as finish all of your course requirements. Before that date, please make sure you double check your application. We've made this checklist to help make it easier.
+    type: multiple
+    options:
+      - I understand that I can keep working on all parts of the course requirements until 23:59 GMT on January 10
+      - I have (will have) completed all 20 required Codewars kata
+      - I have (will have) completed all the required freeCodeCamp sections
   - id: feedback
     label: Application feedback
     type: confirm
@@ -181,7 +190,7 @@ fields:
       Our programme is, to this date, still very oversubscribed. We understand that people will be justifiably disappointed when they're not selected for an interview given the time and effort you all will have put into the application process. However, please know that if your end goal is to become a software developer, then you have not wasted your time and effort in completing our course requirements: joining Founders and Coders is just one of many pathways to becoming a developer.
 ---
 
-This application is for the London programme starting on March 8 and ending on July 9, 2021.
+This application is for the London programme starting on March 8.
 
 Applications will close at 23:59 GMT on January 10, 2021.
 

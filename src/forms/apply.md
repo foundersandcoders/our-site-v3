@@ -123,6 +123,15 @@ fields:
     label: What was your subject(s) of study?
   - id: school
     label: Which secondary school did you attend?
+  - id: school-type
+    label: My secondary school was
+    type: select
+    options:
+      - A state school in Islington
+      - A state school elsewhere in London
+      - A state school elsewhere in the UK
+      - An independent school in the UK
+      - Elsewhere
   - id: employment
     label: What is your current employment status?
     type: select
@@ -158,6 +167,22 @@ fields:
     options:
       - Yes
       - No
+  - id: community
+    label: Have you been involved in our community?
+    type: multiple
+    required: false
+    options:
+      - I have previously applied to Founders and Coders
+      - I have attended Founders and Coders meetups at Space4
+      - I have attended Founders and Coders remote meetups on Zoom
+  - id: apprenticeships
+    label: Are you interested in apprenticeships?
+    info: |
+      Founders and Coders is now a registered Apprenticeship Training Provider. What this means is that programme participants will have the option to apply for paid apprentice roles with our employer partners either before or during the programme.
+    type: select
+    options:
+      - Yes, I am interested in applying for an apprenticeship
+      - No, I am not interested in applying for an apprenticeship
   - type: heading
     label: Course requirements
   - id: github
@@ -170,7 +195,7 @@ fields:
   - id: checklist
     label: Application checklist
     info: |
-      You have until 23:59 GMT on January 10 to submit this application as well as finish all of your course requirements. Before that date, please make sure you double check your application. We've made this checklist to help make it easier.
+      You have until 23:59 GMT on January 10 to submit this application as well as finish all of your course requirements. Before that date, please make sure you double check your application. We've made this checklist to help make it easier:
     type: multiple
     options:
       - I understand that I can keep working on all parts of the course requirements until 23:59 GMT on January 10

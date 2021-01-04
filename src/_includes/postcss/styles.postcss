@@ -85,7 +85,7 @@
   --muted: var(--lightGray);
   --border: var(--gray);
 
-  --input-width: 36ch;
+  --input-width: 38ch;
 
   --sans: "Eesti", system-ui, -apple-system, BlinkMacSystemFont, Helvetica,
     Arial, sans-serif;
@@ -1046,7 +1046,7 @@ fieldset {
 
 .info {
   font-weight: normal;
-  font-size: 1rem;
+  font-size: 0.875em;
   line-height: 1.4;
 }
 
@@ -1060,7 +1060,8 @@ fieldset {
   margin-top: 0.5rem;
 }
 
-input:not([type="checkbox"]):not([type="radio"]) {
+input:not([type="checkbox"]):not([type="radio"]),
+textarea {
   display: block;
   width: 100%;
   max-width: var(--input-width);
@@ -1069,6 +1070,10 @@ input:not([type="checkbox"]):not([type="radio"]) {
   font: inherit;
   font-size: 1rem;
   color: inherit;
+}
+
+textarea {
+  resize: vertical;
 }
 
 input:not([type="checkbox"]):not([type="radio"])::placeholder {

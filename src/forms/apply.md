@@ -1,8 +1,6 @@
 ---
 title: Founders and Coders application
 fields:
-  - type: heading
-    label: About you
   - id: email
     label: Your email address
     type: email
@@ -10,17 +8,21 @@ fields:
     label: Please confirm your email address
     type: email
   - id: quiz
-    type: number
-    label: What are the values of A and B for the following problem?
+    label: Please answer the following problem
+    type: longtext
     info: |
       Here is a series of three steps:
 
-      1. A = 10
-      1. B = 20
-      1. A = B
+      1. X = 30
+      1. Y = 50
+      1. X = Y
 
-      A and B are variables—they can stand for any value. 
+      X and Y are variables—they can stand for any value. 
       The "=" sign stands for assignment. It means "assign the value on the right to the variable on the left".
+
+      After all three steps above have been completed what are the values of X and Y? Please explain your solution as if you're helping someone who is less familiar with programming.
+  - type: heading
+    label: About you
   - id: name
     label: Your full name
   - id: dob
@@ -149,6 +151,7 @@ fields:
     label: If you answered "no" to the previous question, please briefly describe your other commitments
   - id: post-course
     label: Do you plan to seek employment through Founders and Coders after the course ends?
+    type: select
     options:
       - Yes
       - No

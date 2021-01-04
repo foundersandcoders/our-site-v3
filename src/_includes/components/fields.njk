@@ -67,6 +67,16 @@
     {% endif %}
     {% if type === "longtext" %}
       <textarea rows="5" id="{{ id }}" name="{{ id }}" aria-labelledby="{{ id + "Info" }}" {{ "required" if required }} placeholder="{{ example }}"></textarea>
+    {% elif type === "textdate" %}
+      <text-date>
+        <input
+          type="text"
+          id="{{ id }}"
+          name="{{ id }}"
+          aria-labelledby="{{ id + "Info" }}"
+          {{ "required" if required }}
+          placeholder="dd/mm/yyyy">
+        </text-date>
     {% else %}
       <input type="{{ type }}" id="{{ id }}" name="{{ id }}" aria-labelledby="{{ id + "Info" }}" {{ "required" if required }} placeholder="{{ example }}">
     {% endif %}

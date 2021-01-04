@@ -27,8 +27,7 @@ fields:
     label: Your full name
   - id: dob
     label: Date of birth
-    info: Don't forget to change the year
-    type: date
+    type: textdate
   - id: pronouns
     label: What are your pronouns?
     type: select

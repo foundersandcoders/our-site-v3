@@ -9,23 +9,26 @@ layout: layouts/base
   <div class="flow">
     {{ content | safe}}
   </div>
-  <form class="flow" style="--flow-space: var(--space5)" action="/.netlify/functions/forms">
-    {% for field in fields %}
-      {{ forms.input(
-        type=field.type if field.type !== undefined else "text",
-        id=field.id,
-        label=field.label,
-        info=field.info,
-        options=field.options,
-        example=field.example,
-        required=field.required if field.required !== undefined else true,
-        confirmLabel=field.confirmLabel if field.confirmLabel !== undefined else 'I agree'
-      ) }}
-    {% endfor %}
-    <input type="hidden" name="base" value="{{ base }}">
-    <input type="hidden" name="table" value="{{ table }}">
-    <button type="submit">Submit</button>
-  </form>
+  <restrain-form validateonblur style="--flow-space: var(--space5)">
+    <form class="flow" style="--flow-space: var(--space5)" action="/.netlify/functions/forms">
+      {% for field in fields %}
+        {{ forms.input(
+          type=field.type if field.type !== undefined else "text",
+          id=field.id,
+          label=field.label,
+          info=field.info,
+          options=field.options,
+          example=field.example,
+          required=field.required if field.required !== undefined else true,
+          confirmLabel=field.confirmLabel if field.confirmLabel !== undefined else 'I agree'
+        ) }}
+      {% endfor %}
+      <input type="hidden" name="base" value="{{ base }}">
+      <input type="hidden" name="table" value="{{ table }}">
+      <button type="submit">Submit</button>
+    </form>
+  </restrain-form>
 </main>
 
-<script src="/assets/js/inputs.js" defer>
+<script src="/assets/js/restraint.js" defer></script>
+<script src="/assets/js/inputs.js" defer></script>

@@ -9,6 +9,7 @@
         {% endif %}
       </legend>
       {{ caller() }}
+      <div id="{{ id + "Error" }}" data-validation></div>
   </fieldset>
 {% endmacro %}
 
@@ -29,7 +30,7 @@
         </div>
     {% else %}
       <div class="select">
-        <select id="{{ id }}" name="{{ id }}" aria-labelledby="{{ id + "Info" }}" {{ "required" if required }}>
+        <select id="{{ id }}" name="{{ id }}" aria-describedby="{{ id + "Info" }} {{ id + "Error" }}" {{ "required" if required }}>
           <option value="">Select an option</option>
           {% for option in options %}
             <option>{{ option }}</option>
@@ -52,7 +53,7 @@
 {% elif type === "confirm" %}
   {% call fieldset(id, label, info, required) -%}
     <div class="hstack">
-      <input type="checkbox" id="{{ id }}" name="{{ id }}" value="Yes" aria-labelledby="{{ id + "Info" }}" {{ "required" if required }}>
+      <input type="checkbox" id="{{ id }}" name="{{ id }}" value="Yes" aria-describedby="{{ id + "Info" }} {{ id + "Error" }}" {{ "required" if required }}>
       <label for="{{ id }}">{{ confirmLabel }}</label>
     </div>
   {%- endcall %}
@@ -66,20 +67,21 @@
       <div id="{{ id + "Info" }}" class="info">{{ info | markdown | safe }}</div>
     {% endif %}
     {% if type === "longtext" %}
-      <textarea rows="5" id="{{ id }}" name="{{ id }}" aria-labelledby="{{ id + "Info" }}" {{ "required" if required }} placeholder="{{ example }}"></textarea>
+      <textarea rows="5" id="{{ id }}" name="{{ id }}" aria-describedby="{{ id + "Info" }} {{ id + "Error" }}" {{ "required" if required }} placeholder="{{ example }}"></textarea>
     {% elif type === "textdate" %}
       <text-date>
         <input
           type="text"
           id="{{ id }}"
           name="{{ id }}"
-          aria-labelledby="{{ id + "Info" }}"
+          aria-describedby="{{ id + "Info" }} {{ id + "Error" }}"
           {{ "required" if required }}
           placeholder="dd/mm/yyyy">
         </text-date>
     {% else %}
-      <input type="{{ type }}" id="{{ id }}" name="{{ id }}" aria-labelledby="{{ id + "Info" }}" {{ "required" if required }} placeholder="{{ example }}">
+      <input type="{{ type }}" id="{{ id }}" name="{{ id }}" aria-describedby="{{ id + "Info" }} {{ id + "Error" }}" {{ "required" if required }} placeholder="{{ example }}">
     {% endif %}
+    <div id="{{ id + "Error" }}" data-validation></div>
   </div>
 {% endif %}
 

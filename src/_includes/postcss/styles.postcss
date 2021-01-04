@@ -1161,3 +1161,21 @@ input[type="radio"] + label {
   grid-row: 1 / 1;
   pointer-events: none; /* so that clicking the arrow triggers the select beneath */
 }
+
+/* custom elements default to inline */
+restrain-form {
+  display: block;
+}
+
+/*
+doubled selector to increase specificity
+otherwise the input:not([type="checkbox"]) above is more specific
+*/
+input[aria-invalid="true"][aria-invalid="true"] {
+  border-color: var(--red);
+}
+
+[data-validation] {
+  font-size: 0.875em;
+  color: var(--red);
+}

@@ -14,6 +14,7 @@ class TextDate extends HTMLElement {
     const date = new Date(year, month - 1, day);
     if (date.toString() === "Invalid Date") {
       this.input.setCustomValidity("Please enter a valid date");
+      this.input.checkValidity();
     } else {
       // formats to human-readable string like "8 March 1991"
       const formatted = date.toLocaleDateString("en-gb", {

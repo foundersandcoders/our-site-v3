@@ -39,9 +39,9 @@ people:
     quote: The best part of my experience with Founders and Coders are the people. It is a great community, with members of past cohorts teaching the current cohort. Everyone supports each other in their learning and wants to give back.
     image: /assets/media/ruth.jpg
 sticky:
-  text: We're changing our course requirements
-  cta: Read how
-  href: /announcements/application-requirements-changes/
+  text: Applications are now open
+  cta: Apply
+  href: /forms/apply/
 ---
 
 {% include "components/video.njk" %}

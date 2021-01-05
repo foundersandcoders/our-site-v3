@@ -53,6 +53,14 @@ module.exports = (config) => {
       day: "numeric",
     });
   });
+
+  config.addFilter("markdown", (s) => md.render(s));
+  config.addFilter("disableForm", () => {
+    const now = new Date();
+    while (now.getDay() !== 3) {
+      now.setDate(now.getDate() + 1);
+    }
+  });
   return {
     dir: {
       // configure Eleventy to look in src/ for everything

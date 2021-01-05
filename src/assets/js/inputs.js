@@ -30,4 +30,22 @@ class TextDate extends HTMLElement {
   }
 }
 
+class MatchInput extends HTMLElement {
+  connectedCallback() {
+    this.input = this.querySelector("input");
+    this.input.addEventListener("blur", this.validate.bind(this));
+  }
+  validate() {
+    const matchId = this.getAttribute("match-id");
+    const matchInput = document.querySelector("#" + matchId);
+    if (this.input.value !== matchInput.value) {
+      this.input.setCustomValidity(
+        `Please make sure this matches '${matchInput.value}'`
+      );
+      this.input.checkValidity();
+    }
+  }
+}
+
 window.customElements.define("text-date", TextDate);
+window.customElements.define("match-input", MatchInput);

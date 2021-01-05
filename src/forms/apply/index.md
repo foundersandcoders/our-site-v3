@@ -9,6 +9,7 @@ fields:
   - id: confirm-email
     label: Please confirm your email address
     type: email
+    matchId: email
   - id: quiz
     label: Please answer the following problem
     type: longtext

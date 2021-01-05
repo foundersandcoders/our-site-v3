@@ -54,7 +54,7 @@ fields:
       - Prefer not to say
       - Any other ethnic groups (enter below)
   - id: custom-ethnicity
-    label: If you selected "Any other ethnic groups" above please enter your ethnicity
+    label: If you belong to an ethnic group not listed above please enter it here
     required: false
   - id: london-borough
     label: Which London borough do you live in (if any)?
@@ -210,13 +210,13 @@ fields:
     type: confirm
     confirmLabel: I understand I will not receive feedback on my application
     info: |
-      According to our "About" page, [we don't provide individualised feedback](https://www.foundersandcoders.com/about/#can-you-tell-me-why-i-wasn-t-admitted-or-give-me-feedback-on-my-application). We have however broken that rule several times in the past, and with hindsight this was a mistake. Moving forward, we're reenforcing the no individualised feedback rule.
+      According to our About page, [we don't provide individualised feedback](https://www.foundersandcoders.com/about/#can-you-tell-me-why-i-wasn-t-admitted-or-give-me-feedback-on-my-application). We have however broken that rule several times in the past, and with hindsight this was a mistake. Moving forward, we're reenforcing the no individualised feedback rule.
 
       Beyond this though, we do always try to make the selection process transparent. We will communicate to all applicants on Slack: how many applications we've received, how many applicants we are planning on interviewing, and how the interview will be structured. However, like any admissions process, ours is far from perfect and we know we can make mistakes along the way.
 
       Our selection process is not based on selecting individuals, but rather a group of 16 people who we think will work well together and prioritise cooperative learning. If you'd like to learn a little about the kinds of people we're looking for, [you can read more here](https://www.foundersandcoders.com/apply/#what-kind-of-people-are-we-looking-for).
 
-      Our decisions on who is invited to interview are based on a number of factors. These include: your eligibility for our course; engagement with our Slack community; attendance at our meet-ups and workshops; representation of the change we'd like to see in the tech industry. Your application website is an opportunity to show us who you are and why you're interested in our course — make the most of this opportunity to let your personality shine. However, if you haven’t finished the course requirements by the application deadline, we are unlikely to invite you for an interview.
+      Our decisions on who is invited to interview are based on a number of factors. These include: your eligibility for our course; engagement with our Slack community; attendance at our meet-ups and workshops; representation of the change we'd like to see in the tech industry. Your application website is an opportunity to show us who you are and why you're interested in our course — make the most of this opportunity to help us get to know you. However, if you haven’t finished the course requirements by the application deadline, we are unlikely to invite you for an interview.
 
       Our programme is, to this date, still very oversubscribed. We understand that people will be justifiably disappointed when they're not selected for an interview given the time and effort you all will have put into the application process. However, please know that if your end goal is to become a software developer, then you have not wasted your time and effort in completing our requirements—joining Founders and Coders is just one of many pathways to becoming a developer.
 ---

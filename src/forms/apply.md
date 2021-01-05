@@ -197,24 +197,25 @@ fields:
   - id: checklist
     label: Application checklist
     info: |
-      You have until 23:59 GMT on January 10 to submit this application as well as finish all of your course requirements. Before that date, please make sure you double check your application. We've made this checklist to help make it easier:
+      You have until 23:59 GMT on January 10 to submit this application as well as finish all of your [application requirements](https://www.foundersandcoders.com/apply#application-requirements). Before that date, please make sure you double check your application. We've made this checklist to help make it easier:
     type: multiple
     options:
-      - I understand that I can keep working on all parts of the course requirements until 23:59 GMT on January 10
-      - I have (will have) completed all 20 required Codewars kata
+      - I understand that I can keep working on the requirements until 23:59 GMT on January 10
       - I have (will have) completed all the required freeCodeCamp sections
+      - I have (will have) completed all 20 required Codewars kata
+      - I have (will have) fulfilled all of the application website criteria
   - id: feedback
     label: Application feedback
     type: confirm
     confirmLabel: I understand I will not receive feedback on my application
     info: |
-      According to our "About" page, [we don't provide individualised feedback](https://www.foundersandcoders.com/about/#can-you-tell-me-why-i-wasn-t-admitted-or-give-me-feedback-on-my-application). We have, however broken that rule several times in the past and with hindsight, this was a mistake. Moving forward, we're reenforcing the no individualised feedback rule.
+      According to our "About" page, [we don't provide individualised feedback](https://www.foundersandcoders.com/about/#can-you-tell-me-why-i-wasn-t-admitted-or-give-me-feedback-on-my-application). We have however broken that rule several times in the past, and with hindsight this was a mistake. Moving forward, we're reenforcing the no individualised feedback rule.
 
-      Beyond this though, we do always try to make the selection process transparent. We will communicate to all applicants on Slack: how many applications we've received, how many applicants we are planning on interviewing, as well as how the interview will be structured. However, like any admissions process, ours is far from perfect and we know we can make mistakes along the way.
+      Beyond this though, we do always try to make the selection process transparent. We will communicate to all applicants on Slack: how many applications we've received, how many applicants we are planning on interviewing, and how the interview will be structured. However, like any admissions process, ours is far from perfect and we know we can make mistakes along the way.
 
-      Our selection process is not based on selecting individuals, but rather a group of sixteen people who we think will work well together and prioritise cooperative learning. If you'd like to learn a little about the kinds of people we're looking for, [you can read more here](https://www.foundersandcoders.com/apply/#what-kind-of-people-are-we-looking-for). Our decisions on who is invited for an interview are largely based on our observations of existing interactions between applicants either through our meet-ups or Slack channels, as well as your application website. If you haven't finished the course requirements by the application deadline, we are unlikely to invite you for an interview.
+      Our selection process is not based on selecting individuals, but rather a group of 16 people who we think will work well together and prioritise cooperative learning. If you'd like to learn a little about the kinds of people we're looking for, [you can read more here](https://www.foundersandcoders.com/apply/#what-kind-of-people-are-we-looking-for). Our decisions on who is invited for an interview are largely based on our observations of existing interactions between applicants either through our meet-ups or Slack channels, as well as your application website. If you haven't finished the course requirements by the application deadline, we are unlikely to invite you for an interview.
 
-      Our programme is, to this date, still very oversubscribed. We understand that people will be justifiably disappointed when they're not selected for an interview given the time and effort you all will have put into the application process. However, please know that if your end goal is to become a software developer, then you have not wasted your time and effort in completing our course requirements: joining Founders and Coders is just one of many pathways to becoming a developer.
+      Our programme is, to this date, still very oversubscribed. We understand that people will be justifiably disappointed when they're not selected for an interview given the time and effort you all will have put into the application process. However, please know that if your end goal is to become a software developer, then you have not wasted your time and effort in completing our requirements—joining Founders and Coders is just one of many pathways to becoming a developer.
 ---
 
 This application is for the London programme starting on March 8.

@@ -44,7 +44,8 @@ ${emailData}`;
     return {
       statusCode: 303,
       headers: {
-        location: "/",
+        // all forms should have a nested success page
+        location: event.headers.referer + "success",
       },
     };
   } catch (error) {

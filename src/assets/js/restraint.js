@@ -3,7 +3,7 @@ class Restraint extends HTMLElement {
     const form = this.querySelector("form");
     form.setAttribute("novalidate", "");
     form.querySelectorAll("input, select, textarea").forEach(initFields);
-    form.addEventListener("submit", handleSubmit);
+    form.addEventListener("submit", handleSubmit.bind(this));
     form.addEventListener("invalid", handleInvalid, true);
     form.addEventListener("input", handleInput);
     if (this.getAttribute("validateonblur") !== null) {
@@ -23,6 +23,11 @@ function handleSubmit(event) {
   const allValid = event.target.checkValidity();
   if (!allValid) {
     event.preventDefault();
+    if (this.getAttribute("scrolltoinvalid") !== null) {
+      const fields = event.target.querySelectorAll("input, select, textarea");
+      const firstInvalid = [...fields].find((field) => !field.validity.valid);
+      firstInvalid.scrollIntoView();
+    }
   }
 }
 
@@ -70,6 +75,7 @@ function handleInput(event) {
   const field = event.target;
   // mark the field as valid since the user is editing
   setValidity(field, true);
+  field.setCustomValidity("");
 
   const errorEl = getError(field);
   // clear any previous error

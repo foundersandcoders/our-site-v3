@@ -9,7 +9,7 @@ layout: layouts/base
   <div class="flow">
     {{ content | safe}}
   </div>
-  <restrain-form validateonblur style="--flow-space: var(--space5)">
+  <restrain-form validateonblur scrolltoinvalid style="--flow-space: var(--space5)">
     <form class="flow" style="--flow-space: var(--space5)" method="POST" action="/.netlify/functions/forms">
       {% for field in fields %}
         {{ forms.field(
@@ -21,7 +21,8 @@ layout: layouts/base
           example=field.example,
           required=field.required if field.required !== undefined else true,
           confirmLabel=field.confirmLabel if field.confirmLabel !== undefined else 'I agree',
-          validationMessages=field.validationMessages
+          validationMessages=field.validationMessages,
+          matchId=field.matchId
         ) }}
       {% endfor %}
       <input type="hidden" name="base" value="{{ base }}">

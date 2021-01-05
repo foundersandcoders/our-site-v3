@@ -5,18 +5,23 @@ const email = require("./email");
 const apiKey = process.env.AIRTABLE_KEY;
 
 exports.handler = async function (event) {
-  const { base, table, ...data } = qs.parse(event.body);
+  const { base, table, ...submission } = qs.parse(event.body);
+
+  // have to loop through data to join arrays to strings
+  // for multiple checkbox inputs etc
+  let airtableData = {};
+  let emailData = "Your application:\n\n";
+  for (let [key, val] of Object.entries(submission)) {
+    if (val) {
+      const value = Array.isArray(val) ? val.join(", ") : val;
+      airtableData[key] = value;
+      emailData += `${key}: ${value}\n`;
+    }
+  }
   const db = new Airtable({ apiKey }).base(base);
   try {
-    await db(table).create(data);
-    let applicationCopy = "Your application:\n\n";
-    for (let [key, val] of Object.entries(data)) {
-      if (val) {
-        const value = Array.isArray(val) ? val.join(", ") : val;
-        applicationCopy += `${key}: ${value}\n`;
-      }
-    }
-    const text = `Hi ${data.name},
+    await db(table).create(airtableData);
+    const text = `Hi ${airtableData.name},
 
 Thank you for submitting an application to the spring 2021 cohort of Founders and Coders. You can find a copy of your application below. Please remember you have until 23:59 GMT on January 10 to complete all course requirements. We will send out invitations for interviews the week after applications close.
 
@@ -30,9 +35,9 @@ Best wishes,
 
 Founders and Coders Team
 
-${applicationCopy}`;
+${emailData}`;
     await email({
-      to: data.email,
+      to: airtableData.email,
       subject: "Founders and Coders Application",
       text,
     });

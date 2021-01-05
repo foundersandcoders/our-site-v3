@@ -1,4 +1,5 @@
 ---
+permalink: false
 title: Coaching sessions sign up
 base: appw9XN4e13Q4BHNx
 table: September 30

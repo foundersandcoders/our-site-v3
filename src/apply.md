@@ -25,13 +25,9 @@ people:
     image: /assets/media/joe.jpg
     href: https://www.linkedin.com/in/josephsullivantanner/
 sticky:
-  text: We're changing our course requirements
-  cta: Read how
-  href: /announcements/application-requirements-changes/
-# sticky:
-#   text: "Applications are now open"
-#   cta: "Apply now"
-#   href: "https://docs.google.com/forms/d/e/1FAIpQLSdvlLQyjC6g_7SY6vbNKVrdZglnW-a5yyw_zHWM-IyDju_F4w/viewform"
+  text: Applications are now open
+  cta: Apply
+  href: /forms/apply/
 ---
 
 Our programme is designed for people who are serious about a career in web development, are comfortable with uncertainty, can take initiative, and believe strongly in the value of community and helping others.

@@ -10,7 +10,7 @@ layout: layouts/base
     {{ content | safe}}
   </div>
   <restrain-form validateonblur style="--flow-space: var(--space5)">
-    <form class="flow" style="--flow-space: var(--space5)" action="/.netlify/functions/forms">
+    <form class="flow" style="--flow-space: var(--space5)" method="POST" action="/.netlify/functions/forms">
       {% for field in fields %}
         {{ forms.field(
           type=field.type if field.type !== undefined else "text",

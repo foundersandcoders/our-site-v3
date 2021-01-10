@@ -1,4 +1,5 @@
 ---
+permalink: false
 title: Spring 2021 course application
 base: app59gkHsHkJbipcC
 table: Spring 2021

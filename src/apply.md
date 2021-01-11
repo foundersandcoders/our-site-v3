@@ -25,9 +25,9 @@ people:
     image: /assets/media/joe.jpg
     href: https://www.linkedin.com/in/josephsullivantanner/
 sticky:
-  text: Applications are now open
-  cta: Apply
-  href: /forms/apply/
+  text: Applications are closed
+  cta: Express interest
+  href: https://docs.google.com/forms/d/e/1FAIpQLSepdNxKsrMjhfnbdkzKUgNpeWFmp8WLyiqTe_UY10TsPpFOEQ/viewform
 ---
 
 Our programme is designed for people who are serious about a career in web development, are comfortable with uncertainty, can take initiative, and believe strongly in the value of community and helping others.

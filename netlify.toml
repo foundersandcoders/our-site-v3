@@ -1,3 +1,7 @@
+[build]
+  functions = "backend"
+  command = "npm run build"
+  
 [[headers]]
   for = "/sw.js"
   [headers.values]
@@ -23,6 +27,7 @@
   to = "https://fac-annual-report-2020.netlify.app/"
   status = 301
   
-[build]
-  functions = "backend"
-  command = "npm run build"
+[[redirects]]
+  from = "/announcements/application-requirements-changes/"
+  to = "/stories/application-requirements-changes/"
+  status = 301

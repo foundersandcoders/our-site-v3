@@ -1,6 +1,9 @@
 ---
 title: Changes to our course requirements
 date: 2020-10-19
+page:
+  excerpt: We are making some changes to the work we require you to finish before applying to our programme. You can see the full updated requirements on our Apply page.
+tags: announcements
 ---
 
 We are making some changes to the work we require you to finish before applying to our programme. You can see the full updated requirements [on our Apply page](/apply/#application-requirements).

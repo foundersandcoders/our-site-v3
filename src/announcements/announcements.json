@@ -1,4 +1,0 @@
-{
-  "layout": "layouts/document",
-  "permalink": "announcements/{{ page.fileSlug }}/"
-}

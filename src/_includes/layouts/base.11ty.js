@@ -87,20 +87,7 @@ module.exports = (data) => {
         ${data.sticky && Sticky(data.sticky)}
         ${Footer({ nextPage, site: data.site })}
       </body>
-      <script
-        async
-        src="https://identity.netlify.com/v1/netlify-identity-widget.js"
-      ></script>
       <script>
-        if (window.netlifyIdentity) {
-          window.netlifyIdentity.on("init", (user) => {
-            if (!user) {
-              window.netlifyIdentity.on("login", () => {
-                document.location.href = "/admin/";
-              });
-            }
-          });
-        }
         // remove all service workers (from the old site)
         if (navigator.serviceWorker) {
           navigator.serviceWorker

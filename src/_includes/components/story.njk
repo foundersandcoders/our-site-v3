@@ -17,8 +17,9 @@
   </div>
   <div class="stack2 body">
     <h3>
-      {% if story.data.url %}
-        <a href="{{ story.data.url }}">{{ story.data.title }}</a>
+      {% set url = story.data.url or story.url %}
+      {% if url %}
+        <a href="{{ url }}">{{ story.data.title }}</a>
       {% else %}
         {{ story.data.title }}
       {% endif %}

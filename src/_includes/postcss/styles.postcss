@@ -293,15 +293,15 @@ button {
     var(--spacer)
     var(--gutter);
   align-content: start;
-  padding-top: var(--min-gutter);
-  padding-bottom: var(--min-gutter);
+  padding-top: var(--gutter);
+  padding-bottom: var(--gutter);
 
   &.document {
     --content-width: 50rem;
   }
 
   @media (--viewport-xs) {
-    --min-gutter: var(--space4);
+    --gutter: var(--space4);
   }
 }
 

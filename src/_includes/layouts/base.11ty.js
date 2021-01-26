@@ -12,7 +12,7 @@ module.exports = (data) => {
   const nextPage = pages[(data.order + 1) % pages.length];
 
   const pageTitle = `${data.title} - ${data.site.title}`;
-  const description = data.intro ? data.intro.body || data.intro : data.excerpt;
+  const description = data.description || data.excerpt || "";
   return html`
     <!DOCTYPE html>
     <html lang="en">
@@ -87,20 +87,7 @@ module.exports = (data) => {
         ${data.sticky && Sticky(data.sticky)}
         ${Footer({ nextPage, site: data.site })}
       </body>
-      <script
-        async
-        src="https://identity.netlify.com/v1/netlify-identity-widget.js"
-      ></script>
       <script>
-        if (window.netlifyIdentity) {
-          window.netlifyIdentity.on("init", (user) => {
-            if (!user) {
-              window.netlifyIdentity.on("login", () => {
-                document.location.href = "/admin/";
-              });
-            }
-          });
-        }
         // remove all service workers (from the old site)
         if (navigator.serviceWorker) {
           navigator.serviceWorker

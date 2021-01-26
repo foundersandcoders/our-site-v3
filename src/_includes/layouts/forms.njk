@@ -4,8 +4,12 @@ layout: layouts/base
 
 {% import "components/fields.njk" as forms %}
 
-<main class="main document flow">
-  <h1 style="font-size: var(--font6);">{{ title }}</h1>
+<main class="layout document flow">
+  <header class="stripes layout--inherit layout--breakout" style="--px: 0">
+    <div class="highlight">
+      <h1 style="font-size: var(--font6)">{{ title }}</h1>
+    </div>
+  </header>
   <div class="flow">
     {{ content | safe}}
   </div>

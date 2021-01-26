@@ -2,12 +2,20 @@
 layout: layouts/base
 ---
 
-<main class="main document flow">
-  <header>
-    <h1>{{ title }}</h1>
+<main class="layout document flow">
+  <header
+    class="layout--inherit layout--breakout flow stripes"
+    style="--px: 0; --flow-space: var(--space2)"
+  >
+    <div class="highlight">
+      <h1>{{ title }}</h1>
+    </div>
     {% if date %}
-      <p><strong>{{ date | formatDate }}</strong></p>
+      <div class="highlight" style="--bg: var(--primary)">
+        <p><strong>{{ date | formatDate }}</strong></p>
+      </div>
     {% endif %}
+    </div>
   </header>
   {{ content | safe }}
 </main>

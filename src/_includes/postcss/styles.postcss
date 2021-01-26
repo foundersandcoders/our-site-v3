@@ -65,7 +65,7 @@
   --black: #121212;
   --darkGray: #333;
   --gray: #878787;
-  --lightGray: hsl(0, 0%, 94%);
+  --lightGray: hsl(0, 0%, 90%);
   --white: #fff;
   --nearWhite: hsl(0, 0%, 96%);
   --green: #00be00;
@@ -280,24 +280,63 @@ button {
   content: counter(nav, decimal-leading-zero);
 }
 
-.main {
-  width: 100%;
-  max-width: 66rem;
-  justify-self: center;
-  padding: var(--space3);
+.layout {
+  --content-width: 64rem;
+  --gutter: var(--space3);
+  --spacer: calc(50vw - (var(--content-width) / 2));
+  --content: minmax(0, 1fr);
+  display: grid;
+  grid-template-columns:
+    var(--gutter)
+    var(--spacer)
+    var(--content)
+    var(--spacer)
+    var(--gutter);
+  align-content: start;
+  padding-top: var(--min-gutter);
+  padding-bottom: var(--min-gutter);
 
   &.document {
-    /* Document pages (e.g privacy policy) are narrower */
-    max-width: 50rem;
+    --content-width: 50rem;
   }
 
   @media (--viewport-xs) {
-    padding: var(--space4);
+    --min-gutter: var(--space4);
   }
+}
 
-  @media (--viewport-m) {
-    padding: var(--space5) var(--space4);
+.layout > * {
+  grid-column: 3 / 4;
+}
+
+/*
+  breaks out of the main layout grid
+*/
+.layout--breakout {
+  grid-column: 1/ -1;
+}
+
+/*
+  renders the same grid as its parent
+  e.g. for a full-width bg box to center content
+*/
+.layout--inherit {
+  display: grid;
+  grid-template-columns: inherit;
+  padding: var(--space4) 0;
+
+  & > * {
+    grid-column: 3 / 4;
   }
+}
+
+.highlight > * {
+  display: inline;
+  background: var(--bg, white);
+  padding: 0.25rem 0.5rem;
+  line-height: 1.4;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 
 .flow {
@@ -334,18 +373,6 @@ button {
 
 h1 {
   font-size: var(--font7);
-  display: inline;
-  background-image: linear-gradient(
-    transparent,
-    transparent 70%,
-    var(--primary) 70%,
-    var(--primary) 85%,
-    transparent 85%
-  );
-
-  @media (--viewport-xs) {
-    font-size: var(--font8);
-  }
 }
 
 h2 {
@@ -378,22 +405,6 @@ h5 {
 
 h6 {
   font-size: var(--font1);
-}
-
-.giant-title {
-  font-size: var(--font7);
-
-  @media (--viewport-xs) {
-    font-size: var(--font8);
-  }
-
-  @media (--viewport-s) {
-    font-size: var(--font9);
-  }
-
-  @media (--viewport-m) {
-    font-size: var(--font11);
-  }
 }
 
 hr {
@@ -497,39 +508,30 @@ hr {
   background-color: var(--bg);
 }
 
-.full-width {
-  margin-left: calc(-50vw + 50%);
-  margin-right: calc(-50vw + 50%);
-
-  &.xs {
-    @media (--viewport-xs) {
-      margin-left: initial;
-      margin-right: initial;
-    }
-  }
-}
-
 .stripes {
   --py: var(--space3);
   --px: var(--space3);
-  --stripe: var(--muted);
+  --stripe: hsl(0, 0%, 88%);
   padding: var(--py) var(--px);
   background-image: repeating-linear-gradient(
     -45deg,
-    var(--stripe),
-    var(--stripe) 2px,
-    transparent 2px,
-    transparent 8px
+    var(--stripe) 0 2px,
+    transparent 0 8px
   );
 
   @media (--viewport-xs) {
     --py: var(--space4);
     --px: var(--space4);
   }
+
+  @media (--viewport-s) {
+    --py: var(--space5);
+    --px: var(--space5);
+  }
 }
 
-/* If stripey bg is last thing in main this removes gap above footer (matches padding-bottom of <main>) */
-.main > .stripes:last-child {
+/* If stripes is last thing in layout remove gap above footer (matches padding-bottom of <main>) */
+.layout > .stripes:last-child {
   margin-bottom: calc(var(--space3) * -1);
 
   @media (--viewport-xs) {
@@ -650,7 +652,7 @@ ol.grid > li::before {
 
 .circle-reveal {
   clip-path: circle(0% at 50% 0);
-  animation: circle 0.7s 1.75s ease-in forwards;
+  animation: circle 0.7s 1s ease-in forwards;
 }
 
 @keyframes circle {

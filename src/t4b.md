@@ -1,5 +1,6 @@
 ---
 title: Tech for Better
+description: A programme for founders, social entrepreneurs and charity workers to learn Product Management by working with a Product Team to design, build and test a new digital service. Working with developers in London and Palestine, and supported by Intersticia and Paul Hamlyn Foundation.
 layout: layouts/marketing
 tags: ["nav"]
 navLabel: Tech For Better
@@ -20,12 +21,6 @@ sticky:
   text: Interested in the Tech for Better programme?
   href: https://airtable.com/shrMtNWdsGQQs65mO
   cta: Express interest
----
-
-## Your ideas can make the world a better place.
-
-A programme for founders, social entrepreneurs and charity workers to learn Product Management by working with a Product Team to design, build and test a new digital service. Working with developers in London and Palestine, and supported by [Intersticia](https://intersticia.org/) and [Paul Hamlyn Foundation](https://www.phf.org.uk/).
-
 ---
 
 ![](/assets/media/t4b_splash.png)

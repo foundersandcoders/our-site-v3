@@ -1,5 +1,6 @@
 ---
 title: Hire our graduates
+description: Our dedicated network of employer partners are an essential part of the cooperative community at Founders and Coders. We are always looking for new partners committed to building inclusive workplaces where our diverse graduates will thrive.
 layout: layouts/marketing
 tags: ["nav"]
 navLabel: Hire
@@ -55,10 +56,6 @@ sticky:
   text: Think your company would be a good fit?
   href: https://airtable.com/shrLFs9AORwMO93cb
   cta: Get in touch
----
-
-Our dedicated network of employer partners are an essential part of the cooperative community at Founders and Coders. We are always looking for new partners committed to building inclusive workplaces where our diverse graduates will thrive.
-
 ---
 
 ![](/assets/media/hire_splash.jpg)

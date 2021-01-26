@@ -12,7 +12,7 @@ module.exports = (data) => {
   const nextPage = pages[(data.order + 1) % pages.length];
 
   const pageTitle = `${data.title} - ${data.site.title}`;
-  const description = data.intro ? data.intro.body || data.intro : data.excerpt;
+  const description = data.description || data.excerpt || "";
   return html`
     <!DOCTYPE html>
     <html lang="en">

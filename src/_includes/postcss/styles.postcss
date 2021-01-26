@@ -515,8 +515,10 @@ hr {
   padding: var(--py) var(--px);
   background-image: repeating-linear-gradient(
     -45deg,
-    var(--stripe) 0 2px,
-    transparent 0 8px
+    var(--stripe),
+    var(--stripe) 2px,
+    transparent 2px,
+    transparent 8px
   );
 
   @media (--viewport-xs) {

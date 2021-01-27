@@ -1,3 +1,5 @@
 <div class="circle-reveal">
-  <video width="100%" src="{{video}}" muted autoplay loop></video>
+  <safer-autoplay>
+    <video class="circle-reveal" width="100%" src="{{video}}" muted controls loop></video>
+  </safer-autoplay>
 </div>

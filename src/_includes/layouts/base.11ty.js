@@ -86,28 +86,32 @@ module.exports = (data) => {
         ${Header({ pages, currentUrl: data.page.url })}${data.content}
         ${data.sticky && Sticky(data.sticky)}
         ${Footer({ nextPage, site: data.site })}
-      </body>
-      <script>
-        // remove all service workers (from the old site)
-        if (navigator.serviceWorker) {
-          navigator.serviceWorker
-            .getRegistrations()
-            .then(function (registrations) {
-              for (let registration of registrations) {
-                registration.unregister();
-              }
+        <script>
+          // remove all service workers (from the old site)
+          if (navigator.serviceWorker) {
+            navigator.serviceWorker
+              .getRegistrations()
+              .then(function (registrations) {
+                for (let registration of registrations) {
+                  registration.unregister();
+                }
+              });
+          }
+          // delete old cached files
+          if (caches) {
+            caches.keys().then(function (names) {
+              for (let name of names) caches.delete(name);
             });
-        }
-        // delete old cached files
-        if (caches) {
-          caches.keys().then(function (names) {
-            for (let name of names) caches.delete(name);
-          });
-        }
-      </script>
-      ${data.saveCheckboxes
-        ? html`<script src="/assets/js/checkboxes.js" type="module"></script>`
-        : ""}
+          }
+        </script>
+        ${data.saveCheckboxes
+          ? html`<script src="/assets/js/checkboxes.js" type="module"></script>`
+          : ""}
+        ${data.scripts &&
+        data.scripts.map(
+          (name) => `<script src="/assets/js/${name}.js"></script>`
+        )}
+      </body>
     </html>
   `;
 };

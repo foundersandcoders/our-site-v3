@@ -1,3 +1,14 @@
-# Schedule
+---
+title: Apprenticeships Schedule
+---
 
-[Spring 2021 cohort](Schedule%208e08ec20c52d4fe5b8175b37b1e2315d/Spring%202021%20cohort%200b8b887b060c44cd84d9f6b16c59e059.csv)
+- ### Pre-apprenticeship programme, part-time
+  Feb 3 2021-Mar 5 2021
+- ### Pre-apprenticeship programme, full-time
+  Mar 8 2021-Apr 9 2021
+- ### Apprenticeship interviews
+  Mar 17 2021-Apr 9 2021
+- ### Apprenticeship training
+  Apr 12 2021-Jun 11 2021
+- ### Apprentices join employers
+  Jun 14 2021

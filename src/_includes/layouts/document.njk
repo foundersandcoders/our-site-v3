@@ -2,7 +2,12 @@
 layout: layouts/base
 ---
 
-<main class="layout {{ "marketing" if subnav else "document" }} flow">
+<main
+  class="layout document flow"
+  {% if subnav %}
+  style="--content-width: 64rem"
+  {% endif %}
+>
   <header
     class="layout--inherit layout--breakout flow stripes"
     style="--px: 0; --flow-space: var(--space2)"

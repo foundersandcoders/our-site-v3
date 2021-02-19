@@ -1,0 +1,30 @@
+{
+  "layout": "layouts/document",
+  "subnav": [
+    {
+      "label": "For employers",
+      "url": "/apprenticeship-guide/for-employers/",
+      "children": [
+        {
+          "label": "Employer FAQs",
+          "url": "/apprenticeship-guide/employer-faqs/"
+        }
+      ]
+    },
+    {
+      "label": "For candidates",
+      "url": "/apprenticeship-guide/for-candidates/",
+      "children": [
+        {
+          "label": "Candidate FAQs",
+          "url": "/apprenticeship-guide/candidate-faqs/"
+        }
+      ]
+    },
+    { "label": "Schedule", "url": "/apprenticeship-guide/schedule/" },
+    {
+      "label": "Candidate journey",
+      "url": "/apprenticeship-guide/candidate-journey/"
+    }
+  ]
+}

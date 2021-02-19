@@ -1,0 +1,8 @@
+<a
+  href="{{ entry.url }}"
+  {% if page.url === entry.url %}
+  aria-current="page"
+  {% endif %}
+>
+  {{ entry.label }}
+</a>

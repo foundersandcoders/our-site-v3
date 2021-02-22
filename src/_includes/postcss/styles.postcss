@@ -146,7 +146,9 @@ ol {
 }
 
 ul[class],
-ol[class] {
+ul[role="list"],
+ol[class],
+ol[role="list"] {
   padding: 0;
   list-style: none;
 }
@@ -506,6 +508,22 @@ hr {
   --bg: var(--background);
   padding: var(--pad);
   background-color: var(--bg);
+}
+
+.sidebar-layout {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidebar {
+  flex-basis: 14rem;
+  flex-grow: 1;
+}
+
+.content {
+  min-width: 70%;
+  flex-basis: 0;
+  flex-grow: 999;
 }
 
 .stripes {
@@ -1182,4 +1200,26 @@ input[aria-invalid="true"][aria-invalid="true"] {
 [data-validation] {
   font-size: 0.875em;
   color: var(--red);
+}
+
+.document li + li {
+  margin-top: var(--space2);
+}
+
+.subnav {
+  position: sticky;
+  top: 1rem;
+}
+
+.subnav ul {
+  margin-top: 0;
+  padding-left: 1rem;
+}
+
+.subnav a {
+  color: inherit;
+}
+
+.subnav a[aria-current="page"] {
+  font-weight: bold;
 }

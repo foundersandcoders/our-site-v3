@@ -2,7 +2,12 @@
 layout: layouts/base
 ---
 
-<main class="layout document flow">
+<main
+  class="layout document flow"
+  {% if subnav %}
+  style="--content-width: 64rem"
+  {% endif %}
+>
   <header
     class="layout--inherit layout--breakout flow stripes"
     style="--px: 0; --flow-space: var(--space2)"
@@ -17,5 +22,31 @@ layout: layouts/base
     {% endif %}
     </div>
   </header>
-  {{ content | safe }}
+  {% if subnav %}
+    <div class="sidebar-layout">
+      <nav class="sidebar">
+        <ul class="subnav" role="list">
+          {% for entry in subnav %}
+            <li>
+              {% include '../components/subnavLink.njk' %}
+              {% if entry.children %}
+                <ul role="list">
+                  {% for entry in entry.children %}
+                    <li>
+                      {% include '../components/subnavLink.njk' %}
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+      <div class="content flow">
+        {{ content | safe }}
+      </div>
+    </div>
+  {% else %}
+    {{ content | safe }}
+  {% endif %}
 </main>

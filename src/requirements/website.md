@@ -24,7 +24,7 @@ Your website **must** meet the following criteria:
 
 ### Technical criteria
 
-To demonstrate your learning your site **must** have at least one example of each of these: 
+To demonstrate your learning your site **must** have at least one example of each of these:
 
 - [ ] Semantic HTML5 elements
 - [ ] CSS grid or flexbox layout (or both)

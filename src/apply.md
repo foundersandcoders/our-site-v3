@@ -5,26 +5,6 @@ layout: layouts/marketing
 tags: ["nav"]
 navLabel: Apply
 order: 2
-people:
-  - name: Dan Sofer
-    role: Executive director
-    image: /assets/media/dan.jpg
-    href: https://www.linkedin.com/in/dsofer/
-
-  - name: Ines Teles
-    role: Director
-    image: /assets/media/ines.jpg
-    href: https://www.linkedin.com/in/iteles/
-
-  - name: Yvonne Liu
-    role: Operations and development
-    image: /assets/media/yvonne.jpg
-    href: https://www.linkedin.com/in/liu-yvonne/
-
-  - name: Joe Tanner
-    role: Commercial partnerships
-    image: /assets/media/joe.jpg
-    href: https://www.linkedin.com/in/josephsullivantanner/
 sticky:
   text: Applications are closed
   cta: Express interest
@@ -39,40 +19,35 @@ sticky:
 
 ## How do I apply?
 
+1. ### Check your eligibility
+
+   In order to apply to our full-time programme, you must:
+
+   - Be over 18 years old
+   - Have the right to work in the UK
+   - Speak conversational English (and no, [we're not sticklers on grammar](https://wearyourvoicemag.com/language-purists-white-supremacy-classism/))
+
 1. ### Submit your expression of interest and join our online community
 
-   Please submit an expression of interest to get invited to our Slack workspace, events, workshops and meetups for prospective students.
-
-   [Submit Expression of Interest](https://docs.google.com/forms/d/e/1FAIpQLSepdNxKsrMjhfnbdkzKUgNpeWFmp8WLyiqTe_UY10TsPpFOEQ/viewform).
+   Please [submit an Expression of Interest](https://docs.google.com/forms/d/e/1FAIpQLSepdNxKsrMjhfnbdkzKUgNpeWFmp8WLyiqTe_UY10TsPpFOEQ/viewform) to get invited to our Slack workspace.
 
    Introduce yourself in our Slack workspace where you can find the most up-to-date information on our programme, meetups, and ask us any questions you may have.
+
+   We encourage all applicants to actively participate in our online community and learn collaboratively with each other.
 
 1. ### Start work on the application requirements
 
    While we don't like to suggest how long it will take you to complete the requirements, it's different for everyone, we expect you to take **at least three months** if you don't have any prior experience with web development.
 
-   We encourage applicants to work through the material with other applicants, both online and through our meetups.
+   We especially welcome applicants to work through the material with other applicants, both online and through our meetups.
 
 1. ### Submit an application
 
-   Plan to spend about an hour completing the application form.
+   Plan to spend about an hour completing the application form during the application window.
 
    If you submit your application before the deadline, keep working on the requirements and tidying up your website. We will evaluate your progress as of the date the window closes.
 
-1. ### The conversational interview
-
-   We invite a minimum of 24 people to interview (in person or remotely), and usually offer places to sixteen people per cohort.
-   You’ll be interviewed by a panel three people, made up of Founders and Coders staff and alumni.
    <!-- {ol:.grid} -->
-
-## Eligibility
-
-In order to apply to our full-time programme, you must:
-
-- Be over 18 years old
-- Have the right to work in the UK
-- If you're living in the UK on a visa: whatever your visa status is, you must have at least 20 months left from the last day of the cohort you're applying for
-- Speak conversational English (and no, [we're not sticklers on grammar](https://wearyourvoicemag.com/language-purists-white-supremacy-classism/))
 
 ## What kind of people are we looking for?
 

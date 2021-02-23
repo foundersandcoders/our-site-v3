@@ -1,31 +1,31 @@
 [
   {
-    "name": "Spring 2021",
+    "name": "Autumn 2021",
     "dates": [
       {
         "title": "Work on your application between",
-        "open": "2020-09-01T00:00:00.000Z",
-        "close": "2021-01-03T00:00:00.000Z"
+        "open": "2021-02-01T00:00:00.000Z",
+        "close": "2021-05-23T00:00:00.000Z"
       },
       {
         "title": "Submit your application between",
-        "open": "2021-01-04T00:00:00.000Z",
-        "close": "2021-01-10T00:00:00.000Z"
+        "open": "2021-05-16T00:00:00.000Z",
+        "close": "2021-05-23T00:00:00.000Z"
       },
       {
         "title": "Interview dates",
-        "open": "2021-01-18T00:00:00.000Z",
-        "close": "2021-01-22T00:00:00.000Z"
+        "open": "2021-06-01T00:00:00.000Z",
+        "close": "2021-06-04T00:00:00.000Z"
       },
       {
-        "title": "Precourse dates (remote, at your own pace)",
-        "open": "2021-01-25T00:00:00.000Z",
-        "close": "2021-03-05T00:00:00.000Z"
+        "title": "Precourse dates (part-time, 12-weeks)",
+        "open": "2021-06-14T00:00:00.000Z",
+        "close": "2021-09-03T00:00:00.000Z"
       },
       {
-        "title": "Course dates",
-        "open": "2021-03-08T00:00:00.000Z",
-        "close": "2021-07-09T00:00:00.000Z"
+        "title": "Course dates (full-time, 12-weeks)",
+        "open": "2021-09-27T00:00:00.000Z",
+        "close": "2021-12-17T00:00:00.000Z"
       }
     ]
   }

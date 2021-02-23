@@ -4,7 +4,9 @@ permalink: /requirements/website/
 saveCheckboxes: true
 ---
 
-We'd like you to demonstrate all the HTML, CSS and JavaScript you've learned by creating an entire website. It should tell us why you're applying to our programme and show us who you are. Feel free to get creative with the implementation—as long as you meet all the criteria below you can have fun with it.
+Your website **is** your application. You need to tell us about yourself and why you are applying for this programme. Your website also needs to demonstrate your capabilities in HTML, CSS and JavaScript.
+
+Feel free to get creative with the implementation—as long as you meet all the criteria below you can have fun with it.
 
 ## Criteria
 
@@ -13,7 +15,7 @@ We'd like you to demonstrate all the HTML, CSS and JavaScript you've learned by 
 Your website **must** meet the following criteria:
 
 - [ ] All code is written by you
-- [ ] No external libraries (e.g. no Bootstrap, React or GitHub Pages themes)
+- [ ] No external libraries (e.g. no Bootstrap, React or GitHub Pages theme, but external fonts/icons are fine)
 - [ ] Tells us about why you are applying for the programme
 - [ ] Hosted on GitHub Pages
 - [ ] Links back to the GitHub repository that contains the code for your site
@@ -22,7 +24,7 @@ Your website **must** meet the following criteria:
 
 ### Technical criteria
 
-To demonstrate your learning your site **must** use all of these:
+To demonstrate your learning your site **must** have at least one example of each of these: 
 
 - [ ] Semantic HTML5 elements
 - [ ] CSS grid or flexbox layout (or both)

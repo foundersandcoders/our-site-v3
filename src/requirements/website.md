@@ -15,7 +15,7 @@ Feel free to get creative with the implementation—as long as you meet all the 
 Your website **must** meet the following criteria:
 
 - [ ] All code is written by you
-- [ ] No external libraries (e.g. no Bootstrap, React or GitHub Pages theme, but external fonts/icons are fine)
+- [ ] No external libraries (e.g. no Bootstrap, React or GitHub Pages themes, but external fonts/icons are fine)
 - [ ] Tells us about why you are applying for the programme
 - [ ] Hosted on GitHub Pages
 - [ ] Links back to the GitHub repository that contains the code for your site

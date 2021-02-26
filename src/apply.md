@@ -24,7 +24,7 @@ sticky:
    In order to apply to our full-time programme, you must:
 
    - Be over 18 years old
-   - Have the right to work in the UK
+   - Be [eligible to apply for an apprenticeship](https://www.gov.uk/guidance/apprenticeship-funding-rules-for-employers/annex-a-eligibility-criteria-who-we-fund)
    - Speak conversational English (and no, [we're not sticklers on grammar](https://wearyourvoicemag.com/language-purists-white-supremacy-classism/))
 
 1. ### Submit your expression of interest and join our online community

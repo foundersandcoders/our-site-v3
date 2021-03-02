@@ -31,3 +31,8 @@
   from = "/announcements/application-requirements-changes/"
   to = "/stories/application-requirements-changes/"
   status = 301
+
+[[redirects]]
+  from = "/codewars/*"
+  to = "https://www.codewars.com/api/v1/:splat"
+  status = 200

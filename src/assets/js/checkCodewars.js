@@ -27,9 +27,7 @@ content.querySelector("form").onsubmit = (event) => {
   errorEl.textContent = "";
   loadingEl.hidden = false;
 
-  fetch(
-    `https://cors-anywhere.herokuapp.com/https://www.codewars.com/api/v1/users/${username}/code-challenges/completed`
-  )
+  fetch(`/codewars/users/${username}/code-challenges/completed`)
     .then((response) => {
       if (!response.ok) {
         const error = new Error("HTTP Error");

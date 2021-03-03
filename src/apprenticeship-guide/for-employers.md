@@ -2,8 +2,6 @@
 title: For employers
 ---
 
-What sets our apprenticeship apart is the size, quality and diversity of our applicant pool; the level of candidate preparation; and the quality of our training.
-
 We have selected 16 candidates drawn from a large pool of applicants. They started a pre-apprenticeship programme with us at the beginning of February that ends on April 10th. Apprenticeship interviews start in March. Once hired, apprentices start their apprenticeship training with us on April 13th and will then be ready to join their employers on June 14th.
 
 The _Founders and Coders_ apprenticeship training is recognised by the Education and Skills Funding Agency (ESFA). It follows the [Level 4 Software Developer apprenticeship standard](https://www.instituteforapprenticeships.org/media/4392/software-developer-st0116-standard.pdf), which we expect the apprentices to complete in 12 months, with most of the training taking place in the first two months of the apprenticeship.

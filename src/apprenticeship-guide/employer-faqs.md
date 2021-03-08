@@ -40,6 +40,6 @@ title: Employer FAQs
   
 - ### What incentive payments are available for hiring a new apprentice?
 
-The Government has recently announced a doubling of the value of their incentive payments to employers to £3,000. For more information, see [incentive payments for hiring a new apprentice](https://www.gov.uk/guidance/incentive-payments-for-hiring-a-new-apprentice). 
+  The Government has recently announced a doubling of the value of their incentive payments to employers to £3,000. For more information, see [incentive payments for hiring a new apprentice](https://www.gov.uk/guidance/incentive-payments-for-hiring-a-new-apprentice). 
 
 If you have any more questions, please contact [Dan](mailto:dan@foundersandcoders.com).

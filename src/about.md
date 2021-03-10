@@ -1,8 +1,9 @@
 ---
+permalink: false
 title: What is Founders and Coders?
 description: Founders and Coders is not your ordinary coding bootcamp. We’re on a mission to prove that for many people peer-led learning is the most effective and least expensive route into the tech industry. Curious to learn more about our London Programme? Read on for all your questions answered.
 layout: layouts/marketing
-tags: ["nav"]
+# tags: ["nav"]
 navLabel: About
 order: 1
 people:

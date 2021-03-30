@@ -16,7 +16,7 @@ title: Employer FAQs
 
 - ### When will the apprentice expect a pay rise?
 
-  They are likely to expect a significat pay-rise after they pass their end-point assessment. 
+  They are likely to expect a significat pay rise after they pass their end-point assessment. 
 
 - ### What additional support will you provide after the initial two-month block training?
 

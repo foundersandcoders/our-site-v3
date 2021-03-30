@@ -14,9 +14,9 @@ title: Candidate FAQs
 
   We will be releasing the initial list of employers in the first half of February and then updating it weekly.
 
-- ### What if I am still in full-time employment during the part-time pre-apprenticeship programme?\*\*
+- ### What if I am still in full-time employment during the part-time pre-apprenticeship programme?
 
-  sWe will record any talks or workshops that you cannot attend and arrange the weekly tutorial sessions at a time when you are available.
+  We will record any talks or workshops that you cannot attend and arrange the weekly tutorial sessions at a time when you are available.
 
 - ### Can I continue to receive Universal Credit before securing an apprenticeship?
 

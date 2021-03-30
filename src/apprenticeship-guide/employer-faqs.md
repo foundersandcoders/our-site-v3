@@ -8,7 +8,7 @@ title: Employer FAQs
 
 - ### How long does the apprenticeship last?
 
-  Not less than 15 months. It ends when the apprentice completes their end-point assessment.
+  Typically within 13-15 months. It ends when the apprentice completes their end-point assessment.
 
 - ### Who is responsible for the end-point assessment?
 
@@ -16,7 +16,7 @@ title: Employer FAQs
 
 - ### When will the apprentice expect a pay rise?
 
-  Certainly after they pass their end-point assessment. Possibly, while they are still doing their apprenticeship, if their preformance warrants it.
+  They are likely to expect a significat pay rise after they pass their end-point assessment. 
 
 - ### What additional support will you provide after the initial two-month block training?
 

@@ -45,13 +45,20 @@ module.exports = (config) => {
 
   config.setLibrary("md", md);
 
-  config.addFilter("formatDate", (d) => {
+  config.addFilter("formatDate", (d, showTime) => {
     const date = new Date(d);
-    return date.toLocaleDateString("en-GB", {
+    const options = {
       year: "numeric",
       month: "long",
       day: "numeric",
-    });
+      ...(showTime && {
+        hour: "2-digit",
+        minute: "2-digit",
+        hour12: false,
+        timeZoneName: "short",
+      }),
+    };
+    return date.toLocaleString("en-GB", options);
   });
 
   config.addFilter("markdown", (s) => md.render(s));

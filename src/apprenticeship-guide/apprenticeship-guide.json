@@ -2,8 +2,12 @@
   "layout": "layouts/document",
   "subnav": [
     {
-      "label": "For employers",
-      "url": "/apprenticeship-guide/summary"
+      "label": "Front",
+      "url": "/apprenticeship-guide/" 
+    },
+    {
+      "label": "The apprenticeship",
+      "url": "/apprenticeship-guide/intro/"
     },
     { "label": "Schedule", 
       "url": "/apprenticeship-guide/schedule/" 

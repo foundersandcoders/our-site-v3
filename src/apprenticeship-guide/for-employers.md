@@ -2,14 +2,33 @@
 title: For employers
 ---
 
-We have selected 16 candidates drawn from a large pool of applicants. They started a pre-apprenticeship programme with us at the beginning of February that ends on April 10th. Apprenticeship interviews start in March. Once hired, apprentices start their apprenticeship training with us on April 13th and will then be ready to join their employers on June 14th.
+The _Founders and Coders_ programme follows the new [Level 4 Software Developer apprenticeship standard](https://www.instituteforapprenticeships.org/media/4392/software-developer-st0116-standard.pdf) and focuses on the modern Web stack: JavaScript, HTML & CSS; Git; HTTP; testing; Node.js & Express; SQL & databases; APIs, authentication & security; continuous integration & deployment; SPAs & React.
 
-The _Founders and Coders_ apprenticeship training is recognised by the Education and Skills Funding Agency (ESFA). It follows the [Level 4 Software Developer apprenticeship standard](https://www.instituteforapprenticeships.org/media/4392/software-developer-st0116-standard.pdf), which we expect the apprentices to complete in 12 months, with most of the training taking place in the first two months of the apprenticeship.
+- ### How long does the apprenticeship last?
 
-As with all apprenticeships, the apprentice is expected to spend at least 20% of their time engaged in off-the-job training. End-point assessments are carried out by the [British Computer Society](https://www.bcs.org/deliver-and-teach-qualifications/training-providers-and-adult-education-centres/deliver-digital-it-apprenticeships/end-point-assessment-for-training-providers/). There are no significant restrictions placed by the ESFA on the age of an apprentice or on their academic background.
+The apprenticeship ends when the apprentice completes their end-point assessment with the [British Computer Society](https://www.bcs.org/develop-your-people/develop-your-team-or-organisation/digital-it-apprenticeships-for-your-team/bcs-end-point-assessment/), typically within 15 months and usually after no more than 18 months. 
 
-The _Founders and Coders_ programme follows the new Software Developer standard and focuses on the modern Web stack: JavaScript, HTML & CSS; Git; HTTP; testing; Node.js & Express; SQL & databases; APIs, authentication & security; continuous integration & deployment; SPAs & React.
+- ### When does training take place?
 
-Immediately after the apprentice is hired, they start their apprenticeship training with us, before joining you on a full-time basis after two months. _Founders and Coders_ will continue to provide support to both employer and apprentice throughout the length of the apprenticeship until the apprentice is fully prepared for, and passes, their end-point assessment.
+  1. Full-time block training in the first 12 weeks of employment;
+  1. Weekly day release for as long as is useful to both employer and apprentice; 
+  1. Up to 5 days of supervised mentorship;
+  1. Preparation for the end-point assessment.
+  
+- ### What is the recommended apprentice salary?
 
-We are partnering with the [London Progression Collaboration](https://www.thelpc.uk/) to keep the administrative burden on employers to a minimum. Through the LPC, employers who are not already paying the apprenticeship levy will be able to access funding to ensure that there will be no apprenticeship training fees to pay.
+  Our recommended apprentice starting salary is £24,000, paid from the beginning of their apprenticeship training, beginning in mid-April.
+
+- ### Will the apprentice expect a pay rise?
+
+  Not during the length of the apprentice contract.
+  
+- ### How much does the training cost?
+
+  The apprenticeship training can be funded entirely through the apprenticeship levy or, for non-levy payers, through levy transfers, which we can arrange through the [London Progression Collaboration](https://www.thelpc.uk/). 
+  
+- ### What incentive payments are available for hiring a new apprentice?
+
+  The Government has recently announced a temporary doubling of the value of their incentive payments to employers to £3,000. For more information, see [incentive payments for hiring a new apprentice](https://www.gov.uk/guidance/incentive-payments-for-hiring-a-new-apprentice). 
+
+If you have any more questions, please contact [Dan](mailto:dan@foundersandcoders.com).

@@ -29,9 +29,9 @@ sticky:
 
 1. ### Submit your expression of interest and join our online community
 
-   Please [submit an Expression of Interest](https://docs.google.com/forms/d/e/1FAIpQLSepdNxKsrMjhfnbdkzKUgNpeWFmp8WLyiqTe_UY10TsPpFOEQ/viewform) to get invited to our Slack workspace.
+   Please [submit an Expression of Interest](https://docs.google.com/forms/d/e/1FAIpQLSepdNxKsrMjhfnbdkzKUgNpeWFmp8WLyiqTe_UY10TsPpFOEQ/viewform) to get invited to our Discord. 
 
-   Introduce yourself in our Slack workspace where you can find the most up-to-date information on our programme, meetups, and ask us any questions you may have.
+   Our Discord is where you can find the most up-to-date information on our programme, meetups, and ask us any questions you may have.
 
    We encourage all applicants to actively participate in our online community and learn collaboratively with each other.
 
@@ -39,7 +39,7 @@ sticky:
 
    While we don't like to suggest how long it will take you to complete the requirements, it's different for everyone, we expect you to take **at least three months** if you don't have any prior experience with web development.
 
-   We especially welcome applicants to work through the material with other applicants, both online and through our meetups.
+   We especially welcome applicants to work through the material with other applicants, both online and through our events.
 
 1. ### Submit an application
 

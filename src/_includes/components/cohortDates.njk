@@ -6,7 +6,7 @@
   <h4>{{date.title}}</h4>
   <time datetime="{{date.open}}">{{date.open | formatDate}}</time>
   —
-  <time datetime="{{date.close}}">{{date.close | formatDate}}</time>
+  <time datetime="{{date.close}}">{{date.close | formatDate(date.showTime)}}</time>
   {% endfor %}
 </li>
 {% endfor %}

@@ -13,17 +13,17 @@ The apprenticeship ends when the apprentice completes their end-point assessment
 ### When does training take place?
 
   1. Full-time block training in the first 12 weeks of employment;
-  1. Weekly day release for as long as is useful to both employer and apprentice; 
+  1. Weekly day release for as long as is useful to both employer and apprentice, typically for 4-8 weeks; 
   1. Up to 5 days of supervised mentorship;
   1. Preparation for the end-point assessment.
   
 ### What is the recommended apprentice salary?
 
-  Our recommended apprentice starting salary is £24,000, paid from the beginning of their apprenticeship training, beginning in mid-April.
+  Our recommended apprentice starting salary is £24,000, paid from the beginning of their apprenticeship training.
 
 ### Will the apprentice expect a pay rise?
 
-  Not during the length of the apprentice contract.
+  Not during the length of the apprenticeship contract.
   
 ### How much does the training cost?
 

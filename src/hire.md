@@ -1,10 +1,6 @@
 ---
 title: Hire our graduates
-description: What sets the Founders and Coders apprenticeship apart is the size, quality and diversity of our applicant pool; the level of candidate preparation; and the quality of the training.
-
-Our curriculum follows the new [Level 4 Software Developer apprenticeship standard](https://www.instituteforapprenticeships.org/media/4392/software-developer-st0116-standard.pdf) and focuses on the modern Web stack: JavaScript, HTML & CSS; Git; HTTP; testing; Node.js & Express; SQL & databases; APIs, authentication & security; continuous integration & deployment; SPAs & React.
-
-We have three apprentice hiring seasons each year, with Q&A sessions starting in February, June and October. We have a maximum of 12 sessions with employers each season and once they have all been booked, that's it for another four months.
+description: Our curriculum follows the new [Level 4 Software Developer apprenticeship standard](https://www.instituteforapprenticeships.org/media/4392/software-developer-st0116-standard.pdf) and focuses on the modern Web stack: JavaScript, HTML & CSS; Git; HTTP; testing; Node.js & Express; SQL & databases; APIs, authentication & security; continuous integration & deployment; SPAs & React. We have three apprentice hiring seasons each year, with Q&A sessions starting in February, June and October.
 layout: layouts/marketing
 tags: ["nav"]
 navLabel: Hire

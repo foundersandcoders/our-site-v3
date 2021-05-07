@@ -1,6 +1,6 @@
 ---
 title: Hire our graduates
-description: "Our Level 4 software developer apprenticeship training focuses on the modern Web stack: JavaScript, HTML & CSS; Git; HTTP; testing; Node.js & Express; SQL & databases; APIs, authentication & security; continuous integration & deployment; SPAs & React. We have three apprentice hiring seasons each year, with Q&A sessions starting in February, June and October."
+description: Our Level 4 software developer apprenticeship training focuses on the modern Web stack. We have three apprentice hiring seasons each year, with Q&A sessions starting in February, June and October.
 layout: layouts/marketing
 tags: ["nav"]
 navLabel: Hire

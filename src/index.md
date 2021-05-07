@@ -1,6 +1,6 @@
 ---
 title: We are Founders and Coders
-description: Founders and Coders CIC is a UK-based nonprofit that develops and runs tuition-free, peer-led training programmes in web development, guided by our core values of cooperation, inclusion and social impact. We operate in London and work with Mercy Corps and the UK government to deliver programmes in the Middle East.
+description: Founders and Coders is a free-to-access coding school based in Finsbury Park. Our intake is majority female and reflects the cultural and ethnic diversity of London. Our employment outcomes are exceptional. Of 47 people completed their training with us in 2020, 45 are now working as software developers.
 layout: layouts/marketing
 tags: ["nav"]
 navLabel: Home

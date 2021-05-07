@@ -2,6 +2,8 @@
 title: Apprenticeships Schedule
 ---
 
+- ### Q&A sessions
+  June-August 2021
 - ### Interviews
   July-August 2021
 - ### Block training

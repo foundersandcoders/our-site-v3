@@ -1,5 +1,4 @@
 ---
-permalink: false
 title: What is Founders and Coders?
 description: Founders and Coders is a non-profit on a mission to democratise learning through software developer training and apprenticeships.
 layout: layouts/marketing

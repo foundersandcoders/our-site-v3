@@ -1,6 +1,6 @@
 ---
 title: Apply to our course
-description: Our programme is designed for people who are serious about a career in web development, are comfortable with uncertainty, can take initiative, and believe strongly in the value of community and helping others.
+description: We provide a supportive community in which to learn at your own pace and, when you are ready, to apply for a paid apprenticeship training. After that, a career as a software developer lies open before you.
 layout: layouts/marketing
 tags: ["nav"]
 navLabel: Apply
@@ -19,13 +19,12 @@ sticky:
 
 ## How do I apply?
 
-1. ### Check your eligibility
+We accept applications from: 
 
-   In order to apply to our full-time programme, you must:
+1. Anyone resident in Islington, Camden, Hackney and Tower Hamlets;
+2. Anyone resident in London from a group under-represented in the software profession, including women, ethnic minorities, registered disabled, LGBTQ, and people without degrees. 
 
-   - Be over 18 years old
-   - Be [eligible to apply for an apprenticeship](https://www.gov.uk/guidance/apprenticeship-funding-rules-for-employers/annex-a-eligibility-criteria-who-we-fund)
-   - Speak conversational English (and no, [we're not sticklers on grammar](https://wearyourvoicemag.com/language-purists-white-supremacy-classism/))
+You also need to meet the [UK Government's eligibility criteria](https://www.gov.uk/guidance/apprenticeship-funding-rules-for-employers/annex-a-eligibility-criteria-who-we-fund), i.e. you need to have the "Right of Abode" in the UK and have been resident in the UK (or European Economic Area) for the last three years.
 
 1. ### Submit your expression of interest and join our online community
 

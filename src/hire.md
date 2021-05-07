@@ -1,6 +1,6 @@
 ---
 title: Hire our graduates
-description: Our curriculum follows the new [Level 4 Software Developer apprenticeship standard](https://www.instituteforapprenticeships.org/media/4392/software-developer-st0116-standard.pdf) and focuses on the modern Web stack: JavaScript, HTML & CSS; Git; HTTP; testing; Node.js & Express; SQL & databases; APIs, authentication & security; continuous integration & deployment; SPAs & React. We have three apprentice hiring seasons each year, with Q&A sessions starting in February, June and October.
+description: "Our curriculum follows the new [Level 4 Software Developer apprenticeship standard](https://www.instituteforapprenticeships.org/media/4392/software-developer-st0116-standard.pdf) and focuses on the modern Web stack: JavaScript, HTML & CSS; Git; HTTP; testing; Node.js & Express; SQL & databases; APIs, authentication & security; continuous integration & deployment; SPAs & React. We have three apprentice hiring seasons each year, with Q&A sessions starting in February, June and October."
 layout: layouts/marketing
 tags: ["nav"]
 navLabel: Hire

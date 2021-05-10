@@ -2,7 +2,7 @@
 title: Candidate journey
 ---
 
-1. Once an interested candidate completes an expression of interest, they are invited to join our Discord server, where we encourage them to actively participate in our online community and learn collaboratively with each other;
+1. Once an eligible candidate completes an expression of interest, they are invited to join our Discord server, where we encourage them to actively participate in our online community and learn collaboratively with each other;
 1. They start work on our application requirements, which typically take at least three months to complete;
 1. When the candidate is ready, they complete an application to our 12-week pre-apprenticeship programme.
 1. Entry to the programme, which runs three times a year, is competitive and over-subscribed;

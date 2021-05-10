@@ -2,12 +2,8 @@
   "layout": "layouts/document",
   "subnav": [
     {
-      "label": "Front",
-      "url": "/apprenticeship-guide/" 
-    },
-    {
       "label": "The apprenticeship",
-      "url": "/apprenticeship-guide/intro/"
+      "url": "/apprenticeship-guide/" 
     },
     { "label": "Schedule", 
       "url": "/apprenticeship-guide/schedule/" 

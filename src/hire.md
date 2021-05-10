@@ -1,6 +1,6 @@
 ---
 title: Hire our graduates
-description: Our dedicated network of employer partners are an essential part of the cooperative community at Founders and Coders. We are always looking for new partners committed to building inclusive workplaces where our diverse graduates will thrive.
+description: Our Level 4 software developer apprenticeship training focuses on the modern Web stack. We have three apprentice hiring seasons each year, with Q&A sessions starting in February, June and October.
 layout: layouts/marketing
 tags: ["nav"]
 navLabel: Hire

@@ -1,5 +1,5 @@
 ---
-title: Schedule for employers
+title: Schedule
 ---
 
 - ### Q&A sessions

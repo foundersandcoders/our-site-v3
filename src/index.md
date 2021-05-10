@@ -1,6 +1,6 @@
 ---
 title: We are Founders and Coders
-description: Founders and Coders is a free-to-access coding school based in Finsbury Park. Our intake is majority female and reflects the cultural and ethnic diversity of London. Our employment outcomes are exceptional. Of 47 people who completed their training with us in 2020, 45 are now working as software developers.
+description: Founders and Coders is a free-to-access coding school based in Finsbury Park with a focus on diversity, equity and inclusion. Our employment outcomes are exceptional. Of 47 people who completed their training with us in 2020, 45 are now working as software developers.
 layout: layouts/marketing
 tags: ["nav"]
 navLabel: Home

@@ -1,5 +1,5 @@
 ---
-title: Apprenticeships Schedule
+title: Schedule
 ---
 
 - ### Q&A sessions

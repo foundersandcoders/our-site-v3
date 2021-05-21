@@ -1,6 +1,6 @@
 ---
-permalink: false
-title: Spring 2021 course application
+
+title: Autumn 2021 course application
 base: app59gkHsHkJbipcC
 table: Spring 2021
 fields:
@@ -16,15 +16,13 @@ fields:
     type: longtext
     info: |
       Here is a series of three steps:
+      ```js
+      let a = 20;  
+      let b = a;  
+      a = 10;  
+      ```
+      After all three steps above have been completed what are the values of `a` and `b`? Please explain your solution as if you're helping someone who is less familiar with programming.
 
-      1. X = 30
-      1. Y = 50
-      1. X = Y
-
-      X and Y are variables—they can stand for any value. 
-      The "=" sign stands for assignment. It means "assign the value on the right to the variable on the left".
-
-      After all three steps above have been completed what are the values of X and Y? Please explain your solution as if you're helping someone who is less familiar with programming.
   - type: heading
     label: About you
   - id: name
@@ -161,6 +159,7 @@ fields:
       - Yes
       - No
   - id: commitments-description
+    type: longtext
     label: If you answered "no" to the previous question, please briefly describe your other commitments
     required: false
   - id: post-course
@@ -189,6 +188,8 @@ fields:
     label: Course requirements
   - id: github
     label: What is your GitHub username?
+  - id: codewars
+    label: What is your Codewars username?
   - id: website
     type: url
     validationMessages:
@@ -199,10 +200,10 @@ fields:
   - id: checklist
     label: Application checklist
     info: |
-      You have until 23:59 GMT on January 10 to submit this application as well as finish all of your [application requirements](https://www.foundersandcoders.com/apply#application-requirements). Before that date, please make sure you double check your application. We've made this checklist to help make it easier:
+      You have until 23:59 BST on May 27 to submit this application as well as finish all of your [application requirements](https://www.foundersandcoders.com/apply#application-requirements). Before that date, please make sure you double check your application. We've made this checklist to help make it easier:
     type: multiple
     options:
-      - I understand that I can keep working on the requirements until 23:59 GMT on January 10
+      - I understand that I can keep working on the requirements until 23:59 BST on May 27
       - I have (will have) completed all the required freeCodeCamp sections
       - I have (will have) completed all 20 required Codewars kata
       - I have (will have) fulfilled all of the application website criteria
@@ -211,21 +212,23 @@ fields:
     type: confirm
     confirmLabel: I understand I will not receive feedback on my application
     info: |
-      According to our About page, [we don't provide individualised feedback](https://www.foundersandcoders.com/about/#can-you-tell-me-why-i-wasn-t-admitted-or-give-me-feedback-on-my-application). We have however broken that rule several times in the past, and with hindsight this was a mistake. Moving forward, we're reenforcing the no individualised feedback rule.
+      Before you submit your application, we would like to remind everyone again that we will not be providing individualised feedback about our admissions decisions. Like any admissions process, ours is far from perfect.
 
-      Beyond this though, we do always try to make the selection process transparent. We will communicate to all applicants on Slack: how many applications we've received, how many applicants we are planning on interviewing, and how the interview will be structured. However, like any admissions process, ours is far from perfect and we know we can make mistakes along the way.
+      Beyond this though, we do always try to make the selection process transparent. We will communicate to all applicants on Discord: how many applications we've received, how many applicants we are planning on interviewing, and how the interview will be structured. However, like any admissions process, ours is far from perfect and we know we can make mistakes along the way.
 
       Our selection process is not based on selecting individuals, but rather a group of 16 people who we think will work well together and prioritise cooperative learning. If you'd like to learn a little about the kinds of people we're looking for, [you can read more here](https://www.foundersandcoders.com/apply/#what-kind-of-people-are-we-looking-for).
 
-      Our decisions on who is invited to interview are based on a number of factors. These include: your eligibility for our course; engagement with our Slack community; attendance at our meet-ups and workshops; representation of the change we'd like to see in the tech industry. Your application website is an opportunity to show us who you are and why you're interested in our course — make the most of this opportunity to help us get to know you. However, if you haven’t finished the course requirements by the application deadline, we are unlikely to invite you for an interview.
+      Our decisions on who is invited to interview are based on a number of factors. These include: your eligibility for our course; engagement with our Discord community; attendance at our meet-ups and workshops; representation of the change we'd like to see in the tech industry. Your application website is an opportunity to show us who you are and why you're interested in our course — make the most of this opportunity to help us get to know you. However, if you haven’t finished the course requirements by the application deadline, we are unlikely to invite you for an interview.
 
       Our programme is, to this date, still very oversubscribed. We understand that people will be justifiably disappointed when they're not selected for an interview given the time and effort you all will have put into the application process. However, please know that if your end goal is to become a software developer, then you have not wasted your time and effort in completing our requirements—joining Founders and Coders is just one of many pathways to becoming a developer.
 ---
 
-This application is for the London programme starting on March 8.
+This application is for the full-time apprenticeship programme starting on September 27. 
 
-Applications will close at 23:59 GMT on January 10, 2021.
+Our programme now includes a part-time pre-apprenticeship programme for 12 weeks, starting on June 14. This means two evening commitments for 12 weeks, with additional time needed to self-study. Please **do not apply** if you cannot make this commitment. 
 
-COVID-19 is having a significant impact on Founders and Coders, as it is on everybody. Although we are hopeful that we will be able to return to our Finsbury Park campus very soon, it is likely that our spring 2021 cohort will start as a remote programme.
+Applications will close at 23:59 BST on May 27.
 
-It’s worth noting we've now run two cohorts fully remote and we’re having lots of fun with remote-learning. In the event that spring 2021 cohort is remote-first, the requirement for our London programme remains the same – we accept people who have the right to work in the UK and who intend to seek employment with our partners after the end of the programme.
+COVID-19 continues to have a significant impact on Founders and Coders, as it is on everybody. Although we are hopeful that we will be able to return to our Finsbury Park campus very soon, it is likely that our autumn 2021 cohort will start as a remote programme.
+
+It’s worth noting we've now run three cohorts fully remote and we’re having lots of fun with remote-learning. In the event that autumn 2021 cohort is remote-first, the requirement for our London programme remains the same – we accept people who are eligible for an apprenticeship in the UK.

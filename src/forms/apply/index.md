@@ -21,12 +21,12 @@ fields:
       let b = a;  
       a = 10;  
       ```
-      After all three steps above have been completed what are the values of `a` and `b`? Please explain your solution as if you're helping someone who is less familiar with programming.
+      After all three steps above have been completed what are the values of `a` and `b`? Please explain your solution as if you're helping someone who is less familiar with JavaScript.
 
   - type: heading
     label: About you
   - id: name
-    label: Your full name
+    label: Your full legal name
   - id: dob
     label: Date of birth
     type: textdate
@@ -103,11 +103,13 @@ fields:
       - British
       - Other
   - id: right-to-work
-    label: Do you have the right to work in the UK?
+    label: If you selected "Other" above, are you able to provide your right to work in the UK?
+    info: |
+      Please see how to prove your [right to work](https://www.gov.uk/prove-right-to-work) for an employer
     type: select
     options:
-      - Yes, I have the right to work in the UK
-      - No, I do not have the right to work in the UK
+      - Yes, I can submit my right to work in the UK
+      - No, I cannot submit my right to work in the UK
   - id: education
     label: What is your educational background?
     type: select
@@ -162,12 +164,6 @@ fields:
     type: longtext
     label: If you answered "no" to the previous question, please briefly describe your other commitments
     required: false
-  - id: post-course
-    label: Do you plan to seek employment through Founders and Coders during or after the course?
-    type: select
-    options:
-      - Yes
-      - No
   - id: community
     label: Have you been involved in our community?
     type: multiple
@@ -179,7 +175,7 @@ fields:
   - id: apprenticeships
     label: Are you interested in apprenticeships?
     info: |
-      Founders and Coders is now a registered Apprenticeship Training Provider. What this means is that programme participants will have the option to apply for paid apprentice roles with our employer partners either before or during the programme.
+      Founders and Coders is now a registered Apprenticeship Training Provider. What this means is that programme participants will be expected to apply for paid apprentice roles with our employer partners during the pre-apprenticeship programme. For more information, see our [apprenticeship guide for employers](https://www.foundersandcoders.com/apprenticeship-guide/) (not everything may be applicable to you).
     type: select
     options:
       - Yes, I am interested in applying for an apprenticeship

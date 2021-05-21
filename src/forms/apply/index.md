@@ -21,7 +21,7 @@ fields:
       let b = a;  
       a = 10;  
       ```
-      After all three steps above have been completed what are the values of `a` and `b`? Please explain your solution as if you're helping someone who is less familiar with JavaScript.
+      After all three steps above have been completed what are the values of `a` and `b`? Please explain your solution as if you're helping someone who is less familiar with JavaScript understand.
 
   - type: heading
     label: About you
@@ -170,8 +170,8 @@ fields:
     required: false
     options:
       - I have previously applied to Founders and Coders
-      - I have attended Founders and Coders meetups at Space4
-      - I have attended Founders and Coders remote meetups on Zoom
+      - I have attended a pairing meetup or a workshop hosted by Founders and Coders 
+      - I have attended an information session or a Q&A evening 
   - id: apprenticeships
     label: Are you interested in apprenticeships?
     info: |
@@ -183,13 +183,17 @@ fields:
   - type: heading
     label: Learning Journey
   - id: asking-for-help
-    label: What did you do when you got stuck working through course requirements? Who and how did you ask for help?
+    label: What did you do when you got stuck working through the course requirements? 
+    info: |
+      Who did you ask for help from? How did you find your solutions?
     type: longtext  
   - id: roles-in-team
     label: What role do you usually take when working in a team?
     type: longtext 
   - id: pairing-question
-    label: Let us know about a time you worked with someone else on a coding problem. How did you approach working together? What went well and what was challenging? Is there anything you'd do differently next time?
+    label: Let us know about a time you worked with someone else on a coding problem. 
+    info: |
+      How did you approach working together? What went well and what was challenging? Is there anything you'd do differently next time?
     type: longtext 
   - type: heading
     label: Course requirements

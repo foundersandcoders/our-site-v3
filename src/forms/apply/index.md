@@ -181,6 +181,17 @@ fields:
       - Yes, I am interested in applying for an apprenticeship
       - No, I am not interested in applying for an apprenticeship
   - type: heading
+    label: Learning Journey
+  - id: asking-for-help
+    label: What did you do when you got stuck working through course requirements? Who and how did you ask for help?
+    type: longtext  
+  - id: roles-in-team
+    label: What role do you usually take when working in a team?
+    type: longtext 
+  - id: pairing-question
+    label: Let us know about a time you worked with someone else on a coding problem. How did you approach working together? What went well and what was challenging? Is there anything you'd do differently next time?
+    type: longtext 
+  - type: heading
     label: Course requirements
   - id: github
     label: What is your GitHub username?

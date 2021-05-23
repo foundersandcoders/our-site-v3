@@ -8,7 +8,7 @@ order: 2
 sticky:
   text: Applications are open!
   cta: Apply here
-  href: https://www.foundersandcoders.com/forms/apply/
+  href: /forms/apply/
 ---
 
 ## Course dates

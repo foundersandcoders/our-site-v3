@@ -1,8 +1,7 @@
 ---
-
 title: Autumn 2021 course application
-base: app59gkHsHkJbipcC
-table: Spring 2021
+base: app1y0DIoLKyboTUs
+table: Autumn 2021
 fields:
   - id: email
     label: Your email address
@@ -170,8 +169,8 @@ fields:
     required: false
     options:
       - I have previously applied to Founders and Coders
-      - I have attended a pairing meetup or a workshop hosted by Founders and Coders 
-      - I have attended an information session or a Q&A evening 
+      - I have attended a pairing meetup or a workshop hosted by Founders and Coders
+      - I have attended an information session or a Q&A evening
   - id: apprenticeships
     label: Are you interested in apprenticeships?
     info: |
@@ -183,18 +182,18 @@ fields:
   - type: heading
     label: Learning Journey
   - id: asking-for-help
-    label: What did you do when you got stuck working through the course requirements? 
+    label: What did you do when you got stuck working through the course requirements?
     info: |
       Who did you ask for help from? How did you find your solutions?
-    type: longtext  
+    type: longtext
   - id: roles-in-team
     label: What role do you usually take when working in a team?
-    type: longtext 
+    type: longtext
   - id: pairing-question
-    label: Let us know about a time you worked with someone else on a coding problem. 
+    label: Let us know about a time you worked with someone else on a coding problem.
     info: |
       How did you approach working together? What went well and what was challenging? Is there anything you'd do differently next time?
-    type: longtext 
+    type: longtext
   - type: heading
     label: Course requirements
   - id: github
@@ -234,9 +233,9 @@ fields:
       Our programme is, to this date, still very oversubscribed. We understand that people will be justifiably disappointed when they're not selected for an interview given the time and effort you all will have put into the application process. However, please know that if your end goal is to become a software developer, then you have not wasted your time and effort in completing our requirements—joining Founders and Coders is just one of many pathways to becoming a developer.
 ---
 
-This application is for the full-time apprenticeship programme starting on September 27. 
+This application is for the full-time apprenticeship programme starting on September 27.
 
-Our programme now includes a part-time pre-apprenticeship programme for 12 weeks, starting on June 14. This means two evening commitments for 12 weeks, with additional time needed to self-study. Please **do not apply** if you cannot make this commitment. 
+Our programme now includes a part-time pre-apprenticeship programme for 12 weeks, starting on June 14. This means two evening commitments for 12 weeks, with additional time needed to self-study. Please **do not apply** if you cannot make this commitment.
 
 Applications will close at 23:59 BST on May 27.
 

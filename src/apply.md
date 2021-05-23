@@ -6,9 +6,9 @@ tags: ["nav"]
 navLabel: Apply
 order: 2
 sticky:
-  text: Applications are closed
-  cta: Express interest
-  href: https://docs.google.com/forms/d/e/1FAIpQLSepdNxKsrMjhfnbdkzKUgNpeWFmp8WLyiqTe_UY10TsPpFOEQ/viewform
+  text: Applications are open!
+  cta: Apply here
+  href: https://www.foundersandcoders.com/forms/apply/
 ---
 
 ## Course dates

@@ -109,6 +109,7 @@ fields:
     options:
       - Yes, I can submit my right to work in the UK
       - No, I cannot submit my right to work in the UK
+    required: false
   - id: education
     label: What is your educational background?
     type: select

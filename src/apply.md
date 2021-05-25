@@ -6,9 +6,12 @@ tags: ["nav"]
 navLabel: Apply
 order: 2
 sticky:
-  text: Applications are open!
-  cta: Apply here
-  href: /forms/apply/
+  #   text: Applications are open!
+  #   cta: Apply here
+  #   href: /forms/apply/
+  text: Applications are closed
+  cta: Express interest
+  href: https://docs.google.com/forms/d/e/1FAIpQLSepdNxKsrMjhfnbdkzKUgNpeWFmp8WLyiqTe_UY10TsPpFOEQ/viewform
 ---
 
 ## Course dates
@@ -29,7 +32,7 @@ sticky:
 
 1. ### Submit your expression of interest and join our online community
 
-   Please [submit an Expression of Interest](https://docs.google.com/forms/d/e/1FAIpQLSepdNxKsrMjhfnbdkzKUgNpeWFmp8WLyiqTe_UY10TsPpFOEQ/viewform) to get invited to our Discord. 
+   Please [submit an Expression of Interest](https://docs.google.com/forms/d/e/1FAIpQLSepdNxKsrMjhfnbdkzKUgNpeWFmp8WLyiqTe_UY10TsPpFOEQ/viewform) to get invited to our Discord.
 
    Our Discord is where you can find the most up-to-date information on our programme, meetups, and ask us any questions you may have.
 

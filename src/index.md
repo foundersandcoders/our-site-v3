@@ -40,9 +40,12 @@ people:
     quote: The best part of my experience with Founders and Coders are the people. It is a great community, with members of past cohorts teaching the current cohort. Everyone supports each other in their learning and wants to give back.
     image: /assets/media/ruth.jpg
 sticky:
-  text: Applications are open!
-  cta: Apply here
-  href: /forms/apply/
+  #   text: Applications are open!
+  #   cta: Apply here
+  #   href: /forms/apply/
+  text: Applications are closed
+  cta: Express interest
+  href: https://docs.google.com/forms/d/e/1FAIpQLSepdNxKsrMjhfnbdkzKUgNpeWFmp8WLyiqTe_UY10TsPpFOEQ/viewform
 scripts:
   - safer-autoplay
 ---

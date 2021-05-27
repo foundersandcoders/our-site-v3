@@ -1,4 +1,5 @@
 ---
+permalink: false
 title: Autumn 2021 course application
 base: app1y0DIoLKyboTUs
 table: Autumn 2021

@@ -1,6 +1,7 @@
 const qs = require("querystring");
 const Airtable = require("airtable");
 const email = require("./email");
+const templates = require("./email-templates");
 
 const apiKey = process.env.AIRTABLE_KEY;
 
@@ -8,7 +9,7 @@ exports.handler = async function (event) {
   const { base, table, ...submission } = qs.parse(event.body);
   const referer = new URL(event.headers.referer);
   const templateFile = referer.pathname.replace("/forms/", "").replace("/", "");
-  const template = require(`./email-templates/${templateFile}.js`);
+  const template = templates[templateFile];
   // have to loop through data to join arrays to strings
   // for multiple checkbox inputs etc
   let data = {};

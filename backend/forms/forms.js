@@ -13,7 +13,7 @@ exports.handler = async function (event) {
   // have to loop through data to join arrays to strings
   // for multiple checkbox inputs etc
   let data = {};
-  let readableData = "Your application:\n\n";
+  let readableData = "";
   for (let [key, val] of Object.entries(submission)) {
     if (val) {
       const value = Array.isArray(val) ? val.join(", ") : val;

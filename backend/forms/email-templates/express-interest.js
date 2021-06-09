@@ -1,4 +1,4 @@
-module.exports = (data) => {
+module.exports = ({ data, readableData }) => {
   return {
     subject: "Founders and Coders Expression of Interest",
     text: `Hi ${data.name},
@@ -11,6 +11,11 @@ Once you've completed these steps you'll go on the waiting list to join our Disc
 
 Best wishes,
 
-Founders and Coders Team`,
+Founders and Coders Team
+
+
+You submitted:
+
+${readableData}`,
   };
 };

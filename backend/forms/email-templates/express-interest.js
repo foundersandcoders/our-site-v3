@@ -3,7 +3,7 @@ module.exports = ({ data, readableData }) => {
     subject: "Founders and Coders Expression of Interest",
     text: `Hi ${data.name},
 
-Thank you for your interest in the Spring 2022 cohort of the Founders and Coders programme.
+Thank you for your interest in the Winter 2021 cohort of the Founders and Coders programme.
 
 You can find out what we need you to do next on our website: https://foundersandcoders.com/apply/tribute-page/
 

@@ -23,12 +23,18 @@ exports.handler = async function (event) {
       readableData += `${key}: ${value}\n`;
     }
   }
-  const db = new Airtable({ apiKey }).base(base);
-  // each form should have its own validator
-  if (validator) {
-    const errorPage = await validator({ data, db, table });
+  try {
+    const db = new Airtable({ apiKey }).base(base);
+
+    // each form should have its own validator
+    let errorPage = validator && (await validator({ data, db, table }));
+
+    // store the submission even if it was invalid
+    // to avoid re-submissions avoiding thet validation
+    await db(table).create(data);
+
+    // if there was a problem redirect to the relevant error page
     if (errorPage) {
-      // if there was a problem redirect to the relevant error page
       return {
         statusCode: 303,
         headers: {
@@ -36,9 +42,7 @@ exports.handler = async function (event) {
         },
       };
     }
-  }
-  try {
-    await db(table).create(data);
+
     const { subject, text } = template({ data, readableData });
     await email({
       to: data.email,

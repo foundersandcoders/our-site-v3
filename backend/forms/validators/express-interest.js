@@ -23,7 +23,7 @@ module.exports = async ({ data, db, table }) => {
     (record) => record.fields.email === data.email
   );
   if (existing) {
-    return "/error/duplicate";
+    return "/error/duplicate/";
   }
   return false;
 };

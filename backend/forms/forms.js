@@ -30,8 +30,11 @@ exports.handler = async function (event) {
     let errorPage = validator && (await validator({ data, db, table }));
 
     // store the submission even if it was invalid
-    // to avoid re-submissions avoiding thet validation
-    await db(table).create(data);
+    // to avoid re-submissions avoiding the validation
+    // except duplicates—we never store those
+    if (errorPage !== "/error/duplicate/") {
+      await db(table).create(data);
+    }
 
     // if there was a problem redirect to the relevant error page
     if (errorPage) {

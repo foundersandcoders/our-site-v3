@@ -2,6 +2,7 @@
 title: Expression of Interest
 base: app1y0DIoLKyboTUs
 table: EOI
+permalink: false
 fields:
   - label: Your full name
     id: name

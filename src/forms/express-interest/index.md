@@ -12,11 +12,11 @@ fields:
     label: Please confirm your email address
     type: email
     matchId: email
-  - label: Winter 2021 cohort
+  - label: January 2022 cohort
     id: cohort-confirm
-    info: Our applications work in cycles. By completing this form you are expressing interest in our upcoming cohort in Winter 2021.
+    info: Our applications work in cycles. By completing this form you are expressing interest in our upcoming cohort in January 2022.
     type: confirm
-    confirmLabel: I understand that I will only be able to apply for the Winter 2021 cohort
+    confirmLabel: I understand that I will only be able to apply for the January 2022 cohort
   - label: Do you have the right to apply for an apprenticeship in the UK?
     id: eligible-apprenticeship
     info: |
@@ -146,4 +146,4 @@ fields:
       - Prefer not to say
 ---
 
-Complete this form if you're interested in the Winter 2021 cohort of Founders and Coders. We'll check your eligibility and get back to you with details on how to start your coding journey.
+Complete this form if you're interested in the January 2022 cohort of Founders and Coders. We'll check your eligibility and get back to you with details on how to start your coding journey.

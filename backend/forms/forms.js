@@ -27,12 +27,13 @@ exports.handler = async function (event) {
     const db = new Airtable({ apiKey }).base(base);
 
     // each form should have its own validator
-    let errorPage = validator && (await validator({ data, db, table }));
+    let { errorPage, shouldSave } = validator
+      ? await validator({ data, db, table })
+      : {};
 
-    // store the submission even if it was invalid
+    // store the submission
     // to avoid re-submissions avoiding the validation
-    // except duplicates—we never store those
-    if (errorPage !== "/error/duplicate/") {
+    if (shouldSave) {
       await db(table).create(data);
     }
 

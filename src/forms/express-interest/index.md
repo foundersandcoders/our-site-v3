@@ -144,6 +144,14 @@ fields:
       - 45-54
       - 55 and above
       - Prefer not to say
+  - label: Please tell us about any prior coding experience
+    info: |
+      Please include platforms you've used to self-learn or projects you've worked on.
+
+      Having no experience is fine, but we'd like to hear why you're interested in learning now.
+    id: experience
+    type: longtext
+    maxLength: 250
 ---
 
 Complete this form if you're interested in the January 2022 cohort of Founders and Coders. We'll check your eligibility and get back to you with details on how to start your coding journey.

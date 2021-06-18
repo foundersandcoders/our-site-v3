@@ -46,12 +46,14 @@ exports.handler = async function (event) {
       };
     }
 
-    const { subject, text } = template({ data, readableData });
-    await email({
-      to: data.email,
-      subject,
-      text,
-    });
+    if (process.env.NODE_ENV === "production") {
+      const { subject, text } = template({ data, readableData });
+      await email({
+        to: data.email,
+        subject,
+        text,
+      });
+    }
     return {
       statusCode: 303,
       headers: {

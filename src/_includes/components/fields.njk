@@ -24,6 +24,9 @@
   {% if example %}
     placeholder="{{ example }}"
   {% endif %}
+  {% if maxLength %}
+    maxLength="{{ maxLength }}"
+  {% endif %}
   {{ "required" if required }}
   {{ validation(messages) }}
 {% endmacro %}
@@ -44,7 +47,8 @@
   example,
   confirmLabel,
   validationMessages,
-  matchId
+  matchId,
+  maxLength
 ) %}
   {% if type === "heading" %}
     <h2>{{ label }}</h2>
@@ -98,7 +102,13 @@
         <div id="{{ id + "Info" }}" class="info">{{ info | markdown | safe }}</div>
       {% endif %}
       {% if type === "longtext" %}
-        <textarea rows="5" {{ input(id, "text", "", required, validationMessages) }}></textarea>
+        {% if maxLength %}
+          <char-count maxLength="{{ maxLength }}">
+            <textarea rows="5" maxLength="{{ maxLength }}" {{ input(id, "text", "", required, validationMessages) }}></textarea>
+          </char-count>
+        {% else %}
+          <textarea rows="5" {{ input(id, "text", "", required, validationMessages) }}></textarea>
+        {% endif %}
       {% elif type === "textdate" %}
         <text-date>
           <input {{ input(id, "text", "", required, validationMessages, id, "dd/mm/yyyy") }}>

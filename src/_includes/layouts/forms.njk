@@ -26,7 +26,8 @@ layout: layouts/base
           required=field.required if field.required !== undefined else true,
           confirmLabel=field.confirmLabel if field.confirmLabel !== undefined else 'I agree',
           validationMessages=field.validationMessages,
-          matchId=field.matchId
+          matchId=field.matchId,
+          maxLength=field.maxLength
         ) }}
       {% endfor %}
       <input type="hidden" name="base" value="{{ base }}">

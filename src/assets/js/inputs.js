@@ -30,6 +30,24 @@ class TextDate extends HTMLElement {
   }
 }
 
+class CharCount extends HTMLElement {
+  connectedCallback() {
+    this.input = this.querySelector("textarea");
+    this.maxLength = this.getAttribute("maxLength");
+    this.output = document.createElement("output");
+    this.output.setAttribute("aria-live", "assertive");
+    this.output.classList.add("info");
+    this.prepend(this.output);
+    this.updateCount = this.updateCount.bind(this);
+    this.updateCount();
+    this.input.addEventListener("input", this.updateCount);
+  }
+  updateCount() {
+    const count = this.input.value.length.toString().padStart(3, "0");
+    this.output.textContent = `${count}/${this.maxLength} characters`;
+  }
+}
+
 class MatchInput extends HTMLElement {
   connectedCallback() {
     this.input = this.querySelector("input");
@@ -49,3 +67,4 @@ class MatchInput extends HTMLElement {
 
 window.customElements.define("text-date", TextDate);
 window.customElements.define("match-input", MatchInput);
+window.customElements.define("char-count", CharCount);

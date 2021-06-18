@@ -1,7 +1,7 @@
 ---
 title: Tribute page submission
 base: app1y0DIoLKyboTUs
-table: EOI
+table: Tribute
 fields:
   - id: email
     label: Your email address

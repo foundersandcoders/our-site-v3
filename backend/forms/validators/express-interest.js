@@ -6,13 +6,13 @@ let nono = {
 
 module.exports = async ({ data, db, table }) => {
   if (nono.apprenticeship.includes(data["eligible-apprenticeship"])) {
-    return "/error/apprenticeship/";
+    return { errorPage: "/error/apprenticeship/", shouldSave: true };
   }
   if (nono.age.includes(data["eligible-age"])) {
-    return "/error/age/";
+    return { errorPage: "/error/age/", shouldSave: true };
   }
   if (nono.residence.includes(data["residence"])) {
-    return "/error/residence/";
+    return { errorPage: "/error/residence/", shouldSave: true };
   }
   let prevEmails = await db(table)
     .select({
@@ -23,7 +23,7 @@ module.exports = async ({ data, db, table }) => {
     (record) => record.fields.email === data.email
   );
   if (existing) {
-    return "/error/duplicate/";
+    return { errorPage: "/error/duplicate/", shouldSave: false };
   }
   return false;
 };

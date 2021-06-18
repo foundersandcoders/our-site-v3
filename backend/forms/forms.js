@@ -27,13 +27,16 @@ exports.handler = async function (event) {
     const db = new Airtable({ apiKey }).base(base);
 
     // each form should have its own validator
-    let errorPage = validator && (await validator({ data, db, table }));
+    let {
+      errorPage,
+      shouldSave,
+      linkedData = {},
+    } = validator ? await validator({ data, db, table }) : {};
 
-    // store the submission even if it was invalid
+    // store the submission
     // to avoid re-submissions avoiding the validation
-    // except duplicates—we never store those
-    if (errorPage !== "/error/duplicate/") {
-      await db(table).create(data);
+    if (shouldSave) {
+      await db(table).create({ ...data, link: [linkedData.id] });
     }
 
     // if there was a problem redirect to the relevant error page
@@ -46,12 +49,17 @@ exports.handler = async function (event) {
       };
     }
 
-    const { subject, text } = template({ data, readableData });
-    await email({
-      to: data.email,
-      subject,
-      text,
-    });
+    if (process.env.NODE_ENV === "production") {
+      const { subject, text } = template({
+        data: { ...data, ...linkedData },
+        readableData,
+      });
+      await email({
+        to: data.email,
+        subject,
+        text,
+      });
+    }
     return {
       statusCode: 303,
       headers: {

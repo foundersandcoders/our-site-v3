@@ -3,6 +3,8 @@ title: Tribute page submission
 base: app1y0DIoLKyboTUs
 table: Tribute
 fields:
+  - type: heading
+    label: Submit your tribute page
   - id: email
     label: Your email address
     type: email
@@ -18,6 +20,11 @@ fields:
     example: E.g. https://codepen.io/albadylic/pen/ZBLbdXg
     type: url
 ---
+
+Before you work on this assignment you must complete these two sections on freeCodeCamp:
+
+- [Basic HTML](https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/)
+- [Basic CSS](https://www.freecodecamp.org/learn/responsive-web-design/basic-css/)
 
 We'd like you to build a small "tribute" website using HTML and CSS. This site should provide information about something you like or someone (public figure) you admire. You are not required to make this about yourself or disclose anything personal. Here's an example:
 

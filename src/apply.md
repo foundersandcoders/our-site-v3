@@ -33,12 +33,12 @@ In order to apply to our 24-week programme, you must:
 
    Please complete the following modules on freeCodeCamp in your own time:
 
-   - Basic HTML and HTML5 (28 modules)
-   - Basic CSS (44 modules)
+   - [Basic HTML and HTML5](https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/) (28 modules)
+   - [Basic CSS](https://www.freecodecamp.org/learn/responsive-web-design/basic-css/) (44 modules)
 
 1. ### Create a tribute page
 
-   Follow the instructions to create a tribute page website and demonstrate your learnings. This should take no more than 2-4 hours.
+   Follow the instructions to [create and submit a tribute page website](/forms/tribute/) and demonstrate your learnings. This should take no more than 2-4 hours.
 
 1. ### Wait for the Discord invitation
 
@@ -56,7 +56,7 @@ In order to apply to our 24-week programme, you must:
 
 1. ### Finish the course requirements
 
-   This is where you will spend the bulk of your self-learning time during the application cycle.
+   Work through all the rest of [our course requirements](#application-requirements). This is where you will spend the bulk of your self-learning time during the application cycle.
 
    Someone with no prior coding experience can expect to take at least three months of dedicated work to complete these. Some people take six months to a year. Other bootcamps sell the idea of learning to code in 12 weeks, but we think this is unrealistic and misleading.
 

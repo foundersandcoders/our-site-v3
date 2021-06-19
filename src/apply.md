@@ -14,55 +14,70 @@ sticky:
   href: https://docs.google.com/forms/d/e/1FAIpQLSepdNxKsrMjhfnbdkzKUgNpeWFmp8WLyiqTe_UY10TsPpFOEQ/viewform
 ---
 
-## Course dates
+## Check your eligibility
 
-{% include "components/cohortDates.njk" %}
+In order to apply to our 24-week programme, you must:
 
-<!-- {ul:.grid} -->
+- Live in London
+- Be over 18 years old
+- Be [eligible to apply for an apprenticeship](https://www.gov.uk/guidance/apprenticeship-funding-rules-for-employers/annex-a-eligibility-criteria-who-we-fund)
+- Speak conversational English ([we're not sticklers on grammar](https://wearyourvoicemag.com/language-purists-white-supremacy-classism/))
 
-## How do I apply?
+## Pre-application stage
 
-1. ### Check your eligibility
+1. ### Submit your expression of interest
 
-   In order to apply to our full-time programme, you must:
+   Please [submit an Expression of Interest](https://docs.google.com/forms/d/e/1FAIpQLSepdNxKsrMjhfnbdkzKUgNpeWFmp8WLyiqTe_UY10TsPpFOEQ/viewform). This lets us keep track of who is interested and gives us your contact details.
 
-   - Be over 18 years old
-   - Be [eligible to apply for an apprenticeship](https://www.gov.uk/guidance/apprenticeship-funding-rules-for-employers/annex-a-eligibility-criteria-who-we-fund)
-   - Speak conversational English (and no, [we're not sticklers on grammar](https://wearyourvoicemag.com/language-purists-white-supremacy-classism/))
+1. ### Start learning HTML and CSS
 
-1. ### Submit your expression of interest and join our online community
+   Please complete the following modules on freeCodeCamp in your own time:
 
-   Please [submit an Expression of Interest](https://docs.google.com/forms/d/e/1FAIpQLSepdNxKsrMjhfnbdkzKUgNpeWFmp8WLyiqTe_UY10TsPpFOEQ/viewform) to get invited to our Discord.
+   - Basic HTML and HTML5 (28 modules)
+   - Basic CSS (44 modules)
 
-   Our Discord is where you can find the most up-to-date information on our programme, meetups, and ask us any questions you may have.
+1. ### Create a tribute page
 
-   We encourage all applicants to actively participate in our online community and learn collaboratively with each other.
+   Follow the instructions to create a tribute page website and demonstrate your learnings. This should take no more than 2-4 hours.
 
-1. ### Start work on the application requirements
+1. ### Wait for the Discord invitation
 
-   While we don't like to suggest how long it will take you to complete the requirements, it's different for everyone, we expect you to take **at least three months** if you don't have any prior experience with web development.
-
-   We especially welcome applicants to work through the material with other applicants, both online and through our events.
-
-1. ### Submit an application
-
-   Plan to spend about an hour completing the application form during the application window.
-
-   If you submit your application before the deadline, keep working on the requirements and tidying up your website. We will evaluate your progress as of the date the window closes.
+   We will admit up to 80 people per application cycle. We will also close invites six weeks before the application deadline. We strongly recommend you don't wait until the last moment to submit your tribute page. The remaining application requirements are considerably more work.
 
    <!-- {ol:.grid} -->
 
-## What kind of people are we looking for?
+## Application stage
 
-We get asked this a lot, so we're going to elaborate a little bit here. Firstly, we prioritise a cohesive cohort of people who we think will work well together over any strong individual candidates.
+1. ### Join our Discord community
 
-Learning to code is just part of what makes you a good developer. We're looking for candidates who can help us fulfil our goal of making the tech industry a more diverse and inclusive place. This means people who are excited to be part of a collaborative, peer-led learning environment. You should be willing to sacrifice some personal gain for the group's learning. For example, we'd rather a group presents a technically incomplete project than one person stays up late writing code that no one else understands.
+   Our online community is full of other people learning to code and hoping to apply for our programme.
+   
+   You can attend meetups and workshops, and work together on coding problems with other applicants.
 
-The tech industry is disproportionately white, male and university-educated. If this describes you please reflect on how you can help change this. Do some research on [how to be a good ally](https://www.guidetoallyship.com) to those who are under-represented in tech so you can be a positive influence on your cohort.
+1. ### Finish the course requirements
 
-Finding your own solutions to problems is an indispensable skill for a developer. We'd like you to apply these same google-skills to educating yourself on the important social issues including (but not limited to) those touched on above.
+   This is where you will spend the bulk of your self-learning time during the application cycle.
 
-Founders and Coders will always prioritise marginalised people's safety over the comfort of the privileged. **If you don't like the sound of any of this then we'd ask you to reconsider your application.**
+   Someone with no prior coding experience can expect to take at least three months of dedicated work to complete these. Some people take six months to a year. Other bootcamps sell the idea of learning to code in 12 weeks, but we think this is unrealistic and misleading.
+
+1. ### Apply for the course
+
+   Applications will open during the final week of the cycle. If you have completed the previous steps and are part of our Discord community will be invited to apply during this time.
+
+1. ### Receive a response
+
+   If your application is successful you will be invited to interview. If we think you would benefit from some more time to learn we may invite you to re-apply for the next cohort.
+
+   If you don't receive an interview don't be too disheartened. We believe our course requirements are a great step on your journey—plenty of people continue self-learning and become developers without our programme.
+
+   <!-- {ol:.grid} -->
+
+
+## Course dates
+
+{% include "components/cohortDates.njk" %}
+   <!-- {ul:.grid} -->
+
 
 ## Application requirements
 
@@ -83,3 +98,15 @@ Founders and Coders will always prioritise marginalised people's safety over the
 1. ### Create a personal website
 
    Create a website demonstrating what you've learned. It must fulfill all of [these required criteria](/requirements/website).
+
+## What kind of people are we looking for?
+
+We get asked this a lot, so we're going to elaborate a little bit here. Firstly, we prioritise a cohesive cohort of people who we think will work well together over any strong individual candidates.
+
+Learning to code is just part of what makes you a good developer. We're looking for candidates who can help us fulfil our goal of making the tech industry a more diverse and inclusive place. This means people who are excited to be part of a collaborative, peer-led learning environment. You should be willing to sacrifice some personal gain for the group's learning. For example, we'd rather a group presents a technically incomplete project than one person stays up late writing code that no one else understands.
+
+The tech industry is disproportionately white, male and university-educated. If this describes you please reflect on how you can help change this. Do some research on [how to be a good ally](https://www.guidetoallyship.com) to those who are under-represented in tech so you can be a positive influence on your cohort.
+
+Finding your own solutions to problems is an indispensable skill for a developer. We'd like you to apply these same google-skills to educating yourself on the important social issues including (but not limited to) those touched on above.
+
+Founders and Coders will always prioritise marginalised people's safety over the comfort of the privileged. **If you don't like the sound of any of this then we'd ask you to reconsider your application.**

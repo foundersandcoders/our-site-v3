@@ -1,32 +1,37 @@
 [
   {
-    "name": "Autumn 2021",
+    "name": "January 2022",
     "dates": [
       {
+        "title": "Pre-application stage",
+        "open": "2021-06-16T00:00:00.000+01:00",
+        "close": "2021-07-16T00:00:00.000+01:00"
+      },
+      {
         "title": "Work on your application between",
-        "open": "2021-02-01T00:00:00.000+01:00",
-        "close": "2021-05-27T00:00:00.000+01:00"
+        "open": "2021-06-16T00:00:00.000+01:00",
+        "close": "2021-08-27T00:00:00.000+01:00"
       },
       {
         "title": "Submit your application between",
-        "open": "2021-05-24T00:00:00.000+01:00",
-        "close": "2021-05-27T23:59:00.000+01:00",
+        "open": "2021-08-23T00:00:00.000+01:00",
+        "close": "2021-08-27T18:00:00.000+01:00",
         "showTime": true
       },
       {
         "title": "Interview dates",
-        "open": "2021-06-02T00:00:00.000+01:00",
-        "close": "2021-06-04T00:00:00.000+01:00"
-      },
-      {
-        "title": "Pre-apprenticeship dates (part-time, 12-weeks)",
-        "open": "2021-06-14T00:00:00.000+01:00",
+        "open": "2021-09-01T00:00:00.000+01:00",
         "close": "2021-09-03T00:00:00.000+01:00"
       },
       {
-        "title": "Apprenticeship dates (full-time, 12-weeks)",
+        "title": "Part-time programme (12 weeks)",
         "open": "2021-09-27T00:00:00.000+01:00",
         "close": "2021-12-17T00:00:00.000+01:00"
+      },
+      {
+        "title": "Full-time programme (12-weeks)",
+        "open": "2022-01-10T00:00:00.000+01:00",
+        "close": "2022-04-01T00:00:00.000+01:00"
       }
     ]
   }

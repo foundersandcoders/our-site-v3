@@ -95,6 +95,7 @@ fields:
       - Unemployed
       - In employment
       - Studying
+      - On furlough
   - label: What is your most recent job title?
     id: job-title
   - label: Were you referred to us by...?

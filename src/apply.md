@@ -11,7 +11,7 @@ sticky:
   #   href: /forms/apply/
   text: Applications are closed
   cta: Express interest
-  href: https://docs.google.com/forms/d/e/1FAIpQLSepdNxKsrMjhfnbdkzKUgNpeWFmp8WLyiqTe_UY10TsPpFOEQ/viewform
+  href: /forms/express-interest/
 ---
 
 ## Check your eligibility
@@ -27,7 +27,7 @@ In order to apply to our 24-week programme, you must:
 
 1. ### Submit your expression of interest
 
-   Please [submit an Expression of Interest](https://docs.google.com/forms/d/e/1FAIpQLSepdNxKsrMjhfnbdkzKUgNpeWFmp8WLyiqTe_UY10TsPpFOEQ/viewform). This lets us keep track of who is interested and gives us your contact details.
+   Please [submit an Expression of Interest](/forms/express-interest/). This lets us keep track of who is interested and gives us your contact details.
 
 1. ### Start learning HTML and CSS
 

@@ -45,7 +45,7 @@ sticky:
   #   href: /forms/apply/
   text: Applications are closed
   cta: Express interest
-  href: https://docs.google.com/forms/d/e/1FAIpQLSepdNxKsrMjhfnbdkzKUgNpeWFmp8WLyiqTe_UY10TsPpFOEQ/viewform
+  href: /forms/express-interest/
 scripts:
   - safer-autoplay
 ---

@@ -38,8 +38,9 @@ exports.handler = async function (event) {
     if (shouldSave) {
       if (linkedData.id) {
         await db(table).create({ ...data, link: [linkedData.id] });
+      } else {
+        await db(table).create(data);
       }
-      await db(table).create(data);
     }
 
     // if there was a problem redirect to the relevant error page

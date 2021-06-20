@@ -1,6 +1,6 @@
 module.exports = ({ data, readableData }) => {
   return {
-    subject: "Founders and Coders Application",
+    subject: "Founders and Coders Tribute Page Submission",
     text: `Hi ${data.name},
 
 Thank you for submitting your tribute page. You can find a copy of your submission below.

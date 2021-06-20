@@ -5,7 +5,7 @@ module.exports = ({ data, readableData }) => {
 
 Thank you for submitting your tribute page. You can find a copy of your submission below.
 
-Once we’ve had a chance to review your submission you’ll be added to our Discord waiting list. In the meantime we recommend you get started on the rest of our course requirements.
+Once we’ve had a chance to review your submission you’ll be added to our Discord waiting list. In the meantime we recommend you get started on the rest of our course requirements: https://www.foundersandcoders.com/apply/#application-requirements
 
 Best wishes,
 

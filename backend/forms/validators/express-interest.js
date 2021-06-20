@@ -25,5 +25,5 @@ module.exports = async ({ data, db, table }) => {
   if (existing) {
     return { errorPage: "/error/duplicate/", shouldSave: false };
   }
-  return false;
+  return { shouldSave: true };
 };

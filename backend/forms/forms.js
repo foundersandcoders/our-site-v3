@@ -36,7 +36,10 @@ exports.handler = async function (event) {
     // store the submission
     // to avoid re-submissions avoiding the validation
     if (shouldSave) {
-      await db(table).create({ ...data, link: [linkedData.id] });
+      if (linkedData.id) {
+        await db(table).create({ ...data, link: [linkedData.id] });
+      }
+      await db(table).create(data);
     }
 
     // if there was a problem redirect to the relevant error page

@@ -70,7 +70,6 @@ fields:
       - Waltham Forest
       - Wandsworth
       - Westminster
-      - Elsewhere in London
       - Elsewhere in the UK
       - Outside the UK
   - label: Where did you go to school?

@@ -1,10 +1,12 @@
 const qs = require("querystring");
 const Airtable = require("airtable");
+const fetch = require("node-fetch");
 const email = require("./email");
 const templates = require("./email-templates");
 const validators = require("./validators");
 
 const apiKey = process.env.AIRTABLE_KEY;
+const discordUrl = process.env.DISCORD_WEBHOOK;
 
 exports.handler = async function (event) {
   const { base, table, ...submission } = qs.parse(event.body);
@@ -12,6 +14,7 @@ exports.handler = async function (event) {
   const filename = referer.pathname.replace("/forms/", "").replace("/", "");
   const template = templates[filename];
   const validator = validators[filename];
+
   // have to loop through data to join arrays to strings
   // for multiple checkbox inputs etc
   let data = {};
@@ -31,6 +34,7 @@ exports.handler = async function (event) {
       errorPage,
       shouldSave,
       linkedData = {},
+      invalidData = {},
     } = validator ? await validator({ data, db, table }) : {};
 
     // store the submission
@@ -45,6 +49,22 @@ exports.handler = async function (event) {
 
     // if there was a problem redirect to the relevant error page
     if (errorPage) {
+      logToDiscord(
+        filename,
+        `**Validation failed**
+\`\`\`json
+${JSON.stringify(
+  {
+    type: errorPage,
+    email: data.email,
+    ...invalidData,
+  },
+  null,
+  2
+)}
+\`\`\`
+      `
+      );
       return {
         statusCode: 303,
         headers: {
@@ -73,6 +93,15 @@ exports.handler = async function (event) {
     };
   } catch (error) {
     console.error(error);
+    logToDiscord(
+      filename,
+      `**Submission failed**
+\`${error.message}\`
+\`\`\`json
+${JSON.stringify(error, null, 2)}
+\`\`\`
+      `
+    );
     return {
       statusCode: 303,
       headers: {
@@ -82,3 +111,16 @@ exports.handler = async function (event) {
     };
   }
 };
+
+function logToDiscord(filename, content) {
+  fetch(discordUrl, {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({
+      username: `${filename} form`,
+      content,
+    }),
+  }).catch((e) => {
+    console.error(e);
+  });
+}

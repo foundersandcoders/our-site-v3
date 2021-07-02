@@ -5,14 +5,29 @@ let nono = {
 };
 
 module.exports = async ({ data, db, table }) => {
-  if (nono.apprenticeship.includes(data["eligible-apprenticeship"])) {
-    return { errorPage: "/error/apprenticeship/", shouldSave: true };
+  let eligibleApprenticeship = data["eligible-apprenticeship"];
+  if (nono.apprenticeship.includes(eligibleApprenticeship)) {
+    return {
+      errorPage: "/error/apprenticeship/",
+      shouldSave: true,
+      invalidData: { "eligible-apprenticeship": eligibleApprenticeship },
+    };
   }
-  if (nono.age.includes(data["eligible-age"])) {
-    return { errorPage: "/error/age/", shouldSave: true };
+  let eligibleAge = data["eligible-age"];
+  if (nono.age.includes(eligibleAge)) {
+    return {
+      errorPage: "/error/age/",
+      shouldSave: true,
+      invalidData: { "eligible-age": eligibleAge },
+    };
   }
-  if (nono.residence.includes(data["residence"])) {
-    return { errorPage: "/error/residence/", shouldSave: true };
+  let residence = data["residence"];
+  if (nono.residence.includes(residence)) {
+    return {
+      errorPage: "/error/residence/",
+      shouldSave: true,
+      invalidData: { residence },
+    };
   }
   let prevEmails = await db(table)
     .select({

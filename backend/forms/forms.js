@@ -49,7 +49,7 @@ exports.handler = async function (event) {
 
     // if there was a problem redirect to the relevant error page
     if (errorPage) {
-      logToDiscord(
+      await logToDiscord(
         filename,
         `**Validation failed**
 \`\`\`json
@@ -93,7 +93,7 @@ ${JSON.stringify(
     };
   } catch (error) {
     console.error(error);
-    logToDiscord(
+    await logToDiscord(
       filename,
       `**Submission failed**
 \`${error.message}\`

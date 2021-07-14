@@ -5,7 +5,7 @@ title: Schedule
 - ### Q&A sessions
   June-August 2021
 - ### Interviews
-  July-August 2021
+  August 2021
 - ### Block training
   September 26—December 16, 2021
 - ### Day release

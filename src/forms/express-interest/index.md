@@ -12,11 +12,11 @@ fields:
     label: Please confirm your email address
     type: email
     matchId: email
-  - label: January 2022 cohort
+  - label: May 2022 cohort
     id: cohort-confirm
-    info: Our applications work in cycles. By completing this form you are expressing interest in our upcoming cohort in January 2022.
+    info: Our applications work in cycles. By completing this form you are expressing interest in our upcoming cohort in May 2022.
     type: confirm
-    confirmLabel: I understand that I will only be able to apply for the January 2022 cohort
+    confirmLabel: I understand that I will only be able to apply for the May 2022 cohort
   - label: Do you have the right to apply for an apprenticeship in the UK?
     id: eligible-apprenticeship
     info: |

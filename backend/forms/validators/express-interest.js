@@ -1,3 +1,5 @@
+const { getByEmail } = require("../utils.js");
+
 let nono = {
   apprenticeship: ["No, I am not eligible for an apprenticeship in the UK"],
   age: ["No, I am not over 18 years old"],
@@ -29,14 +31,7 @@ module.exports = async ({ data, db, table }) => {
       invalidData: { residence },
     };
   }
-  let prevEmails = await db(table)
-    .select({
-      fields: ["email"],
-    })
-    .all();
-  let existing = prevEmails.find(
-    (record) => record.fields.email === data.email
-  );
+  let existing = getByEmail(db(table), data.email, ["email"]);
   if (existing) {
     return { errorPage: "/error/duplicate/", shouldSave: false };
   }

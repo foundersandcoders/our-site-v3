@@ -31,7 +31,7 @@ module.exports = async ({ data, db, table }) => {
       invalidData: { residence },
     };
   }
-  let existing = getByEmail(db(table), data.email, ["email"]);
+  let existing = await getByEmail(db(table), data.email, ["email"]);
   if (existing) {
     return { errorPage: "/error/duplicate/", shouldSave: false };
   }
